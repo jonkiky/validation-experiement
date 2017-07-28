@@ -1,0 +1,8 @@
+INDEX VERSION 1.127+F:\Regression2\.metadata\.plugins\org.eclipse.jdt.core
+3852575767.index
+3636563367.index
+4132568015.index
+493269801.index
+2125891091.index
+3409039999.index
+537303705.index
