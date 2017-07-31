@@ -1,0 +1,2978 @@
+===========================================================================
+junit.framework.Assert:::OBJECT
+===========================================================================
+junit.framework.Assert.Assert():::EXIT
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, int, int):::ENTER
+expected == actual
+message != null
+expected one of { -1, 0, 1 }
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, int, int):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::ENTER
+message != null
+expected != null
+actual != null
+expected.getClass().getName() == actual.getClass().getName()
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::EXIT63
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::ENTER
+message.toString one of { "Format locale", "Format pattern" }
+expected.toString one of { "11/28/05", "28.11.05" }
+expected.toString == actual.toString
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::EXIT80
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::EXIT
+message.toString one of { "Format locale", "Format pattern" }
+expected.toString one of { "11/28/05", "28.11.05" }
+message.toString == orig(message.toString)
+expected.toString == actual.toString
+expected.toString == orig(expected.toString)
+expected.toString == orig(actual.toString)
+===========================================================================
+junit.framework.Assert.assertFalse(java.lang.String, boolean):::ENTER
+message != null
+condition == false
+===========================================================================
+junit.framework.Assert.assertFalse(java.lang.String, boolean):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.Object):::ENTER
+object.getClass().getName() == java.lang.String.class
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.String, java.lang.Object):::ENTER
+object != null
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.String, java.lang.Object):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.String, java.lang.Object):::ENTER
+message != null
+object == null
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.String, java.lang.Object):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertTrue(java.lang.String, boolean):::ENTER
+condition == true
+===========================================================================
+junit.framework.Assert.assertTrue(java.lang.String, boolean):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.TestCase:::OBJECT
+this.getClass().getName() == org.apache.commons.validator.routines.DateValidatorTest.class
+this.fName != null
+===========================================================================
+junit.framework.TestCase.TestCase(java.lang.String):::ENTER
+===========================================================================
+junit.framework.TestCase.TestCase(java.lang.String):::EXIT
+this.fName == orig(name)
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+junit.framework.TestCase.countTestCases():::ENTER
+===========================================================================
+junit.framework.TestCase.countTestCases():::EXIT
+this.fName == orig(this.fName)
+return == 1
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.run(junit.framework.TestResult):::ENTER
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fRunTests >= size(result.fFailures[])
+===========================================================================
+junit.framework.TestCase.run(junit.framework.TestResult):::EXIT
+this.fName == orig(this.fName)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+this.fName.toString == orig(this.fName.toString)
+result.fRunTests - orig(result.fRunTests) - 1 == 0
+result.fRunTests >= size(result.fListeners[])
+orig(result.fRunTests) >= size(result.fFailures[])
+===========================================================================
+junit.framework.TestCase.runBare():::ENTER
+===========================================================================
+junit.framework.TestCase.runBare():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.runTest():::ENTER
+===========================================================================
+junit.framework.TestCase.runTest():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.setUp():::ENTER
+===========================================================================
+junit.framework.TestCase.setUp():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.tearDown():::ENTER
+===========================================================================
+junit.framework.TestCase.tearDown():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestResult$1:::OBJECT
+this.val$test != null
+this.val$test.getClass().getName() == org.apache.commons.validator.routines.DateValidatorTest.class
+this.val$test.fName != null
+===========================================================================
+junit.framework.TestResult$1.TestResult$1(junit.framework.TestCase):::ENTER
+$hidden$1.getClass().getName() == org.apache.commons.validator.routines.DateValidatorTest.class
+===========================================================================
+junit.framework.TestResult$1.TestResult$1(junit.framework.TestCase):::EXIT
+this.val$test == orig($hidden$1)
+this.val$test.fName == $hidden$1.fName
+$hidden$1.fName == orig($hidden$1.fName)
+this.val$test.getClass().getName() == orig($hidden$1.getClass().getName())
+this.val$test.fName.toString == $hidden$1.fName.toString
+$hidden$1.fName.toString == orig($hidden$1.fName.toString)
+===========================================================================
+junit.framework.TestResult$1.protect():::ENTER
+===========================================================================
+junit.framework.TestResult$1.protect():::EXIT
+this.val$test == orig(this.val$test)
+this.val$test.fName == orig(this.val$test.fName)
+this.val$test.getClass().getName() == orig(this.val$test.getClass().getName())
+this.val$test.fName.toString == orig(this.val$test.fName.toString)
+===========================================================================
+junit.framework.TestResult:::OBJECT
+this.fFailures[] == this.fErrors[]
+this has only one value
+this.fFailures has only one value
+this.fFailures != null
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+this.fErrors has only one value
+this.fErrors != null
+this.fListeners has only one value
+this.fListeners != null
+this.fListeners[] elements has only one value
+this.fListeners[] elements != null
+this.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+this.fListeners[].getClass().getName() one of { [], [junit.textui.ResultPrinter] }
+this.fRunTests >= 0
+this.fStop == false
+size(this.fListeners[]) one of { 0, 1 }
+this.fRunTests >= size(this.fFailures[])
+this.fRunTests >= size(this.fListeners[])-1
+size(this.fFailures[]) <= size(this.fListeners[])
+size(this.fFailures[]) >= size(this.fListeners[])-1
+size(this.fFailures[])-1 <= size(this.fListeners[])-1
+===========================================================================
+junit.framework.TestResult.TestResult():::EXIT
+this.fFailures[] == this.fListeners[]
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.addListener(junit.framework.TestListener):::ENTER
+this.fFailures[] == this.fListeners[]
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])
+listener has only one value
+listener.getClass().getName() == junit.textui.ResultPrinter.class
+===========================================================================
+junit.framework.TestResult.addListener(junit.framework.TestListener):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fFailures[] == orig(this.fListeners[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])-1
+this.fRunTests == orig(size(this.fFailures[]))
+this.fRunTests == orig(size(this.fErrors[]))
+this.fRunTests == orig(size(this.fListeners[]))
+this.fStop == orig(this.fStop)
+orig(listener) == this.fListeners[this.fRunTests]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+orig(listener) in this.fListeners[]
+this.fListeners[] elements == orig(listener)
+this.fListeners[] elements == this.fListeners[this.fRunTests]
+orig(listener.getClass().getName()) in this.fListeners[].getClass().getName()
+===========================================================================
+junit.framework.TestResult.cloneListeners():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.cloneListeners():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == return[]
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return[] == orig(this.fListeners[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == size(return[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+return != null
+return[] contains no nulls and has only one value, of length 1
+return[] elements has only one value
+return[] elements != null
+return[].getClass().getName() == [junit.textui.ResultPrinter]
+return[].getClass().getName() elements == junit.textui.ResultPrinter.class
+size(return[]) == 1
+this.fRunTests >= size(return[])
+===========================================================================
+junit.framework.TestResult.endTest(junit.framework.Test):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.DateValidatorTest.class
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.endTest(junit.framework.Test):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.errorCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.errorCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return == size(this.fFailures[])
+return == size(this.fErrors[])
+return == size(this.fListeners[])-1
+return == orig(size(this.fFailures[]))
+return == orig(size(this.fErrors[]))
+return == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+this.fListeners[] elements == this.fListeners[return]
+===========================================================================
+junit.framework.TestResult.errors():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.errors():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+return has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failureCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failureCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return == size(this.fFailures[])
+return == size(this.fErrors[])
+return == size(this.fListeners[])-1
+return == orig(size(this.fFailures[]))
+return == orig(size(this.fErrors[]))
+return == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+this.fListeners[] elements == this.fListeners[return]
+===========================================================================
+junit.framework.TestResult.failures():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failures():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+return has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.run(junit.framework.TestCase):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.DateValidatorTest.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.run(junit.framework.TestCase):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fStop == orig(this.fStop)
+test.fName == orig(test.fName)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests - orig(this.fRunTests) - 1 == 0
+this.fRunTests >= size(this.fListeners[])
+test.fName.toString == orig(test.fName.toString)
+orig(this.fRunTests) >= size(this.fFailures[])
+===========================================================================
+junit.framework.TestResult.runCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.runCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == return
+this.fStop == orig(this.fStop)
+return == orig(this.fRunTests)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.runProtected(junit.framework.Test, junit.framework.Protectable):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.DateValidatorTest.class
+p.getClass().getName() == junit.framework.TestResult$1.class
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+test.getClass().getName() != p.getClass().getName()
+===========================================================================
+junit.framework.TestResult.runProtected(junit.framework.Test, junit.framework.Protectable):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.shouldStop():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == return
+return == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == false
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::EXIT;condition="not(return == true)"
+===========================================================================
+junit.framework.TestResult.startTest(junit.framework.Test):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.DateValidatorTest.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.startTest(junit.framework.Test):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests - orig(this.fRunTests) - 1 == 0
+this.fRunTests >= size(this.fListeners[])
+orig(this.fRunTests) >= size(this.fFailures[])
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT164
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT164;condition="return == true"
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+return == true
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT;condition="return == true"
+===========================================================================
+junit.framework.TestSuite:::CLASS
+===========================================================================
+junit.framework.TestSuite:::OBJECT
+this.fTests != null
+this.fTests[] elements != null
+this.fName.toString == "org.apache.commons.validator.routines.DateValidatorTest"
+===========================================================================
+junit.framework.TestSuite.TestSuite():::EXIT
+junit.framework.TestSuite.class$0 == junit.framework.TestSuite.class$1
+this.fTests has only one value
+this.fTests[] == []
+this.fTests[].getClass().getName() == []
+this.fName == null
+junit.framework.TestSuite.class$0 == null
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::ENTER
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::EXIT81
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::EXIT
+this.fTests has only one value
+this.fTests[] contains no nulls and has only one value, of length 7
+this.fTests[].getClass().getName() == [org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest]
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.DateValidatorTest.class
+this.fName has only one value
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) == 7
+===========================================================================
+junit.framework.TestSuite.addTest(junit.framework.Test):::ENTER
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.DateValidatorTest.class
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+===========================================================================
+junit.framework.TestSuite.addTest(junit.framework.Test):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+size(this.fTests[])-1 == orig(size(this.fTests[]))
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+orig(test) in this.fTests[]
+orig(test.getClass().getName()) in this.fTests[].getClass().getName()
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::ENTER
+size(this.fTests[]) == size(names[])
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.DateValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+names has only one value
+names != null
+names[] elements != null
+names[].getClass().getName() elements == java.lang.String.class
+theClass has only one value
+theClass != null
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT111
+this.fTests[] == orig(this.fTests[])
+names[] == orig(names[])
+size(this.fTests[]) == orig(size(names[]))
+size(this.fTests[]) one of { 0, 1, 7 }
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT115
+size(names[])-1 == orig(size(this.fTests[]))
+size(names[])-1 == orig(size(names[]))
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.DateValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+names[] elements != null
+names[].getClass().getName() elements == java.lang.String.class
+this.fName.toString == orig(this.fName.toString)
+size(this.fTests[]) >= orig(size(names[]))
+size(names[])-1 <= orig(size(names[]))
+size(names[])-1 >= orig(size(names[]))-1
+===========================================================================
+junit.framework.TestSuite.addTestSuite(java.lang.Class):::ENTER
+junit.framework.TestSuite.class$0 == junit.framework.TestSuite.class$1
+this has only one value
+this.fTests has only one value
+this.fTests[] == []
+this.fTests[].getClass().getName() == []
+this.fName == null
+junit.framework.TestSuite.class$0 == null
+testClass has only one value
+===========================================================================
+junit.framework.TestSuite.addTestSuite(java.lang.Class):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+size(this.fTests[])-1 == orig(size(this.fTests[]))
+this.fTests has only one value
+this.fTests[] contains no nulls and has only one value, of length 1
+this.fTests[] elements has only one value
+this.fTests[].getClass().getName() == [junit.framework.TestSuite]
+this.fTests[].getClass().getName() elements == junit.framework.TestSuite.class
+this.fName == null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) == 1
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::ENTER
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::EXIT144
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::EXIT
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+return.getClass().getName() == org.apache.commons.validator.routines.DateValidatorTest.class
+name.toString == orig(name.toString)
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::ENTER
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::EXIT177
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::EXIT
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 has only one value
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::ENTER
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.DateValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT185
+return == true
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT185;condition="return == true"
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT186
+return == false
+size(this.fTests[]) one of { 0, 1, 7 }
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT186;condition="not(return == true)"
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+(return == false)  ==>  (size(this.fTests[]) one of { 0, 1, 7 })
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.DateValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT;condition="return == true"
+return == true
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT;condition="not(return == true)"
+return == false
+size(this.fTests[]) one of { 0, 1, 7 }
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::ENTER
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.DateValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT192
+return == true
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT192;condition="return == true"
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT193
+return == false
+size(this.fTests[]) one of { 0, 1, 7 }
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT193;condition="not(return == true)"
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+(return == false)  ==>  (size(this.fTests[]) one of { 0, 1, 7 })
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.DateValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT;condition="return == true"
+return == true
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT;condition="not(return == true)"
+return == false
+size(this.fTests[]) one of { 0, 1, 7 }
+===========================================================================
+junit.framework.TestSuite.run(junit.framework.TestResult):::ENTER
+result.fFailures[] == result.fErrors[]
+result.fRunTests == size(result.fFailures[])
+result.fRunTests == size(result.fErrors[])
+result.fRunTests == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 7 }
+size(result.fListeners[]) == 1
+result.fListeners[] elements == result.fListeners[result.fRunTests]
+===========================================================================
+junit.framework.TestSuite.run(junit.framework.TestResult):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+orig(result.fRunTests) == size(result.fFailures[])
+orig(result.fRunTests) == size(result.fErrors[])
+orig(result.fRunTests) == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fRunTests == 7
+result.fStop == false
+size(this.fTests[]) one of { 1, 7 }
+size(result.fListeners[]) == 1
+this.fName.toString == orig(this.fName.toString)
+result.fListeners[] elements == result.fListeners[orig(result.fRunTests)]
+===========================================================================
+junit.framework.TestSuite.runTest(junit.framework.Test, junit.framework.TestResult):::ENTER
+test == this.fTests[result.fRunTests]
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 7 }
+size(result.fListeners[]) == 1
+test in this.fTests[]
+test.getClass().getName() in this.fTests[].getClass().getName()
+result.fRunTests <= size(this.fTests[])-1
+result.fRunTests >= size(result.fFailures[])
+size(this.fTests[]) >= size(result.fListeners[])
+size(this.fTests[])-1 >= size(result.fFailures[])
+size(this.fTests[])-1 != size(result.fListeners[])
+===========================================================================
+junit.framework.TestSuite.runTest(junit.framework.Test, junit.framework.TestResult):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+orig(test) == this.fTests[orig(result.fRunTests)]
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 7 }
+size(result.fListeners[]) == 1
+orig(test) in this.fTests[]
+orig(test.getClass().getName()) in this.fTests[].getClass().getName()
+this.fName.toString == orig(this.fName.toString)
+result.fRunTests > orig(result.fRunTests)
+result.fRunTests >= size(result.fListeners[])
+orig(result.fRunTests) <= size(this.fTests[])-1
+orig(result.fRunTests) >= size(result.fFailures[])
+size(this.fTests[]) >= size(result.fListeners[])
+size(this.fTests[])-1 >= size(result.fFailures[])
+size(this.fTests[])-1 != size(result.fListeners[])
+result.fRunTests - orig(result.fRunTests) + size(this.fTests[]) - 8 == 0
+result.fRunTests - orig(result.fRunTests) + size(this.fTests[])-1 - 7 == 0
+===========================================================================
+junit.framework.TestSuite.tests():::ENTER
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) one of { 1, 7 }
+===========================================================================
+junit.framework.TestSuite.tests():::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest, org.apache.commons.validator.routines.DateValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fTests[]) one of { 1, 7 }
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.runner.BaseTestRunner:::CLASS
+junit.runner.BaseTestRunner.SUITE_METHODNAME has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == "suite"
+junit.runner.BaseTestRunner.fPreferences has only one value
+junit.runner.BaseTestRunner.fgMaxMessageLength == 500
+junit.runner.BaseTestRunner.fgFilterStack == true
+===========================================================================
+junit.runner.BaseTestRunner:::OBJECT
+junit.runner.BaseTestRunner.fgFilterStack == this.fLoading
+this has only one value
+this.getClass().getName() == junit.textui.TestRunner.class
+===========================================================================
+junit.runner.BaseTestRunner.BaseTestRunner():::EXIT
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String):::ENTER
+key has only one value
+key.toString == "maxmessage"
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String):::EXIT
+key.toString == "maxmessage"
+return == null
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::ENTER
+key has only one value
+key.toString == "maxmessage"
+dflt == 500
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::EXIT243
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::EXIT
+key.toString == "maxmessage"
+return == 500
+===========================================================================
+junit.runner.BaseTestRunner.getPreferences():::EXIT
+return has only one value
+===========================================================================
+junit.runner.BaseTestRunner.getPreferencesFile():::EXIT
+return has only one value
+===========================================================================
+junit.textui.ResultPrinter:::OBJECT
+this has only one value
+this.fWriter has only one value
+this.fWriter != null
+this.fColumn >= 0
+===========================================================================
+junit.textui.ResultPrinter.ResultPrinter(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+junit.textui.ResultPrinter.ResultPrinter(java.io.PrintStream):::EXIT
+this.fWriter == orig(writer)
+this.fColumn == 0
+===========================================================================
+junit.textui.ResultPrinter.elapsedTimeAsString(long):::ENTER
+this.fColumn == 7
+runTime == 508
+===========================================================================
+junit.textui.ResultPrinter.elapsedTimeAsString(long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 7
+return has only one value
+return.toString == "0.508"
+===========================================================================
+junit.textui.ResultPrinter.endTest(junit.framework.Test):::ENTER
+test.getClass().getName() == org.apache.commons.validator.routines.DateValidatorTest.class
+===========================================================================
+junit.textui.ResultPrinter.endTest(junit.framework.Test):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+===========================================================================
+junit.textui.ResultPrinter.getWriter():::ENTER
+===========================================================================
+junit.textui.ResultPrinter.getWriter():::EXIT
+this.fWriter == return
+this.fColumn == orig(this.fColumn)
+return == orig(this.fWriter)
+return has only one value
+return != null
+===========================================================================
+junit.textui.ResultPrinter.print(junit.framework.TestResult, long):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 7
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+runTime == 508
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.print(junit.framework.TestResult, long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 7
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::ENTER
+this.fColumn == 7
+booBoos.getClass().getName() == java.util.Vector$1.class
+count == 0
+type.toString one of { "error", "failure" }
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT55
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 7
+type.toString one of { "error", "failure" }
+type.toString == orig(type.toString)
+===========================================================================
+junit.textui.ResultPrinter.printErrors(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 7
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printErrors(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 7
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printFailures(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 7
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printFailures(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 7
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printFooter(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 7
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printFooter(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 7
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printHeader(long):::ENTER
+this.fColumn == 7
+runTime == 508
+===========================================================================
+junit.textui.ResultPrinter.printHeader(long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 7
+===========================================================================
+junit.textui.ResultPrinter.startTest(junit.framework.Test):::ENTER
+test.getClass().getName() == org.apache.commons.validator.routines.DateValidatorTest.class
+===========================================================================
+junit.textui.ResultPrinter.startTest(junit.framework.Test):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn - orig(this.fColumn) - 1 == 0
+===========================================================================
+junit.textui.TestRunner:::CLASS
+junit.runner.BaseTestRunner.SUITE_METHODNAME has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME != null
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == "suite"
+junit.runner.BaseTestRunner.fPreferences has only one value
+junit.runner.BaseTestRunner.fPreferences != null
+junit.runner.BaseTestRunner.fgMaxMessageLength == 500
+junit.runner.BaseTestRunner.fgFilterStack == true
+===========================================================================
+junit.textui.TestRunner:::OBJECT
+junit.runner.BaseTestRunner.fgFilterStack == this.fLoading
+this has only one value
+this.fPrinter has only one value
+this.fPrinter.fWriter has only one value
+this.fPrinter.fColumn one of { 0, 7 }
+this.fPrinter.fColumn >= junit.textui.TestRunner.SUCCESS_EXIT
+this.fPrinter.fColumn != junit.textui.TestRunner.FAILURE_EXIT
+this.fPrinter.fColumn != junit.textui.TestRunner.EXCEPTION_EXIT
+this.fPrinter.fColumn < junit.runner.BaseTestRunner.fgMaxMessageLength
+===========================================================================
+junit.textui.TestRunner.TestRunner():::EXIT
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.TestRunner(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+junit.textui.TestRunner.TestRunner(java.io.PrintStream):::EXIT
+this.fPrinter.fWriter == orig(writer)
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.TestRunner(junit.textui.ResultPrinter):::ENTER
+printer has only one value
+printer.fWriter has only one value
+printer.fColumn == 0
+===========================================================================
+junit.textui.TestRunner.TestRunner(junit.textui.ResultPrinter):::EXIT
+this.fPrinter == orig(printer)
+this.fPrinter.fWriter == printer.fWriter
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == printer.fColumn
+junit.textui.TestRunner.SUCCESS_EXIT == orig(printer.fColumn)
+printer.fWriter == orig(printer.fWriter)
+printer.fWriter has only one value
+===========================================================================
+junit.textui.TestRunner.createTestResult():::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.createTestResult():::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return.fFailures[] == return.fListeners[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fStop == false
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test):::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+test has only one value
+test.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 7
+return.fStop == false
+return.fListeners[] elements == this.fPrinter
+this.fPrinter in return.fListeners[]
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test, boolean):::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+suite has only one value
+suite.getClass().getName() == junit.framework.TestSuite.class
+wait == false
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test, boolean):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return.fStop == orig(wait)
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 7
+return.fStop == false
+return.fListeners[] elements == this.fPrinter
+this.fPrinter in return.fListeners[]
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::ENTER
+this.fPrinter.fColumn == 7
+wait == false
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::EXIT126
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == orig(this.fPrinter.fColumn)
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+this.fPrinter.fColumn == 7
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.textui.TestRunner.run(junit.framework.Test):::ENTER
+test has only one value
+test.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+junit.textui.TestRunner.run(junit.framework.Test):::EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+return.fFailures[] == return.fErrors[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 7
+return.fStop == false
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+org.apache.commons.validator.daikon.DateValidatorTest.main(java.lang.String[]):::ENTER
+arg has only one value
+arg.getClass().getName() == java.lang.String[].class
+arg[] == []
+arg[].toString == []
+===========================================================================
+org.apache.commons.validator.daikon.DateValidatorTest.main(java.lang.String[]):::EXIT
+arg[] == orig(arg[])
+arg[] == []
+arg[].toString == []
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator:::OBJECT
+this.getClass().getName() == org.apache.commons.validator.routines.DateValidator.class
+this.dateStyle == 3
+this.timeStyle == -1
+this.strict == true
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.AbstractCalendarValidator(boolean, int, int):::ENTER
+strict == true
+dateStyle == 3
+timeStyle == -1
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.AbstractCalendarValidator(boolean, int, int):::EXIT
+this.dateStyle == orig(dateStyle)
+this.timeStyle == orig(timeStyle)
+this.strict == orig(strict)
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.calculateCompareResult(java.util.Calendar, java.util.Calendar, int):::ENTER
+this has only one value
+value != null
+value.getClass().getName() == java.util.GregorianCalendar.class
+compare != null
+field >= 1
+this.getClass().getName() != value.getClass().getName()
+this.timeStyle < field
+value.getClass().getName() == compare.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.calculateCompareResult(java.util.Calendar, java.util.Calendar, int):::EXIT418
+this.timeStyle == return
+return == orig(this.timeStyle)
+return == -1
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.calculateCompareResult(java.util.Calendar, java.util.Calendar, int):::EXIT420
+return == 1
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.calculateCompareResult(java.util.Calendar, java.util.Calendar, int):::EXIT422
+return == 0
+return < orig(field)
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.calculateCompareResult(java.util.Calendar, java.util.Calendar, int):::EXIT
+this.dateStyle == orig(this.dateStyle)
+this.timeStyle == orig(this.timeStyle)
+this.strict == orig(this.strict)
+return one of { -1, 0, 1 }
+this.dateStyle > return
+this.timeStyle <= return
+this.timeStyle < orig(field)
+return <= orig(field)
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.calculateQuarter(java.util.Calendar, int):::ENTER
+this has only one value
+calendar != null
+calendar.getClass().getName() == java.util.GregorianCalendar.class
+monthOfFirstQuarter one of { 1, 2 }
+this.getClass().getName() != calendar.getClass().getName()
+this.dateStyle > monthOfFirstQuarter
+this.timeStyle < monthOfFirstQuarter
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.calculateQuarter(java.util.Calendar, int):::EXIT
+this.dateStyle == orig(this.dateStyle)
+this.timeStyle == orig(this.timeStyle)
+this.strict == orig(this.strict)
+this.dateStyle < return
+this.dateStyle > orig(monthOfFirstQuarter)
+this.timeStyle < return
+this.timeStyle < orig(monthOfFirstQuarter)
+return > orig(monthOfFirstQuarter)
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.compare(java.util.Calendar, java.util.Calendar, int):::ENTER
+this has only one value
+value != null
+value.getClass().getName() == java.util.GregorianCalendar.class
+compare != null
+field >= 1
+this.getClass().getName() != value.getClass().getName()
+this.timeStyle < field
+value.getClass().getName() == compare.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.compare(java.util.Calendar, java.util.Calendar, int):::EXIT278
+orig(field) == 1
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.compare(java.util.Calendar, java.util.Calendar, int):::EXIT283
+this.dateStyle == orig(field)
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.compare(java.util.Calendar, java.util.Calendar, int):::EXIT294
+orig(field) == 2
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.compare(java.util.Calendar, java.util.Calendar, int):::EXIT308
+orig(field) == 5
+return < orig(field)
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.compare(java.util.Calendar, java.util.Calendar, int):::EXIT
+this.dateStyle == orig(this.dateStyle)
+this.timeStyle == orig(this.timeStyle)
+this.strict == orig(this.strict)
+return one of { -1, 0, 1 }
+this.dateStyle > return
+this.timeStyle <= return
+this.timeStyle < orig(field)
+return <= orig(field)
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.compareQuarters(java.util.Calendar, java.util.Calendar, int):::ENTER
+this has only one value
+value != null
+value.getClass().getName() == java.util.GregorianCalendar.class
+compare != null
+monthOfFirstQuarter one of { 1, 2 }
+this.getClass().getName() != value.getClass().getName()
+this.dateStyle > monthOfFirstQuarter
+this.timeStyle < monthOfFirstQuarter
+value.getClass().getName() == compare.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.compareQuarters(java.util.Calendar, java.util.Calendar, int):::EXIT373
+this.timeStyle == return
+return == orig(this.timeStyle)
+return == -1
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.compareQuarters(java.util.Calendar, java.util.Calendar, int):::EXIT375
+return == 1
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.compareQuarters(java.util.Calendar, java.util.Calendar, int):::EXIT377
+return == 0
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.compareQuarters(java.util.Calendar, java.util.Calendar, int):::EXIT
+this.dateStyle == orig(this.dateStyle)
+this.timeStyle == orig(this.timeStyle)
+this.strict == orig(this.strict)
+return one of { -1, 0, 1 }
+this.dateStyle > return
+this.dateStyle > orig(monthOfFirstQuarter)
+this.timeStyle <= return
+this.timeStyle < orig(monthOfFirstQuarter)
+return <= orig(monthOfFirstQuarter)
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.format(java.lang.Object, java.lang.String, java.util.Locale):::ENTER
+this has only one value
+value has only one value
+value.getClass().getName() == java.util.Date.class
+pattern.toString == "dd.MM.yy"
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.format(java.lang.Object, java.lang.String, java.util.Locale):::EXIT
+this.dateStyle == orig(this.dateStyle)
+this.timeStyle == orig(this.timeStyle)
+this.strict == orig(this.strict)
+pattern.toString == "dd.MM.yy"
+return.toString one of { "11/28/05", "28.11.05" }
+pattern.toString == orig(pattern.toString)
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.format(java.lang.Object, java.lang.String, java.util.Locale, java.util.TimeZone):::ENTER
+this has only one value
+value has only one value
+value.getClass().getName() == java.util.Date.class
+pattern.toString == "dd.MM.yy"
+timeZone == null
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.format(java.lang.Object, java.lang.String, java.util.Locale, java.util.TimeZone):::EXIT
+this.dateStyle == orig(this.dateStyle)
+this.timeStyle == orig(this.timeStyle)
+this.strict == orig(this.strict)
+pattern.toString == "dd.MM.yy"
+return.toString one of { "11/28/05", "28.11.05" }
+pattern.toString == orig(pattern.toString)
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.format(java.lang.Object, java.text.Format):::ENTER
+this has only one value
+value has only one value
+value.getClass().getName() == java.util.Date.class
+formatter.getClass().getName() == java.text.SimpleDateFormat.class
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.format(java.lang.Object, java.text.Format):::EXIT162
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.format(java.lang.Object, java.text.Format):::EXIT
+this.dateStyle == orig(this.dateStyle)
+this.timeStyle == orig(this.timeStyle)
+this.strict == orig(this.strict)
+return.toString one of { "11/28/05", "28.11.05" }
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.getFormat(java.lang.String, java.util.Locale):::ENTER
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.getFormat(java.lang.String, java.util.Locale):::EXIT
+this.dateStyle == orig(this.dateStyle)
+this.timeStyle == orig(this.timeStyle)
+this.strict == orig(this.strict)
+return != null
+return.getClass().getName() == java.text.SimpleDateFormat.class
+pattern.toString == orig(pattern.toString)
+return.getClass().getName() != orig(this.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.getFormat(java.util.Locale):::ENTER
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.getFormat(java.util.Locale):::EXIT
+this.dateStyle == orig(this.dateStyle)
+this.timeStyle == orig(this.timeStyle)
+this.strict == orig(this.strict)
+return != null
+return.getClass().getName() == java.text.SimpleDateFormat.class
+return.getClass().getName() != orig(this.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.isValid(java.lang.String, java.lang.String, java.util.Locale):::ENTER
+value != null
+pattern.toString one of { "dd MMM yyyy", "yy-MM-dd", "yyyy-MM-dd" }
+value.toString < pattern.toString
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.isValid(java.lang.String, java.lang.String, java.util.Locale):::EXIT
+this.dateStyle == orig(this.dateStyle)
+this.timeStyle == orig(this.timeStyle)
+this.strict == orig(this.strict)
+(return == true)  ==>  (this.strict == return)
+pattern.toString one of { "dd MMM yyyy", "yy-MM-dd", "yyyy-MM-dd" }
+value.toString < pattern.toString
+value.toString == orig(value.toString)
+pattern.toString == orig(pattern.toString)
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.isValid(java.lang.String, java.lang.String, java.util.Locale):::EXIT;condition="return == true"
+this.strict == return
+return == orig(this.strict)
+return == true
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.isValid(java.lang.String, java.lang.String, java.util.Locale):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.parse(java.lang.String, java.lang.String, java.util.Locale, java.util.TimeZone):::ENTER
+value != null
+pattern.toString one of { "dd MMM yyyy", "yy-MM-dd", "yyyy-MM-dd" }
+timeZone.getClass().getName() == sun.util.calendar.ZoneInfo.class
+value.toString < pattern.toString
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.parse(java.lang.String, java.lang.String, java.util.Locale, java.util.TimeZone):::EXIT185
+===========================================================================
+org.apache.commons.validator.routines.AbstractCalendarValidator.parse(java.lang.String, java.lang.String, java.util.Locale, java.util.TimeZone):::EXIT
+this.dateStyle == orig(this.dateStyle)
+this.timeStyle == orig(this.timeStyle)
+this.strict == orig(this.strict)
+pattern.toString one of { "dd MMM yyyy", "yy-MM-dd", "yyyy-MM-dd" }
+return.getClass().getName() == java.util.Date.class
+value.toString < pattern.toString
+value.toString == orig(value.toString)
+pattern.toString == orig(pattern.toString)
+return.getClass().getName() != orig(this.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator:::OBJECT
+this.getClass().getName() == org.apache.commons.validator.routines.DateValidator.class
+this.strict == true
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.AbstractFormatValidator(boolean):::ENTER
+strict == true
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.AbstractFormatValidator(boolean):::EXIT
+this.strict == orig(strict)
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.format(java.lang.Object, java.lang.String):::ENTER
+this has only one value
+value has only one value
+value.getClass().getName() == java.util.Date.class
+pattern has only one value
+pattern.toString == "dd.MM.yy"
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.format(java.lang.Object, java.lang.String):::EXIT
+this.strict == orig(this.strict)
+pattern.toString == "dd.MM.yy"
+return has only one value
+return.toString == "28.11.05"
+pattern.toString == orig(pattern.toString)
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.format(java.lang.Object, java.util.Locale):::ENTER
+this has only one value
+value has only one value
+value.getClass().getName() == java.util.Date.class
+locale has only one value
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.format(java.lang.Object, java.util.Locale):::EXIT
+this.strict == orig(this.strict)
+return has only one value
+return.toString == "11/28/05"
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isStrict():::ENTER
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isStrict():::EXIT
+this.strict == return
+return == orig(this.strict)
+return == true
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isStrict():::EXIT;condition="return == true"
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isValid(java.lang.String):::ENTER
+this has only one value
+value.toString one of { "12/31/05", "XXXX" }
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isValid(java.lang.String):::EXIT
+this.strict == orig(this.strict)
+(value.toString == "12/31/05")  <==>  (return == true)
+(value.toString == "12/31/05")  ==>  (this.strict == return)
+(value.toString == "XXXX")  <==>  (return == false)
+value.toString one of { "12/31/05", "XXXX" }
+value.toString == orig(value.toString)
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isValid(java.lang.String):::EXIT;condition="return == true"
+this.strict == return
+return == orig(this.strict)
+value.toString == "12/31/05"
+return == true
+orig(value) has only one value
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isValid(java.lang.String):::EXIT;condition="not(return == true)"
+value.toString == "XXXX"
+return == false
+orig(value) has only one value
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isValid(java.lang.String, java.lang.String):::ENTER
+value != null
+pattern != null
+pattern.toString one of { "yy-MM-dd", "yyyy-MM-dd" }
+value.toString < pattern.toString
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isValid(java.lang.String, java.lang.String):::EXIT
+this.strict == orig(this.strict)
+(return == true)  ==>  (this.strict == return)
+pattern.toString one of { "yy-MM-dd", "yyyy-MM-dd" }
+value.toString < pattern.toString
+value.toString == orig(value.toString)
+pattern.toString == orig(pattern.toString)
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isValid(java.lang.String, java.lang.String):::EXIT;condition="return == true"
+this.strict == return
+return == orig(this.strict)
+return == true
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isValid(java.lang.String, java.lang.String):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isValid(java.lang.String, java.util.Locale):::ENTER
+value != null
+locale != null
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isValid(java.lang.String, java.util.Locale):::EXIT
+this.strict == orig(this.strict)
+(return == true)  ==>  (this.strict == return)
+value.toString == orig(value.toString)
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isValid(java.lang.String, java.util.Locale):::EXIT;condition="return == true"
+this.strict == return
+return == orig(this.strict)
+return == true
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.isValid(java.lang.String, java.util.Locale):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.parse(java.lang.String, java.text.Format):::ENTER
+value != null
+formatter != null
+formatter.getClass().getName() == java.text.SimpleDateFormat.class
+this.getClass().getName() != formatter.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.parse(java.lang.String, java.text.Format):::EXIT186
+return == null
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.parse(java.lang.String, java.text.Format):::EXIT190
+value.toString == "01/01/200X"
+return == null
+orig(this) has only one value
+orig(value) has only one value
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.parse(java.lang.String, java.text.Format):::EXIT197
+return != null
+===========================================================================
+org.apache.commons.validator.routines.AbstractFormatValidator.parse(java.lang.String, java.text.Format):::EXIT
+this.strict == orig(this.strict)
+return.getClass().getName() == java.util.Date.class
+value.toString == orig(value.toString)
+return.getClass().getName() != orig(this.getClass().getName())
+return.getClass().getName() != orig(formatter.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest:::CLASS
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == sun.util.calendar.ZoneInfo.class
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest:::OBJECT
+size(this.patternValid[]) == size(this.localeValid[])
+size(this.patternValid[]) == size(this.patternExpect[])
+size(this.patternInvalid[])-1 == size(this.localeInvalid[])
+this.validator.getClass().getName() == org.apache.commons.validator.routines.DateValidator.class
+this.validator.dateStyle == 3
+this.validator.timeStyle == -1
+this.validator.strict == true
+this.patternValid != null
+this.patternValid.getClass().getName() == java.lang.String[].class
+this.patternValid[] contains no nulls and has only one value, of length 7
+this.patternValid[] elements != null
+this.patternValid[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.patternValid[].getClass().getName() elements == java.lang.String.class
+this.patternValid[].toString == [2005-01-01, 2005-12-31, 2004-02-29, 2005-04-30, 05-12-31, 2005-1-1, 05-1-1]
+this.localeValid != null
+this.localeValid[] contains no nulls and has only one value, of length 7
+this.localeValid[] elements != null
+this.localeValid[].toString == [01/01/2005, 12/31/2005, 02/29/2004, 04/30/2005, 12/31/05, 1/1/2005, 1/1/05]
+this.patternExpect != null
+this.patternExpect.getClass().getName() == java.util.Date[].class
+this.patternExpect[] elements != null
+this.patternExpect[].getClass().getName() == [java.util.Date, java.util.Date, java.util.Date, java.util.Date, java.util.Date, java.util.Date, java.util.Date]
+this.patternExpect[].getClass().getName() elements == java.util.Date.class
+this.patternInvalid != null
+this.patternInvalid[] contains no nulls and has only one value, of length 13
+this.patternInvalid[] elements != null
+this.patternInvalid[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.patternInvalid[].getClass().getName() elements == java.lang.String.class
+this.patternInvalid[].toString == [2005-00-01, 2005-01-00, 2005-13-03, 2005-04-31, 2005-03-32, 2005-02-29, 200X-01-01, 2005-0X-01, 2005-01-0X, 01/01/2005, 2005-01, 2005--01, 2005-01-]
+this.localeInvalid != null
+this.localeInvalid[] contains no nulls and has only one value, of length 12
+this.localeInvalid[] elements != null
+this.localeInvalid[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.localeInvalid[].getClass().getName() elements == java.lang.String.class
+this.localeInvalid[].toString == [01/00/2005, 00/01/2005, 13/01/2005, 04/31/2005, 03/32/2005, 02/29/2005, 01/01/200X, 01/0X/2005, 0X/01/2005, 01-01-2005, 01/2005, 01//2005]
+this.fName != null
+size(this.patternValid[]) == 7
+size(this.patternInvalid[]) == 13
+this.patternValid[this.validator.dateStyle] has only one value
+this.patternValid[this.validator.dateStyle-1] has only one value
+this.localeValid[this.validator.dateStyle] has only one value
+this.localeValid[this.validator.dateStyle-1] has only one value
+this.patternInvalid[this.validator.dateStyle] has only one value
+this.patternInvalid[this.validator.dateStyle-1] has only one value
+this.localeInvalid[this.validator.dateStyle] has only one value
+this.localeInvalid[this.validator.dateStyle-1] has only one value
+this.validator.getClass().getName() != org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName()
+this.validator.getClass().getName() != this.patternValid.getClass().getName()
+this.validator.getClass().getName() != this.patternExpect.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() != this.patternValid.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() != this.patternExpect.getClass().getName()
+this.patternValid.getClass().getName() == this.localeValid.getClass().getName()
+this.patternValid.getClass().getName() != this.patternExpect.getClass().getName()
+this.patternValid.getClass().getName() == this.patternInvalid.getClass().getName()
+this.patternValid.getClass().getName() == this.localeInvalid.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.BaseCalendarValidatorTest(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.BaseCalendarValidatorTest(java.lang.String):::EXIT
+this.fName == orig(name)
+this.validator == null
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.createCalendar(java.util.TimeZone, int, int):::ENTER
+zone.getClass().getName() == sun.util.calendar.ZoneInfo.class
+time >= 0
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == zone.getClass().getName()
+date > time
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.createCalendar(java.util.TimeZone, int, int):::EXIT
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+return != null
+return.getClass().getName() == java.util.GregorianCalendar.class
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() != return.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(zone.getClass().getName())
+return.getClass().getName() != orig(zone.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.createDate(java.util.TimeZone, int, int):::ENTER
+zone.getClass().getName() == sun.util.calendar.ZoneInfo.class
+time >= 0
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == zone.getClass().getName()
+date > time
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.createDate(java.util.TimeZone, int, int):::EXIT
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+return != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(zone.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.setUp():::ENTER
+this.validator == null
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.setUp():::EXIT
+this.validator == orig(this.validator)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+this.patternValid == orig(this.patternValid)
+this.patternValid[] == orig(this.patternValid[])
+this.localeValid == orig(this.localeValid)
+this.localeValid[] == orig(this.localeValid[])
+this.patternExpect == orig(this.patternExpect)
+this.patternExpect[] == orig(this.patternExpect[])
+this.patternInvalid == orig(this.patternInvalid)
+this.patternInvalid[] == orig(this.patternInvalid[])
+this.localeInvalid == orig(this.localeInvalid)
+this.localeInvalid[] == orig(this.localeInvalid[])
+this.fName == orig(this.fName)
+size(this.patternValid[]) == orig(size(this.localeValid[]))
+size(this.patternValid[]) == orig(size(this.patternExpect[]))
+size(this.localeInvalid[]) == orig(size(this.patternInvalid[]))-1
+this.validator == null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternInvalid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeInvalid.getClass().getName())
+this.patternExpect.getClass().getName() == orig(this.patternExpect.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.tearDown():::ENTER
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.tearDown():::EXIT
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+this.patternValid == orig(this.patternValid)
+this.patternValid[] == orig(this.patternValid[])
+this.localeValid == orig(this.localeValid)
+this.localeValid[] == orig(this.localeValid[])
+this.patternExpect == orig(this.patternExpect)
+this.patternExpect[] == orig(this.patternExpect[])
+this.patternInvalid == orig(this.patternInvalid)
+this.patternInvalid[] == orig(this.patternInvalid[])
+this.localeInvalid == orig(this.localeInvalid)
+this.localeInvalid[] == orig(this.localeInvalid[])
+this.fName == orig(this.fName)
+size(this.patternValid[]) == orig(size(this.localeValid[]))
+size(this.patternValid[]) == orig(size(this.patternExpect[]))
+size(this.localeInvalid[]) == orig(size(this.patternInvalid[]))-1
+this.validator == null
+this.patternValid[orig(this.validator.dateStyle)] has only one value
+this.patternValid[orig(this.validator.dateStyle)-1] has only one value
+this.localeValid[orig(this.validator.dateStyle)] has only one value
+this.localeValid[orig(this.validator.dateStyle)-1] has only one value
+this.patternInvalid[orig(this.validator.dateStyle)] has only one value
+this.patternInvalid[orig(this.validator.dateStyle)-1] has only one value
+this.localeInvalid[orig(this.validator.dateStyle)] has only one value
+this.localeInvalid[orig(this.validator.dateStyle)-1] has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() != orig(this.validator.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+this.patternValid.getClass().getName() != orig(this.validator.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternInvalid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeInvalid.getClass().getName())
+this.patternExpect.getClass().getName() != orig(this.validator.getClass().getName())
+this.patternExpect.getClass().getName() == orig(this.patternExpect.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.testFormat():::ENTER
+this has only one value
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testFormat"
+this.patternExpect[this.validator.dateStyle] has only one value
+this.patternExpect[this.validator.dateStyle-1] has only one value
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.testFormat():::EXIT
+this.validator == orig(this.validator)
+this.validator.dateStyle == orig(this.validator.dateStyle)
+this.validator.timeStyle == orig(this.validator.timeStyle)
+this.validator.strict == orig(this.validator.strict)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+this.patternValid == orig(this.patternValid)
+this.patternValid[] == orig(this.patternValid[])
+this.localeValid == orig(this.localeValid)
+this.localeValid[] == orig(this.localeValid[])
+this.patternExpect == orig(this.patternExpect)
+this.patternExpect[] == orig(this.patternExpect[])
+this.patternInvalid == orig(this.patternInvalid)
+this.patternInvalid[] == orig(this.patternInvalid[])
+this.localeInvalid == orig(this.localeInvalid)
+this.localeInvalid[] == orig(this.localeInvalid[])
+this.fName == orig(this.fName)
+size(this.patternValid[]) == orig(size(this.localeValid[]))
+size(this.patternValid[]) == orig(size(this.patternExpect[]))
+size(this.localeInvalid[]) == orig(size(this.patternInvalid[]))-1
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testFormat"
+this.patternExpect[this.validator.dateStyle] has only one value
+this.patternExpect[this.validator.dateStyle-1] has only one value
+this.validator.getClass().getName() == orig(this.validator.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternInvalid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeInvalid.getClass().getName())
+this.patternExpect.getClass().getName() == orig(this.patternExpect.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.testLocaleInvalid():::ENTER
+this has only one value
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testLocaleInvalid"
+this.patternExpect[this.validator.dateStyle] has only one value
+this.patternExpect[this.validator.dateStyle-1] has only one value
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.testLocaleInvalid():::EXIT
+this.validator == orig(this.validator)
+this.validator.dateStyle == orig(this.validator.dateStyle)
+this.validator.timeStyle == orig(this.validator.timeStyle)
+this.validator.strict == orig(this.validator.strict)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+this.patternValid == orig(this.patternValid)
+this.patternValid[] == orig(this.patternValid[])
+this.localeValid == orig(this.localeValid)
+this.localeValid[] == orig(this.localeValid[])
+this.patternExpect == orig(this.patternExpect)
+this.patternExpect[] == orig(this.patternExpect[])
+this.patternInvalid == orig(this.patternInvalid)
+this.patternInvalid[] == orig(this.patternInvalid[])
+this.localeInvalid == orig(this.localeInvalid)
+this.localeInvalid[] == orig(this.localeInvalid[])
+this.fName == orig(this.fName)
+size(this.patternValid[]) == orig(size(this.localeValid[]))
+size(this.patternValid[]) == orig(size(this.patternExpect[]))
+size(this.localeInvalid[]) == orig(size(this.patternInvalid[]))-1
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testLocaleInvalid"
+this.patternExpect[this.validator.dateStyle] has only one value
+this.patternExpect[this.validator.dateStyle-1] has only one value
+this.validator.getClass().getName() == orig(this.validator.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternInvalid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeInvalid.getClass().getName())
+this.patternExpect.getClass().getName() == orig(this.patternExpect.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.testLocaleValid():::ENTER
+this has only one value
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testLocaleValid"
+this.patternExpect[this.validator.dateStyle] has only one value
+this.patternExpect[this.validator.dateStyle-1] has only one value
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.testLocaleValid():::EXIT
+this.validator == orig(this.validator)
+this.validator.dateStyle == orig(this.validator.dateStyle)
+this.validator.timeStyle == orig(this.validator.timeStyle)
+this.validator.strict == orig(this.validator.strict)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+this.patternValid == orig(this.patternValid)
+this.patternValid[] == orig(this.patternValid[])
+this.localeValid == orig(this.localeValid)
+this.localeValid[] == orig(this.localeValid[])
+this.patternExpect == orig(this.patternExpect)
+this.patternExpect[] == orig(this.patternExpect[])
+this.patternInvalid == orig(this.patternInvalid)
+this.patternInvalid[] == orig(this.patternInvalid[])
+this.localeInvalid == orig(this.localeInvalid)
+this.localeInvalid[] == orig(this.localeInvalid[])
+this.fName == orig(this.fName)
+size(this.patternValid[]) == orig(size(this.localeValid[]))
+size(this.patternValid[]) == orig(size(this.patternExpect[]))
+size(this.localeInvalid[]) == orig(size(this.patternInvalid[]))-1
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testLocaleValid"
+this.patternExpect[this.validator.dateStyle] has only one value
+this.patternExpect[this.validator.dateStyle-1] has only one value
+this.validator.getClass().getName() == orig(this.validator.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternInvalid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeInvalid.getClass().getName())
+this.patternExpect.getClass().getName() == orig(this.patternExpect.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.testPatternInvalid():::ENTER
+this has only one value
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testPatternInvalid"
+this.patternExpect[this.validator.dateStyle] has only one value
+this.patternExpect[this.validator.dateStyle-1] has only one value
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.testPatternInvalid():::EXIT
+this.validator == orig(this.validator)
+this.validator.dateStyle == orig(this.validator.dateStyle)
+this.validator.timeStyle == orig(this.validator.timeStyle)
+this.validator.strict == orig(this.validator.strict)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+this.patternValid == orig(this.patternValid)
+this.patternValid[] == orig(this.patternValid[])
+this.localeValid == orig(this.localeValid)
+this.localeValid[] == orig(this.localeValid[])
+this.patternExpect == orig(this.patternExpect)
+this.patternExpect[] == orig(this.patternExpect[])
+this.patternInvalid == orig(this.patternInvalid)
+this.patternInvalid[] == orig(this.patternInvalid[])
+this.localeInvalid == orig(this.localeInvalid)
+this.localeInvalid[] == orig(this.localeInvalid[])
+this.fName == orig(this.fName)
+size(this.patternValid[]) == orig(size(this.localeValid[]))
+size(this.patternValid[]) == orig(size(this.patternExpect[]))
+size(this.localeInvalid[]) == orig(size(this.patternInvalid[]))-1
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testPatternInvalid"
+this.patternExpect[this.validator.dateStyle] has only one value
+this.patternExpect[this.validator.dateStyle-1] has only one value
+this.validator.getClass().getName() == orig(this.validator.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternInvalid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeInvalid.getClass().getName())
+this.patternExpect.getClass().getName() == orig(this.patternExpect.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.testPatternValid():::ENTER
+this has only one value
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testPatternValid"
+this.patternExpect[this.validator.dateStyle] has only one value
+this.patternExpect[this.validator.dateStyle-1] has only one value
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.testPatternValid():::EXIT
+this.validator == orig(this.validator)
+this.validator.dateStyle == orig(this.validator.dateStyle)
+this.validator.timeStyle == orig(this.validator.timeStyle)
+this.validator.strict == orig(this.validator.strict)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+this.patternValid == orig(this.patternValid)
+this.patternValid[] == orig(this.patternValid[])
+this.localeValid == orig(this.localeValid)
+this.localeValid[] == orig(this.localeValid[])
+this.patternExpect == orig(this.patternExpect)
+this.patternExpect[] == orig(this.patternExpect[])
+this.patternInvalid == orig(this.patternInvalid)
+this.patternInvalid[] == orig(this.patternInvalid[])
+this.localeInvalid == orig(this.localeInvalid)
+this.localeInvalid[] == orig(this.localeInvalid[])
+this.fName == orig(this.fName)
+size(this.patternValid[]) == orig(size(this.localeValid[]))
+size(this.patternValid[]) == orig(size(this.patternExpect[]))
+size(this.localeInvalid[]) == orig(size(this.patternInvalid[]))-1
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testPatternValid"
+this.patternExpect[this.validator.dateStyle] has only one value
+this.patternExpect[this.validator.dateStyle-1] has only one value
+this.validator.getClass().getName() == orig(this.validator.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternInvalid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeInvalid.getClass().getName())
+this.patternExpect.getClass().getName() == orig(this.patternExpect.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.DateValidator:::CLASS
+org.apache.commons.validator.routines.DateValidator.VALIDATOR has only one value
+org.apache.commons.validator.routines.DateValidator.VALIDATOR != null
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == 3
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == -1
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == true
+===========================================================================
+org.apache.commons.validator.routines.DateValidator:::OBJECT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == this.dateStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == this.timeStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == this.strict
+this.dateStyle == 3
+this.timeStyle == -1
+this.strict == true
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.DateValidator():::EXIT
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.DateValidator(boolean, int):::ENTER
+strict == true
+dateStyle == 3
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.DateValidator(boolean, int):::EXIT
+this.dateStyle == orig(dateStyle)
+this.strict == orig(strict)
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.compareDates(java.util.Date, java.util.Date, java.util.TimeZone):::ENTER
+this has only one value
+value has only one value
+timeZone.getClass().getName() == sun.util.calendar.ZoneInfo.class
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.compareDates(java.util.Date, java.util.Date, java.util.TimeZone):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+return one of { -1, 0, 1 }
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle > return
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle <= return
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.compareMonths(java.util.Date, java.util.Date, java.util.TimeZone):::ENTER
+this has only one value
+value has only one value
+timeZone == null
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.compareMonths(java.util.Date, java.util.Date, java.util.TimeZone):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+return one of { -1, 0, 1 }
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.compareQuarters(java.util.Date, java.util.Date, java.util.TimeZone):::ENTER
+this has only one value
+value has only one value
+timeZone == null
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.compareQuarters(java.util.Date, java.util.Date, java.util.TimeZone):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+return one of { -1, 0, 1 }
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.compareQuarters(java.util.Date, java.util.Date, java.util.TimeZone, int):::ENTER
+this has only one value
+value has only one value
+value != null
+compare != null
+timeZone == null
+monthOfFirstQuarter one of { 1, 2 }
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle > monthOfFirstQuarter
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle < monthOfFirstQuarter
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.compareQuarters(java.util.Date, java.util.Date, java.util.TimeZone, int):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+return one of { -1, 0, 1 }
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle > return
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle > orig(monthOfFirstQuarter)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle <= return
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle < orig(monthOfFirstQuarter)
+return <= orig(monthOfFirstQuarter)
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.compareWeeks(java.util.Date, java.util.Date, java.util.TimeZone):::ENTER
+this has only one value
+value has only one value
+timeZone == null
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.compareWeeks(java.util.Date, java.util.Date, java.util.TimeZone):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+return one of { -1, 0, 1 }
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.compareYears(java.util.Date, java.util.Date, java.util.TimeZone):::ENTER
+this has only one value
+value has only one value
+timeZone == null
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.compareYears(java.util.Date, java.util.Date, java.util.TimeZone):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+return one of { -1, 0, 1 }
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.getCalendar(java.util.Date, java.util.TimeZone):::ENTER
+this has only one value
+value != null
+timeZone.getClass().getName() == sun.util.calendar.ZoneInfo.class
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.getCalendar(java.util.Date, java.util.TimeZone):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+return != null
+return.getClass().getName() == java.util.GregorianCalendar.class
+return.getClass().getName() != orig(timeZone.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.getInstance():::ENTER
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.getInstance():::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == return
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == return.dateStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == return.timeStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == return.strict
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.processParsedValue(java.lang.Object, java.text.Format):::ENTER
+value != null
+value.getClass().getName() == java.util.Date.class
+formatter != null
+formatter.getClass().getName() == java.text.SimpleDateFormat.class
+value.getClass().getName() != formatter.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.processParsedValue(java.lang.Object, java.text.Format):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+return == orig(value)
+return != null
+return.getClass().getName() == java.util.Date.class
+return.getClass().getName() == orig(value.getClass().getName())
+return.getClass().getName() != orig(formatter.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String):::ENTER
+this == org.apache.commons.validator.routines.DateValidator.VALIDATOR
+this has only one value
+value.toString one of { "12/31/05", "XXXX" }
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(this)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+value.toString one of { "12/31/05", "XXXX" }
+value.toString == orig(value.toString)
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.lang.String):::ENTER
+this == org.apache.commons.validator.routines.DateValidator.VALIDATOR
+this has only one value
+value.toString one of { "2005-12-31", "XXXX" }
+pattern has only one value
+pattern.toString == "yyyy-MM-dd"
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.lang.String):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(this)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+value.toString one of { "2005-12-31", "XXXX" }
+pattern.toString == "yyyy-MM-dd"
+value.toString == orig(value.toString)
+pattern.toString == orig(pattern.toString)
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.lang.String, java.util.Locale):::ENTER
+this == org.apache.commons.validator.routines.DateValidator.VALIDATOR
+this has only one value
+value.toString one of { "31 Dec 2005", "31 Dez 2005" }
+pattern has only one value
+pattern.toString == "dd MMM yyyy"
+locale has only one value
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.lang.String, java.util.Locale):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(this)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+value.toString one of { "31 Dec 2005", "31 Dez 2005" }
+pattern.toString == "dd MMM yyyy"
+value.toString == orig(value.toString)
+pattern.toString == orig(pattern.toString)
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.lang.String, java.util.Locale, java.util.TimeZone):::ENTER
+this == org.apache.commons.validator.routines.DateValidator.VALIDATOR
+this has only one value
+value has only one value
+value.toString == "31 Dez 2005"
+pattern has only one value
+pattern.toString == "dd MMM yyyy"
+locale has only one value
+timeZone has only one value
+timeZone.getClass().getName() == sun.util.calendar.ZoneInfo.class
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.lang.String, java.util.Locale, java.util.TimeZone):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(this)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+value.toString == "31 Dez 2005"
+pattern.toString == "dd MMM yyyy"
+return has only one value
+value.toString == orig(value.toString)
+pattern.toString == orig(pattern.toString)
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.lang.String, java.util.TimeZone):::ENTER
+this == org.apache.commons.validator.routines.DateValidator.VALIDATOR
+this has only one value
+value has only one value
+value.toString == "2005-12-31"
+pattern has only one value
+pattern.toString == "yyyy-MM-dd"
+timeZone has only one value
+timeZone.getClass().getName() == sun.util.calendar.ZoneInfo.class
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.lang.String, java.util.TimeZone):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(this)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+value.toString == "2005-12-31"
+pattern.toString == "yyyy-MM-dd"
+return has only one value
+value.toString == orig(value.toString)
+pattern.toString == orig(pattern.toString)
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.util.Locale):::ENTER
+this == org.apache.commons.validator.routines.DateValidator.VALIDATOR
+this has only one value
+value.toString one of { "31.12.2005", "XXXX" }
+locale has only one value
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.util.Locale):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(this)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+value.toString one of { "31.12.2005", "XXXX" }
+value.toString == orig(value.toString)
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.util.Locale, java.util.TimeZone):::ENTER
+this == org.apache.commons.validator.routines.DateValidator.VALIDATOR
+this has only one value
+value has only one value
+value.toString == "31.12.2005"
+locale has only one value
+timeZone has only one value
+timeZone.getClass().getName() == sun.util.calendar.ZoneInfo.class
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.util.Locale, java.util.TimeZone):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(this)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+value.toString == "31.12.2005"
+return has only one value
+value.toString == orig(value.toString)
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.util.TimeZone):::ENTER
+this == org.apache.commons.validator.routines.DateValidator.VALIDATOR
+this has only one value
+value has only one value
+value.toString == "12/31/05"
+timeZone has only one value
+timeZone.getClass().getName() == sun.util.calendar.ZoneInfo.class
+===========================================================================
+org.apache.commons.validator.routines.DateValidator.validate(java.lang.String, java.util.TimeZone):::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(this)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.strict)
+value.toString == "12/31/05"
+return has only one value
+value.toString == orig(value.toString)
+===========================================================================
+org.apache.commons.validator.routines.DateValidatorTest:::CLASS
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == sun.util.calendar.ZoneInfo.class
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.DateValidatorTest:::OBJECT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == this.dateValidator.dateStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == this.dateValidator.timeStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == this.dateValidator.strict
+this.dateValidator.dateStyle == this.validator.dateStyle
+this.dateValidator.timeStyle == this.validator.timeStyle
+this.dateValidator.strict == this.validator.strict
+size(this.patternValid[]) == size(this.localeValid[])
+size(this.patternValid[]) == size(this.patternExpect[])
+size(this.patternInvalid[])-1 == size(this.localeInvalid[])
+org.apache.commons.validator.routines.DateValidator.VALIDATOR has only one value
+org.apache.commons.validator.routines.DateValidator.VALIDATOR != null
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == 3
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == -1
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == true
+this.dateValidator.dateStyle == 3
+this.dateValidator.timeStyle == -1
+this.dateValidator.strict == true
+this.validator.getClass().getName() == org.apache.commons.validator.routines.DateValidator.class
+this.patternValid != null
+this.patternValid.getClass().getName() == java.lang.String[].class
+this.patternValid[] contains no nulls and has only one value, of length 7
+this.patternValid[] elements != null
+this.patternValid[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.patternValid[].getClass().getName() elements == java.lang.String.class
+this.patternValid[].toString == [2005-01-01, 2005-12-31, 2004-02-29, 2005-04-30, 05-12-31, 2005-1-1, 05-1-1]
+this.localeValid != null
+this.localeValid[] contains no nulls and has only one value, of length 7
+this.localeValid[] elements != null
+this.localeValid[].toString == [01/01/2005, 12/31/2005, 02/29/2004, 04/30/2005, 12/31/05, 1/1/2005, 1/1/05]
+this.patternExpect != null
+this.patternExpect.getClass().getName() == java.util.Date[].class
+this.patternExpect[] elements != null
+this.patternExpect[].getClass().getName() == [java.util.Date, java.util.Date, java.util.Date, java.util.Date, java.util.Date, java.util.Date, java.util.Date]
+this.patternExpect[].getClass().getName() elements == java.util.Date.class
+this.patternInvalid != null
+this.patternInvalid[] contains no nulls and has only one value, of length 13
+this.patternInvalid[] elements != null
+this.patternInvalid[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.patternInvalid[].getClass().getName() elements == java.lang.String.class
+this.patternInvalid[].toString == [2005-00-01, 2005-01-00, 2005-13-03, 2005-04-31, 2005-03-32, 2005-02-29, 200X-01-01, 2005-0X-01, 2005-01-0X, 01/01/2005, 2005-01, 2005--01, 2005-01-]
+this.localeInvalid != null
+this.localeInvalid[] contains no nulls and has only one value, of length 12
+this.localeInvalid[] elements != null
+this.localeInvalid[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.localeInvalid[].getClass().getName() elements == java.lang.String.class
+this.localeInvalid[].toString == [01/00/2005, 00/01/2005, 13/01/2005, 04/31/2005, 03/32/2005, 02/29/2005, 01/01/200X, 01/0X/2005, 0X/01/2005, 01-01-2005, 01/2005, 01//2005]
+this.fName != null
+size(this.patternValid[]) == 7
+size(this.patternInvalid[]) == 13
+this.patternValid[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle] has only one value
+this.patternValid[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle-1] has only one value
+this.localeValid[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle] has only one value
+this.localeValid[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle-1] has only one value
+this.patternInvalid[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle] has only one value
+this.patternInvalid[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle-1] has only one value
+this.localeInvalid[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle] has only one value
+this.localeInvalid[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle-1] has only one value
+this.patternValid[this.dateValidator.dateStyle] has only one value
+this.patternValid[this.dateValidator.dateStyle-1] has only one value
+this.localeValid[this.dateValidator.dateStyle] has only one value
+this.localeValid[this.dateValidator.dateStyle-1] has only one value
+this.patternInvalid[this.dateValidator.dateStyle] has only one value
+this.patternInvalid[this.dateValidator.dateStyle-1] has only one value
+this.localeInvalid[this.dateValidator.dateStyle] has only one value
+this.localeInvalid[this.dateValidator.dateStyle-1] has only one value
+this.validator.getClass().getName() != org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName()
+this.validator.getClass().getName() != this.patternValid.getClass().getName()
+this.validator.getClass().getName() != this.patternExpect.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() != this.patternValid.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() != this.patternExpect.getClass().getName()
+this.patternValid.getClass().getName() == this.localeValid.getClass().getName()
+this.patternValid.getClass().getName() != this.patternExpect.getClass().getName()
+this.patternValid.getClass().getName() == this.patternInvalid.getClass().getName()
+this.patternValid.getClass().getName() == this.localeInvalid.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.DateValidatorTest.DateValidatorTest(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.validator.routines.DateValidatorTest.DateValidatorTest(java.lang.String):::EXIT
+this.fName == orig(name)
+this.dateValidator == null
+this.validator == null
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.validator.routines.DateValidatorTest.setUp():::ENTER
+this.dateValidator == null
+this.validator == null
+===========================================================================
+org.apache.commons.validator.routines.DateValidatorTest.setUp():::EXIT
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == this.validator.dateStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == this.validator.timeStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == this.validator.strict
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+this.patternValid == orig(this.patternValid)
+this.patternValid[] == orig(this.patternValid[])
+this.localeValid == orig(this.localeValid)
+this.localeValid[] == orig(this.localeValid[])
+this.patternExpect == orig(this.patternExpect)
+this.patternExpect[] == orig(this.patternExpect[])
+this.patternInvalid == orig(this.patternInvalid)
+this.patternInvalid[] == orig(this.patternInvalid[])
+this.localeInvalid == orig(this.localeInvalid)
+this.localeInvalid[] == orig(this.localeInvalid[])
+this.fName == orig(this.fName)
+size(this.patternValid[]) == orig(size(this.localeValid[]))
+size(this.patternValid[]) == orig(size(this.patternExpect[]))
+size(this.localeInvalid[]) == orig(size(this.patternInvalid[]))-1
+this.patternValid[orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)] has only one value
+this.patternValid[orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)-1] has only one value
+this.localeValid[orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)] has only one value
+this.localeValid[orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)-1] has only one value
+this.patternInvalid[orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)] has only one value
+this.patternInvalid[orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)-1] has only one value
+this.localeInvalid[orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)] has only one value
+this.localeInvalid[orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)-1] has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternInvalid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeInvalid.getClass().getName())
+this.patternExpect.getClass().getName() == orig(this.patternExpect.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.DateValidatorTest.testCompare():::ENTER
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == this.validator.dateStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == this.validator.timeStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == this.validator.strict
+this has only one value
+this.dateValidator has only one value
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testCompare"
+this.patternExpect[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle] has only one value
+this.patternExpect[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle-1] has only one value
+===========================================================================
+org.apache.commons.validator.routines.DateValidatorTest.testCompare():::EXIT
+this.dateValidator == orig(this.dateValidator)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == this.validator.dateStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateValidator.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.validator.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == this.validator.timeStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.dateValidator.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.validator.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == this.validator.strict
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.dateValidator.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.validator.strict)
+this.validator == orig(this.validator)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+this.patternValid == orig(this.patternValid)
+this.patternValid[] == orig(this.patternValid[])
+this.localeValid == orig(this.localeValid)
+this.localeValid[] == orig(this.localeValid[])
+this.patternExpect == orig(this.patternExpect)
+this.patternExpect[] == orig(this.patternExpect[])
+this.patternInvalid == orig(this.patternInvalid)
+this.patternInvalid[] == orig(this.patternInvalid[])
+this.localeInvalid == orig(this.localeInvalid)
+this.localeInvalid[] == orig(this.localeInvalid[])
+this.fName == orig(this.fName)
+size(this.patternValid[]) == orig(size(this.localeValid[]))
+size(this.patternValid[]) == orig(size(this.patternExpect[]))
+size(this.localeInvalid[]) == orig(size(this.patternInvalid[]))-1
+this.dateValidator has only one value
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testCompare"
+this.patternExpect[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle] has only one value
+this.patternExpect[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle-1] has only one value
+this.validator.getClass().getName() == orig(this.validator.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternInvalid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeInvalid.getClass().getName())
+this.patternExpect.getClass().getName() == orig(this.patternExpect.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.DateValidatorTest.testDateValidatorMethods():::ENTER
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == this.validator.dateStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == this.validator.timeStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == this.validator.strict
+this has only one value
+this.dateValidator has only one value
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testDateValidatorMethods"
+this.patternExpect[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle] has only one value
+this.patternExpect[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle-1] has only one value
+===========================================================================
+org.apache.commons.validator.routines.DateValidatorTest.testDateValidatorMethods():::EXIT
+this.dateValidator == orig(this.dateValidator)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == this.validator.dateStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.dateValidator.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle == orig(this.validator.dateStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == this.validator.timeStyle
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.dateValidator.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.timeStyle == orig(this.validator.timeStyle)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == this.validator.strict
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.dateValidator.strict)
+org.apache.commons.validator.routines.DateValidator.VALIDATOR.strict == orig(this.validator.strict)
+this.validator == orig(this.validator)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+this.patternValid == orig(this.patternValid)
+this.patternValid[] == orig(this.patternValid[])
+this.localeValid == orig(this.localeValid)
+this.localeValid[] == orig(this.localeValid[])
+this.patternExpect == orig(this.patternExpect)
+this.patternExpect[] == orig(this.patternExpect[])
+this.patternInvalid == orig(this.patternInvalid)
+this.patternInvalid[] == orig(this.patternInvalid[])
+this.localeInvalid == orig(this.localeInvalid)
+this.localeInvalid[] == orig(this.localeInvalid[])
+this.fName == orig(this.fName)
+size(this.patternValid[]) == orig(size(this.localeValid[]))
+size(this.patternValid[]) == orig(size(this.patternExpect[]))
+size(this.localeInvalid[]) == orig(size(this.patternInvalid[]))-1
+this.dateValidator has only one value
+this.validator has only one value
+this.patternValid has only one value
+this.localeValid has only one value
+this.patternExpect has only one value
+this.patternExpect[] contains no nulls and has only one value, of length 7
+this.patternInvalid has only one value
+this.localeInvalid has only one value
+this.fName has only one value
+this.fName.toString == "testDateValidatorMethods"
+this.patternExpect[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle] has only one value
+this.patternExpect[org.apache.commons.validator.routines.DateValidator.VALIDATOR.dateStyle-1] has only one value
+this.validator.getClass().getName() == orig(this.validator.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternInvalid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeInvalid.getClass().getName())
+this.patternExpect.getClass().getName() == orig(this.patternExpect.getClass().getName())
+this.fName.toString == orig(this.fName.toString)

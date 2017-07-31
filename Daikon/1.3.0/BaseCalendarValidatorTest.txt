@@ -1,0 +1,1884 @@
+===========================================================================
+junit.framework.Assert:::OBJECT
+===========================================================================
+junit.framework.Assert.Assert():::EXIT
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.Object):::ENTER
+object.getClass().getName() == java.lang.String.class
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.String, java.lang.Object):::ENTER
+message == null
+object.getClass().getName() == java.lang.String.class
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.String, java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertTrue(java.lang.String, boolean):::ENTER
+message == null
+condition == true
+===========================================================================
+junit.framework.Assert.assertTrue(java.lang.String, boolean):::EXIT
+===========================================================================
+junit.framework.TestCase:::OBJECT
+this.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+this.fName != null
+===========================================================================
+junit.framework.TestCase.TestCase(java.lang.String):::ENTER
+===========================================================================
+junit.framework.TestCase.TestCase(java.lang.String):::EXIT
+this.fName == orig(name)
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+junit.framework.TestCase.countTestCases():::ENTER
+===========================================================================
+junit.framework.TestCase.countTestCases():::EXIT
+this.fName == orig(this.fName)
+return == 1
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.getName():::ENTER
+===========================================================================
+junit.framework.TestCase.getName():::EXIT
+this.fName == return
+return == orig(this.fName)
+this.fName.toString == return.toString
+return.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.run(junit.framework.TestResult):::ENTER
+result.fRunTests == size(result.fErrors[])
+size(result.fFailures[]) == size(result.fListeners[])-1
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+===========================================================================
+junit.framework.TestCase.run(junit.framework.TestResult):::EXIT
+this.fName == orig(this.fName)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == orig(result.fFailures[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fRunTests == size(result.fErrors[])
+result.fStop == orig(result.fStop)
+orig(result.fRunTests) == size(result.fErrors[])-1
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+result.fErrors[result.fRunTests-1] == result.fErrors[orig(result.fRunTests)]
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.setUp():::ENTER
+===========================================================================
+junit.framework.TestCase.setUp():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.tearDown():::ENTER
+===========================================================================
+junit.framework.TestCase.tearDown():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.toString():::ENTER
+===========================================================================
+junit.framework.TestCase.toString():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestFailure:::OBJECT
+this.fFailedTest != null
+this.fFailedTest.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+this.fThrownException != null
+===========================================================================
+junit.framework.TestFailure.TestFailure(junit.framework.Test, java.lang.Throwable):::ENTER
+failedTest.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+===========================================================================
+junit.framework.TestFailure.TestFailure(junit.framework.Test, java.lang.Throwable):::EXIT
+this.fFailedTest == orig(failedTest)
+this.fThrownException == orig(thrownException)
+this.fFailedTest.getClass().getName() == orig(failedTest.getClass().getName())
+===========================================================================
+junit.framework.TestFailure.failedTest():::ENTER
+===========================================================================
+junit.framework.TestFailure.failedTest():::EXIT
+this.fFailedTest == return
+this.fThrownException == orig(this.fThrownException)
+return == orig(this.fFailedTest)
+return.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+this.fFailedTest.getClass().getName() == return.getClass().getName()
+return.getClass().getName() == orig(this.fFailedTest.getClass().getName())
+===========================================================================
+junit.framework.TestFailure.thrownException():::ENTER
+===========================================================================
+junit.framework.TestFailure.thrownException():::EXIT
+this.fFailedTest == orig(this.fFailedTest)
+this.fThrownException == return
+return == orig(this.fThrownException)
+this.fFailedTest.getClass().getName() == orig(this.fFailedTest.getClass().getName())
+===========================================================================
+junit.framework.TestFailure.trace():::ENTER
+===========================================================================
+junit.framework.TestFailure.trace():::EXIT
+this.fFailedTest == orig(this.fFailedTest)
+this.fThrownException == orig(this.fThrownException)
+this.fFailedTest.getClass().getName() == orig(this.fFailedTest.getClass().getName())
+===========================================================================
+junit.framework.TestResult$1:::OBJECT
+this.val$test.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+===========================================================================
+junit.framework.TestResult$1.TestResult$1(junit.framework.TestCase):::ENTER
+$hidden$1.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+===========================================================================
+junit.framework.TestResult$1.TestResult$1(junit.framework.TestCase):::EXIT
+this.val$test == orig($hidden$1)
+this.val$test.fName == $hidden$1.fName
+$hidden$1.fName == orig($hidden$1.fName)
+this.val$test.getClass().getName() == orig($hidden$1.getClass().getName())
+this.val$test.fName.toString == $hidden$1.fName.toString
+$hidden$1.fName.toString == orig($hidden$1.fName.toString)
+===========================================================================
+junit.framework.TestResult:::OBJECT
+this has only one value
+this.fFailures has only one value
+this.fFailures != null
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+this.fErrors has only one value
+this.fErrors != null
+this.fErrors[] elements != null
+this.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+this.fListeners has only one value
+this.fListeners != null
+this.fListeners[] elements has only one value
+this.fListeners[] elements != null
+this.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+this.fListeners[].getClass().getName() one of { [], [junit.textui.ResultPrinter] }
+this.fRunTests >= 0
+this.fStop == false
+size(this.fListeners[]) one of { 0, 1 }
+this.fRunTests >= size(this.fFailures[])
+this.fRunTests >= size(this.fErrors[])
+this.fRunTests >= size(this.fListeners[])-1
+size(this.fFailures[]) <= size(this.fErrors[])
+size(this.fFailures[]) <= size(this.fListeners[])
+size(this.fFailures[]) >= size(this.fListeners[])-1
+size(this.fFailures[])-1 <= size(this.fErrors[])-1
+size(this.fFailures[])-1 <= size(this.fListeners[])-1
+size(this.fErrors[]) >= size(this.fListeners[])-1
+===========================================================================
+junit.framework.TestResult.TestResult():::EXIT
+this.fFailures[] == this.fErrors[]
+this.fFailures[] == this.fListeners[]
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.addError(junit.framework.Test, java.lang.Throwable):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+size(this.fListeners[]) == 1
+this.fRunTests - size(this.fErrors[]) - 1 == 0
+===========================================================================
+junit.framework.TestResult.addError(junit.framework.Test, java.lang.Throwable):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fErrors[])
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+size(this.fErrors[])-1 == orig(size(this.fErrors[]))
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.addListener(junit.framework.TestListener):::ENTER
+this.fFailures[] == this.fErrors[]
+this.fFailures[] == this.fListeners[]
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])
+listener has only one value
+listener.getClass().getName() == junit.textui.ResultPrinter.class
+===========================================================================
+junit.framework.TestResult.addListener(junit.framework.TestListener):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == this.fErrors[]
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fFailures[] == orig(this.fListeners[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])-1
+this.fRunTests == orig(size(this.fFailures[]))
+this.fRunTests == orig(size(this.fErrors[]))
+this.fRunTests == orig(size(this.fListeners[]))
+this.fStop == orig(this.fStop)
+orig(listener) == this.fListeners[this.fRunTests]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+orig(listener) in this.fListeners[]
+this.fListeners[] elements == orig(listener)
+this.fListeners[] elements == this.fListeners[this.fRunTests]
+orig(listener.getClass().getName()) in this.fListeners[].getClass().getName()
+===========================================================================
+junit.framework.TestResult.cloneListeners():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests >= 1
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.cloneListeners():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fErrors[] == orig(this.fErrors[])
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == return[]
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return[] == orig(this.fListeners[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == size(return[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fRunTests >= 1
+return != null
+return[] contains no nulls and has only one value, of length 1
+return[] elements has only one value
+return[] elements != null
+return[].getClass().getName() == [junit.textui.ResultPrinter]
+return[].getClass().getName() elements == junit.textui.ResultPrinter.class
+size(return[]) == 1
+this.fRunTests >= size(return[])
+===========================================================================
+junit.framework.TestResult.endTest(junit.framework.Test):::ENTER
+this.fRunTests == size(this.fErrors[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.endTest(junit.framework.Test):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fErrors[] == orig(this.fErrors[])
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == orig(size(this.fErrors[]))
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.errorCount():::ENTER
+this.fRunTests == size(this.fErrors[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fErrors[] contains no nulls and has only one value, of length 5
+this.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 5
+size(this.fListeners[]) == 1
+this.fErrors[this.fRunTests-1] has only one value
+===========================================================================
+junit.framework.TestResult.errorCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fErrors[] == orig(this.fErrors[])
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == return
+this.fStop == orig(this.fStop)
+return == orig(this.fRunTests)
+return == size(this.fErrors[])
+return == orig(size(this.fErrors[]))
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fErrors[] contains no nulls and has only one value, of length 5
+this.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == 5
+size(this.fListeners[]) == 1
+this.fErrors[return-1] has only one value
+===========================================================================
+junit.framework.TestResult.errors():::ENTER
+this.fRunTests == size(this.fErrors[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fErrors[] contains no nulls and has only one value, of length 5
+this.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 5
+size(this.fListeners[]) == 1
+this.fErrors[this.fRunTests-1] has only one value
+===========================================================================
+junit.framework.TestResult.errors():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fErrors[] == orig(this.fErrors[])
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == orig(size(this.fErrors[]))
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fErrors[] contains no nulls and has only one value, of length 5
+this.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 5
+return has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fListeners[]) == 1
+this.fErrors[this.fRunTests-1] has only one value
+===========================================================================
+junit.framework.TestResult.failureCount():::ENTER
+this.fRunTests == size(this.fErrors[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fErrors[] contains no nulls and has only one value, of length 5
+this.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 5
+size(this.fListeners[]) == 1
+this.fErrors[this.fRunTests-1] has only one value
+===========================================================================
+junit.framework.TestResult.failureCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fErrors[] == orig(this.fErrors[])
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == orig(size(this.fErrors[]))
+this.fStop == orig(this.fStop)
+return == size(this.fFailures[])
+return == size(this.fListeners[])-1
+return == orig(size(this.fFailures[]))
+return == orig(size(this.fListeners[]))-1
+this.fErrors[] contains no nulls and has only one value, of length 5
+this.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 5
+size(this.fListeners[]) == 1
+this.fErrors[this.fRunTests-1] has only one value
+this.fErrors[return] has only one value
+this.fListeners[] elements == this.fListeners[return]
+===========================================================================
+junit.framework.TestResult.failures():::ENTER
+this.fRunTests == size(this.fErrors[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fErrors[] contains no nulls and has only one value, of length 5
+this.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 5
+size(this.fListeners[]) == 1
+this.fErrors[this.fRunTests-1] has only one value
+===========================================================================
+junit.framework.TestResult.failures():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fErrors[] == orig(this.fErrors[])
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == orig(size(this.fErrors[]))
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fErrors[] contains no nulls and has only one value, of length 5
+this.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 5
+return has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fListeners[]) == 1
+this.fErrors[this.fRunTests-1] has only one value
+===========================================================================
+junit.framework.TestResult.run(junit.framework.TestCase):::ENTER
+this.fRunTests == size(this.fErrors[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.run(junit.framework.TestCase):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == size(this.fErrors[])
+this.fStop == orig(this.fStop)
+test.fName == orig(test.fName)
+orig(this.fRunTests) == size(this.fErrors[])-1
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fErrors[this.fRunTests-1] == this.fErrors[orig(this.fRunTests)]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+test.fName.toString == orig(test.fName.toString)
+===========================================================================
+junit.framework.TestResult.runCount():::ENTER
+this.fRunTests == size(this.fErrors[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fErrors[] contains no nulls and has only one value, of length 5
+this.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 5
+size(this.fListeners[]) == 1
+this.fErrors[this.fRunTests-1] has only one value
+===========================================================================
+junit.framework.TestResult.runCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fErrors[] == orig(this.fErrors[])
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == return
+this.fStop == orig(this.fStop)
+return == orig(this.fRunTests)
+return == size(this.fErrors[])
+return == orig(size(this.fErrors[]))
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fErrors[] contains no nulls and has only one value, of length 5
+this.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == 5
+size(this.fListeners[]) == 1
+this.fErrors[return-1] has only one value
+===========================================================================
+junit.framework.TestResult.runProtected(junit.framework.Test, junit.framework.Protectable):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+p.getClass().getName() == junit.framework.TestResult$1.class
+size(this.fListeners[]) == 1
+this.fRunTests - size(this.fErrors[]) - 1 == 0
+===========================================================================
+junit.framework.TestResult.runProtected(junit.framework.Test, junit.framework.Protectable):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fErrors[])
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+size(this.fErrors[])-1 == orig(size(this.fErrors[]))
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::ENTER
+this.fRunTests == size(this.fErrors[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fErrors[] == orig(this.fErrors[])
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == orig(size(this.fErrors[]))
+this.fStop == return
+return == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == false
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::EXIT;condition="not(return == true)"
+===========================================================================
+junit.framework.TestResult.startTest(junit.framework.Test):::ENTER
+this.fRunTests == size(this.fErrors[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.startTest(junit.framework.Test):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fErrors[] == orig(this.fErrors[])
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fStop == orig(this.fStop)
+orig(this.fRunTests) == size(this.fErrors[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests - orig(this.fRunTests) - 1 == 0
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::ENTER
+this.fRunTests == size(this.fErrors[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fErrors[] contains no nulls and has only one value, of length 5
+this.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 5
+size(this.fListeners[]) == 1
+this.fErrors[this.fRunTests-1] has only one value
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT165
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT165;condition="not(return == true)"
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fErrors == orig(this.fErrors)
+this.fErrors[] == orig(this.fErrors[])
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == orig(size(this.fErrors[]))
+this.fStop == return
+return == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fErrors[] contains no nulls and has only one value, of length 5
+this.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 5
+return == false
+size(this.fListeners[]) == 1
+this.fErrors[this.fRunTests-1] has only one value
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT;condition="not(return == true)"
+===========================================================================
+junit.framework.TestSuite:::CLASS
+===========================================================================
+junit.framework.TestSuite:::OBJECT
+this.fTests != null
+this.fTests[] elements != null
+this.fName.toString == "org.apache.commons.validator.routines.BaseCalendarValidatorTest"
+===========================================================================
+junit.framework.TestSuite.TestSuite():::EXIT
+junit.framework.TestSuite.class$0 == junit.framework.TestSuite.class$1
+this.fTests has only one value
+this.fTests[] == []
+this.fTests[].getClass().getName() == []
+this.fName == null
+junit.framework.TestSuite.class$0 == null
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::ENTER
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::EXIT81
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::EXIT
+this.fTests has only one value
+this.fTests[] contains no nulls and has only one value, of length 5
+this.fTests[].getClass().getName() == [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest]
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+this.fName has only one value
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) == 5
+===========================================================================
+junit.framework.TestSuite.addTest(junit.framework.Test):::ENTER
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+===========================================================================
+junit.framework.TestSuite.addTest(junit.framework.Test):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+size(this.fTests[])-1 == orig(size(this.fTests[]))
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+orig(test) in this.fTests[]
+orig(test.getClass().getName()) in this.fTests[].getClass().getName()
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::ENTER
+size(this.fTests[]) == size(names[])
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+names has only one value
+names != null
+names[] elements != null
+names[].getClass().getName() elements == java.lang.String.class
+theClass has only one value
+theClass != null
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT111
+this.fTests[] == orig(this.fTests[])
+names[] == orig(names[])
+size(this.fTests[]) == orig(size(names[]))
+this.fTests[].getClass().getName() one of { [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] }
+names[].getClass().getName() one of { [java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+size(this.fTests[]) one of { 2, 5 }
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT115
+size(names[])-1 == orig(size(this.fTests[]))
+size(names[])-1 == orig(size(names[]))
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+names[] elements != null
+names[].getClass().getName() elements == java.lang.String.class
+this.fName.toString == orig(this.fName.toString)
+size(this.fTests[]) >= orig(size(names[]))
+size(names[])-1 <= orig(size(names[]))
+size(names[])-1 >= orig(size(names[]))-1
+===========================================================================
+junit.framework.TestSuite.addTestSuite(java.lang.Class):::ENTER
+junit.framework.TestSuite.class$0 == junit.framework.TestSuite.class$1
+this has only one value
+this.fTests has only one value
+this.fTests[] == []
+this.fTests[].getClass().getName() == []
+this.fName == null
+junit.framework.TestSuite.class$0 == null
+testClass has only one value
+===========================================================================
+junit.framework.TestSuite.addTestSuite(java.lang.Class):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+size(this.fTests[])-1 == orig(size(this.fTests[]))
+this.fTests has only one value
+this.fTests[] contains no nulls and has only one value, of length 1
+this.fTests[] elements has only one value
+this.fTests[].getClass().getName() == [junit.framework.TestSuite]
+this.fTests[].getClass().getName() elements == junit.framework.TestSuite.class
+this.fName == null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) == 1
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::ENTER
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::EXIT144
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::EXIT
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+return.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+name.toString == orig(name.toString)
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::ENTER
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::EXIT177
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::EXIT
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 has only one value
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::ENTER
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT185
+return == true
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT185;condition="return == true"
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT186
+this.fTests[].getClass().getName() one of { [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] }
+return == false
+size(this.fTests[]) one of { 2, 5 }
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT186;condition="not(return == true)"
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+(return == false)  ==>  (size(this.fTests[]) one of { 2, 5 })
+(return == false)  ==>  (this.fTests[].getClass().getName() one of { [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] })
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT;condition="return == true"
+return == true
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT;condition="not(return == true)"
+this.fTests[].getClass().getName() one of { [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] }
+return == false
+size(this.fTests[]) one of { 2, 5 }
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::ENTER
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT192
+return == true
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT192;condition="return == true"
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT193
+this.fTests[].getClass().getName() one of { [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] }
+return == false
+size(this.fTests[]) one of { 2, 5 }
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT193;condition="not(return == true)"
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+(return == false)  ==>  (size(this.fTests[]) one of { 2, 5 })
+(return == false)  ==>  (this.fTests[].getClass().getName() one of { [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] })
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT;condition="return == true"
+return == true
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT;condition="not(return == true)"
+this.fTests[].getClass().getName() one of { [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] }
+return == false
+size(this.fTests[]) one of { 2, 5 }
+===========================================================================
+junit.framework.TestSuite.run(junit.framework.TestResult):::ENTER
+result.fFailures[] == result.fErrors[]
+result.fRunTests == size(result.fFailures[])
+result.fRunTests == size(result.fErrors[])
+result.fRunTests == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 5 }
+size(result.fListeners[]) == 1
+result.fListeners[] elements == result.fListeners[result.fRunTests]
+===========================================================================
+junit.framework.TestSuite.run(junit.framework.TestResult):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fRunTests == size(result.fErrors[])
+result.fStop == orig(result.fStop)
+orig(result.fRunTests) == size(result.fFailures[])
+orig(result.fRunTests) == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[] contains no nulls and has only one value, of length 5
+result.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fRunTests == 5
+result.fStop == false
+size(this.fTests[]) one of { 1, 5 }
+size(result.fListeners[]) == 1
+result.fErrors[result.fRunTests-1] has only one value
+result.fErrors[orig(result.fRunTests)] has only one value
+this.fName.toString == orig(this.fName.toString)
+result.fListeners[] elements == result.fListeners[orig(result.fRunTests)]
+===========================================================================
+junit.framework.TestSuite.runTest(junit.framework.Test, junit.framework.TestResult):::ENTER
+test == this.fTests[result.fRunTests]
+result.fRunTests == size(result.fErrors[])
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 5 }
+size(result.fListeners[]) == 1
+test in this.fTests[]
+test.getClass().getName() in this.fTests[].getClass().getName()
+===========================================================================
+junit.framework.TestSuite.runTest(junit.framework.Test, junit.framework.TestResult):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == orig(result.fFailures[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fRunTests == size(result.fErrors[])
+result.fStop == orig(result.fStop)
+orig(test) == this.fTests[orig(result.fRunTests)]
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 5 }
+size(result.fListeners[]) == 1
+orig(test) in this.fTests[]
+orig(test.getClass().getName()) in this.fTests[].getClass().getName()
+this.fName.toString == orig(this.fName.toString)
+result.fRunTests - orig(result.fRunTests) + size(this.fTests[]) - 6 == 0
+result.fRunTests - orig(result.fRunTests) + size(this.fTests[])-1 - 5 == 0
+result.fRunTests + size(this.fTests[]) - orig(size(result.fErrors[]))-1 - 7 == 0
+result.fRunTests + size(this.fTests[])-1 - orig(size(result.fErrors[]))-1 - 6 == 0
+orig(result.fRunTests) - size(this.fTests[]) - size(result.fErrors[])-1 + 5 == 0
+orig(result.fRunTests) - size(this.fTests[])-1 - size(result.fErrors[])-1 + 4 == 0
+===========================================================================
+junit.framework.TestSuite.tests():::ENTER
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) one of { 1, 5 }
+===========================================================================
+junit.framework.TestSuite.tests():::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest, org.apache.commons.validator.routines.BaseCalendarValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fTests[]) one of { 1, 5 }
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.runner.BaseTestRunner:::CLASS
+junit.runner.BaseTestRunner.SUITE_METHODNAME has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME != null
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == "suite"
+junit.runner.BaseTestRunner.fPreferences has only one value
+junit.runner.BaseTestRunner.fPreferences != null
+junit.runner.BaseTestRunner.fgMaxMessageLength == 500
+junit.runner.BaseTestRunner.fgFilterStack == true
+===========================================================================
+junit.runner.BaseTestRunner:::OBJECT
+junit.runner.BaseTestRunner.fgFilterStack == this.fLoading
+this has only one value
+this.getClass().getName() == junit.textui.TestRunner.class
+===========================================================================
+junit.runner.BaseTestRunner.BaseTestRunner():::EXIT
+===========================================================================
+junit.runner.BaseTestRunner.filterLine(java.lang.String):::ENTER
+line != null
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString > line.toString
+===========================================================================
+junit.runner.BaseTestRunner.filterLine(java.lang.String):::EXIT314
+junit.runner.BaseTestRunner.fgFilterStack == return
+===========================================================================
+junit.runner.BaseTestRunner.filterLine(java.lang.String):::EXIT314;condition="return == true"
+===========================================================================
+junit.runner.BaseTestRunner.filterLine(java.lang.String):::EXIT316
+return == false
+===========================================================================
+junit.runner.BaseTestRunner.filterLine(java.lang.String):::EXIT316;condition="not(return == true)"
+===========================================================================
+junit.runner.BaseTestRunner.filterLine(java.lang.String):::EXIT
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+(return == true)  ==>  (junit.runner.BaseTestRunner.fgFilterStack == return)
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString > line.toString
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+line.toString == orig(line.toString)
+===========================================================================
+junit.runner.BaseTestRunner.filterLine(java.lang.String):::EXIT;condition="return == true"
+junit.runner.BaseTestRunner.fgFilterStack == return
+===========================================================================
+junit.runner.BaseTestRunner.filterLine(java.lang.String):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+junit.runner.BaseTestRunner.getFilteredTrace(java.lang.String):::ENTER
+===========================================================================
+junit.runner.BaseTestRunner.getFilteredTrace(java.lang.String):::EXIT294
+===========================================================================
+junit.runner.BaseTestRunner.getFilteredTrace(java.lang.String):::EXIT
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+stack.toString == orig(stack.toString)
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String):::ENTER
+key.toString one of { "filterstack", "maxmessage" }
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String):::EXIT
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+key.toString one of { "filterstack", "maxmessage" }
+return.toString == "true"
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+key.toString == orig(key.toString)
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::ENTER
+key has only one value
+key.toString == "maxmessage"
+dflt == 500
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::EXIT243
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::EXIT
+key.toString == "maxmessage"
+return == 500
+===========================================================================
+junit.runner.BaseTestRunner.getPreferences():::ENTER
+===========================================================================
+junit.runner.BaseTestRunner.getPreferences():::EXIT
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == return
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+return has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.runner.BaseTestRunner.getPreferencesFile():::EXIT
+return has only one value
+===========================================================================
+junit.runner.BaseTestRunner.showStackRaw():::ENTER
+===========================================================================
+junit.runner.BaseTestRunner.showStackRaw():::EXIT299
+===========================================================================
+junit.runner.BaseTestRunner.showStackRaw():::EXIT299;condition="not(return == true)"
+===========================================================================
+junit.runner.BaseTestRunner.showStackRaw():::EXIT
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+return == false
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.runner.BaseTestRunner.showStackRaw():::EXIT;condition="not(return == true)"
+===========================================================================
+junit.textui.ResultPrinter:::OBJECT
+this has only one value
+this.fWriter has only one value
+this.fWriter != null
+this.fColumn >= 0
+===========================================================================
+junit.textui.ResultPrinter.ResultPrinter(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+junit.textui.ResultPrinter.ResultPrinter(java.io.PrintStream):::EXIT
+this.fWriter == orig(writer)
+this.fColumn == 0
+===========================================================================
+junit.textui.ResultPrinter.addError(junit.framework.Test, java.lang.Throwable):::ENTER
+test.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+===========================================================================
+junit.textui.ResultPrinter.addError(junit.framework.Test, java.lang.Throwable):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+===========================================================================
+junit.textui.ResultPrinter.elapsedTimeAsString(long):::ENTER
+this.fColumn == 5
+runTime == 96
+===========================================================================
+junit.textui.ResultPrinter.elapsedTimeAsString(long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 5
+return has only one value
+return.toString == "0.096"
+===========================================================================
+junit.textui.ResultPrinter.endTest(junit.framework.Test):::ENTER
+test.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+===========================================================================
+junit.textui.ResultPrinter.endTest(junit.framework.Test):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+===========================================================================
+junit.textui.ResultPrinter.getWriter():::ENTER
+===========================================================================
+junit.textui.ResultPrinter.getWriter():::EXIT
+this.fWriter == return
+this.fColumn == orig(this.fColumn)
+return == orig(this.fWriter)
+return has only one value
+return != null
+===========================================================================
+junit.textui.ResultPrinter.print(junit.framework.TestResult, long):::ENTER
+this.fColumn == result.fRunTests
+this.fColumn == size(result.fErrors[])
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 5
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[] contains no nulls and has only one value, of length 5
+result.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+runTime == 96
+size(result.fListeners[]) == 1
+result.fErrors[this.fColumn-1] has only one value
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.print(junit.framework.TestResult, long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+this.fColumn == size(result.fErrors[])
+this.fColumn == orig(size(result.fErrors[]))
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == orig(result.fFailures[])
+result.fErrors == orig(result.fErrors)
+result.fErrors[] == orig(result.fErrors[])
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 5
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[] contains no nulls and has only one value, of length 5
+result.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fErrors[this.fColumn-1] has only one value
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printDefect(junit.framework.TestFailure, int):::ENTER
+this.fColumn == 5
+booBoo.fFailedTest.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+===========================================================================
+junit.textui.ResultPrinter.printDefect(junit.framework.TestFailure, int):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+booBoo.fFailedTest == orig(booBoo.fFailedTest)
+booBoo.fThrownException == orig(booBoo.fThrownException)
+this.fColumn == 5
+booBoo.fFailedTest.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+booBoo.fFailedTest.getClass().getName() == orig(booBoo.fFailedTest.getClass().getName())
+===========================================================================
+junit.textui.ResultPrinter.printDefectHeader(junit.framework.TestFailure, int):::ENTER
+this.fColumn == 5
+booBoo.fFailedTest.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+===========================================================================
+junit.textui.ResultPrinter.printDefectHeader(junit.framework.TestFailure, int):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+booBoo.fFailedTest == orig(booBoo.fFailedTest)
+booBoo.fThrownException == orig(booBoo.fThrownException)
+this.fColumn == 5
+booBoo.fFailedTest.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+booBoo.fFailedTest.getClass().getName() == orig(booBoo.fFailedTest.getClass().getName())
+===========================================================================
+junit.textui.ResultPrinter.printDefectTrace(junit.framework.TestFailure):::ENTER
+this.fColumn == 5
+booBoo.fFailedTest.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+===========================================================================
+junit.textui.ResultPrinter.printDefectTrace(junit.framework.TestFailure):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+booBoo.fFailedTest == orig(booBoo.fFailedTest)
+booBoo.fThrownException == orig(booBoo.fThrownException)
+this.fColumn == 5
+booBoo.fFailedTest.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+booBoo.fFailedTest.getClass().getName() == orig(booBoo.fFailedTest.getClass().getName())
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::ENTER
+this.fColumn == 5
+booBoos.getClass().getName() == java.util.Vector$1.class
+count one of { 0, 5 }
+type.toString one of { "error", "failure" }
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT55
+type.toString == "failure"
+orig(booBoos) has only one value
+orig(count) == 0
+orig(type) has only one value
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT63
+this.fColumn == orig(count)
+type.toString == "error"
+orig(booBoos) has only one value
+orig(type) has only one value
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+(type.toString == "error")  <==>  (orig(count) == 5)
+(type.toString == "error")  <==>  (this.fColumn == orig(count))
+(type.toString == "failure")  <==>  (orig(count) == 0)
+this.fColumn == 5
+type.toString one of { "error", "failure" }
+type.toString == orig(type.toString)
+===========================================================================
+junit.textui.ResultPrinter.printErrors(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+this.fColumn == size(result.fErrors[])
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 5
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[] contains no nulls and has only one value, of length 5
+result.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fErrors[this.fColumn-1] has only one value
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printErrors(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+this.fColumn == size(result.fErrors[])
+this.fColumn == orig(size(result.fErrors[]))
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == orig(result.fFailures[])
+result.fErrors == orig(result.fErrors)
+result.fErrors[] == orig(result.fErrors[])
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 5
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[] contains no nulls and has only one value, of length 5
+result.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fErrors[this.fColumn-1] has only one value
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printFailures(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+this.fColumn == size(result.fErrors[])
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 5
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[] contains no nulls and has only one value, of length 5
+result.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fErrors[this.fColumn-1] has only one value
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printFailures(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+this.fColumn == size(result.fErrors[])
+this.fColumn == orig(size(result.fErrors[]))
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == orig(result.fFailures[])
+result.fErrors == orig(result.fErrors)
+result.fErrors[] == orig(result.fErrors[])
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 5
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[] contains no nulls and has only one value, of length 5
+result.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fErrors[this.fColumn-1] has only one value
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printFooter(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+this.fColumn == size(result.fErrors[])
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 5
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[] contains no nulls and has only one value, of length 5
+result.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fErrors[this.fColumn-1] has only one value
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printFooter(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+this.fColumn == size(result.fErrors[])
+this.fColumn == orig(size(result.fErrors[]))
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == orig(result.fFailures[])
+result.fErrors == orig(result.fErrors)
+result.fErrors[] == orig(result.fErrors[])
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 5
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fErrors[] contains no nulls and has only one value, of length 5
+result.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+result.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fErrors[this.fColumn-1] has only one value
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printHeader(long):::ENTER
+this.fColumn == 5
+runTime == 96
+===========================================================================
+junit.textui.ResultPrinter.printHeader(long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 5
+===========================================================================
+junit.textui.ResultPrinter.startTest(junit.framework.Test):::ENTER
+test.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.class
+===========================================================================
+junit.textui.ResultPrinter.startTest(junit.framework.Test):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn - orig(this.fColumn) - 1 == 0
+===========================================================================
+junit.textui.TestRunner:::CLASS
+junit.runner.BaseTestRunner.SUITE_METHODNAME has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME != null
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == "suite"
+junit.runner.BaseTestRunner.fPreferences has only one value
+junit.runner.BaseTestRunner.fPreferences != null
+junit.runner.BaseTestRunner.fgMaxMessageLength == 500
+junit.runner.BaseTestRunner.fgFilterStack == true
+===========================================================================
+junit.textui.TestRunner:::OBJECT
+junit.runner.BaseTestRunner.fgFilterStack == this.fLoading
+this has only one value
+this.fPrinter has only one value
+this.fPrinter.fWriter has only one value
+this.fPrinter.fColumn one of { 0, 5 }
+this.fPrinter.fColumn >= junit.textui.TestRunner.SUCCESS_EXIT
+this.fPrinter.fColumn != junit.textui.TestRunner.FAILURE_EXIT
+this.fPrinter.fColumn != junit.textui.TestRunner.EXCEPTION_EXIT
+this.fPrinter.fColumn < junit.runner.BaseTestRunner.fgMaxMessageLength
+===========================================================================
+junit.textui.TestRunner.TestRunner():::EXIT
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.TestRunner(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+junit.textui.TestRunner.TestRunner(java.io.PrintStream):::EXIT
+this.fPrinter.fWriter == orig(writer)
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.TestRunner(junit.textui.ResultPrinter):::ENTER
+printer has only one value
+printer.fWriter has only one value
+printer.fColumn == 0
+===========================================================================
+junit.textui.TestRunner.TestRunner(junit.textui.ResultPrinter):::EXIT
+this.fPrinter == orig(printer)
+this.fPrinter.fWriter == printer.fWriter
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == printer.fColumn
+junit.textui.TestRunner.SUCCESS_EXIT == orig(printer.fColumn)
+printer.fWriter == orig(printer.fWriter)
+printer.fWriter has only one value
+===========================================================================
+junit.textui.TestRunner.createTestResult():::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.createTestResult():::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return.fFailures[] == return.fListeners[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fStop == false
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test):::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+test has only one value
+test.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fRunTests == size(return.fErrors[])
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fErrors[] contains no nulls and has only one value, of length 5
+return.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+return.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 5
+return.fStop == false
+return.fErrors[junit.textui.TestRunner.SUCCESS_EXIT] has only one value
+return.fErrors[junit.textui.TestRunner.FAILURE_EXIT] has only one value
+return.fErrors[junit.textui.TestRunner.EXCEPTION_EXIT] has only one value
+return.fErrors[return.fRunTests-1] has only one value
+return.fListeners[] elements == this.fPrinter
+this.fPrinter in return.fListeners[]
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test, boolean):::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+suite has only one value
+suite.getClass().getName() == junit.framework.TestSuite.class
+wait == false
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test, boolean):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fRunTests == size(return.fErrors[])
+return.fStop == orig(wait)
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fErrors[] contains no nulls and has only one value, of length 5
+return.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+return.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 5
+return.fStop == false
+return.fErrors[junit.textui.TestRunner.SUCCESS_EXIT] has only one value
+return.fErrors[junit.textui.TestRunner.FAILURE_EXIT] has only one value
+return.fErrors[junit.textui.TestRunner.EXCEPTION_EXIT] has only one value
+return.fErrors[return.fRunTests-1] has only one value
+return.fListeners[] elements == this.fPrinter
+this.fPrinter in return.fListeners[]
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::ENTER
+this.fPrinter.fColumn == 5
+wait == false
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::EXIT126
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == orig(this.fPrinter.fColumn)
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+this.fPrinter.fColumn == 5
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.textui.TestRunner.run(junit.framework.Test):::ENTER
+test has only one value
+test.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+junit.textui.TestRunner.run(junit.framework.Test):::EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+return.fRunTests == size(return.fErrors[])
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fErrors[] contains no nulls and has only one value, of length 5
+return.fErrors[].getClass().getName() == [junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure, junit.framework.TestFailure]
+return.fErrors[].getClass().getName() elements == junit.framework.TestFailure.class
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 5
+return.fStop == false
+return.fErrors[junit.textui.TestRunner.SUCCESS_EXIT] has only one value
+return.fErrors[junit.textui.TestRunner.FAILURE_EXIT] has only one value
+return.fErrors[junit.textui.TestRunner.EXCEPTION_EXIT] has only one value
+return.fErrors[return.fRunTests-1] has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+org.apache.commons.validator.daikon.BaseCalendarValidatorTest.main(java.lang.String[]):::ENTER
+arg has only one value
+arg.getClass().getName() == java.lang.String[].class
+arg[] == []
+arg[].toString == []
+===========================================================================
+org.apache.commons.validator.daikon.BaseCalendarValidatorTest.main(java.lang.String[]):::EXIT
+arg[] == orig(arg[])
+arg[] == []
+arg[].toString == []
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest:::CLASS
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == sun.util.calendar.ZoneInfo.class
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC has only one value
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest:::OBJECT
+size(this.patternValid[]) == size(this.localeValid[])
+size(this.patternValid[]) == size(this.patternExpect[])
+size(this.patternInvalid[])-1 == size(this.localeInvalid[])
+this.validator == null
+this.patternValid != null
+this.patternValid.getClass().getName() == java.lang.String[].class
+this.patternValid[] contains no nulls and has only one value, of length 7
+this.patternValid[] elements != null
+this.patternValid[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.patternValid[].getClass().getName() elements == java.lang.String.class
+this.patternValid[].toString == [2005-01-01, 2005-12-31, 2004-02-29, 2005-04-30, 05-12-31, 2005-1-1, 05-1-1]
+this.localeValid != null
+this.localeValid[] contains no nulls and has only one value, of length 7
+this.localeValid[] elements != null
+this.localeValid[].toString == [01/01/2005, 12/31/2005, 02/29/2004, 04/30/2005, 12/31/05, 1/1/2005, 1/1/05]
+this.patternExpect != null
+this.patternExpect.getClass().getName() == java.util.Date[].class
+this.patternExpect[] elements != null
+this.patternExpect[].getClass().getName() == [java.util.Date, java.util.Date, java.util.Date, java.util.Date, java.util.Date, java.util.Date, java.util.Date]
+this.patternExpect[].getClass().getName() elements == java.util.Date.class
+this.patternInvalid != null
+this.patternInvalid[] contains no nulls and has only one value, of length 13
+this.patternInvalid[] elements != null
+this.patternInvalid[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.patternInvalid[].getClass().getName() elements == java.lang.String.class
+this.patternInvalid[].toString == [2005-00-01, 2005-01-00, 2005-13-03, 2005-04-31, 2005-03-32, 2005-02-29, 200X-01-01, 2005-0X-01, 2005-01-0X, 01/01/2005, 2005-01, 2005--01, 2005-01-]
+this.localeInvalid != null
+this.localeInvalid[] contains no nulls and has only one value, of length 12
+this.localeInvalid[] elements != null
+this.localeInvalid[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.localeInvalid[].getClass().getName() elements == java.lang.String.class
+this.localeInvalid[].toString == [01/00/2005, 00/01/2005, 13/01/2005, 04/31/2005, 03/32/2005, 02/29/2005, 01/01/200X, 01/0X/2005, 0X/01/2005, 01-01-2005, 01/2005, 01//2005]
+this.fName != null
+size(this.patternValid[]) == 7
+size(this.patternInvalid[]) == 13
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() != this.patternValid.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() != this.patternExpect.getClass().getName()
+this.patternValid.getClass().getName() == this.localeValid.getClass().getName()
+this.patternValid.getClass().getName() != this.patternExpect.getClass().getName()
+this.patternValid.getClass().getName() == this.patternInvalid.getClass().getName()
+this.patternValid.getClass().getName() == this.localeInvalid.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.BaseCalendarValidatorTest(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.BaseCalendarValidatorTest(java.lang.String):::EXIT
+this.fName == orig(name)
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.createCalendar(java.util.TimeZone, int, int):::ENTER
+zone == null
+time == 0
+date > time
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.createCalendar(java.util.TimeZone, int, int):::EXIT
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+return != null
+return.getClass().getName() == java.util.GregorianCalendar.class
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() != return.getClass().getName()
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.createDate(java.util.TimeZone, int, int):::ENTER
+zone == null
+time == 0
+date > time
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.createDate(java.util.TimeZone, int, int):::EXIT
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+return != null
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.setUp():::ENTER
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.setUp():::EXIT
+this.validator == orig(this.validator)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+this.patternValid == orig(this.patternValid)
+this.patternValid[] == orig(this.patternValid[])
+this.localeValid == orig(this.localeValid)
+this.localeValid[] == orig(this.localeValid[])
+this.patternExpect == orig(this.patternExpect)
+this.patternExpect[] == orig(this.patternExpect[])
+this.patternInvalid == orig(this.patternInvalid)
+this.patternInvalid[] == orig(this.patternInvalid[])
+this.localeInvalid == orig(this.localeInvalid)
+this.localeInvalid[] == orig(this.localeInvalid[])
+this.fName == orig(this.fName)
+size(this.patternValid[]) == orig(size(this.localeValid[]))
+size(this.patternValid[]) == orig(size(this.patternExpect[]))
+size(this.localeInvalid[]) == orig(size(this.patternInvalid[]))-1
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternInvalid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeInvalid.getClass().getName())
+this.patternExpect.getClass().getName() == orig(this.patternExpect.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.tearDown():::ENTER
+===========================================================================
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.tearDown():::EXIT
+this.validator == orig(this.validator)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET)
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC)
+this.patternValid == orig(this.patternValid)
+this.patternValid[] == orig(this.patternValid[])
+this.localeValid == orig(this.localeValid)
+this.localeValid[] == orig(this.localeValid[])
+this.patternExpect == orig(this.patternExpect)
+this.patternExpect[] == orig(this.patternExpect[])
+this.patternInvalid == orig(this.patternInvalid)
+this.patternInvalid[] == orig(this.patternInvalid[])
+this.localeInvalid == orig(this.localeInvalid)
+this.localeInvalid[] == orig(this.localeInvalid[])
+this.fName == orig(this.fName)
+size(this.patternValid[]) == orig(size(this.localeValid[]))
+size(this.patternValid[]) == orig(size(this.patternExpect[]))
+size(this.localeInvalid[]) == orig(size(this.patternInvalid[]))-1
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EST.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.EET.getClass().getName())
+org.apache.commons.validator.routines.BaseCalendarValidatorTest.GMT.getClass().getName() == orig(org.apache.commons.validator.routines.BaseCalendarValidatorTest.UTC.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeValid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.patternInvalid.getClass().getName())
+this.patternValid.getClass().getName() == orig(this.localeInvalid.getClass().getName())
+this.patternExpect.getClass().getName() == orig(this.patternExpect.getClass().getName())
+this.fName.toString == orig(this.fName.toString)

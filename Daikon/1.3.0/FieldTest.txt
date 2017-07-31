@@ -1,0 +1,3097 @@
+===========================================================================
+junit.framework.Assert:::OBJECT
+===========================================================================
+junit.framework.Assert.Assert():::EXIT
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, int, int):::ENTER
+expected == actual
+message != null
+expected one of { 0, 3, 4 }
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, int, int):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::ENTER
+message != null
+expected != null
+expected.getClass().getName() == java.lang.Integer.class
+actual != null
+expected.getClass().getName() == actual.getClass().getName()
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::EXIT63
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::ENTER
+expected == actual
+message != null
+expected != null
+message.toString > expected.toString
+expected.toString == actual.toString
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::EXIT80
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::EXIT
+message.toString > expected.toString
+message.toString == orig(message.toString)
+expected.toString == actual.toString
+expected.toString == orig(expected.toString)
+expected.toString == orig(actual.toString)
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.Object):::ENTER
+object.getClass().getName() == java.lang.String.class
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.String, java.lang.Object):::ENTER
+message == null
+object.getClass().getName() == java.lang.String.class
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.String, java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.String, java.lang.Object):::ENTER
+object == null
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.String, java.lang.Object):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertTrue(java.lang.String, boolean):::ENTER
+condition == true
+===========================================================================
+junit.framework.Assert.assertTrue(java.lang.String, boolean):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.TestCase:::OBJECT
+this.getClass().getName() == org.apache.commons.validator.FieldTest.class
+this.fName != null
+===========================================================================
+junit.framework.TestCase.TestCase(java.lang.String):::ENTER
+===========================================================================
+junit.framework.TestCase.TestCase(java.lang.String):::EXIT
+this.fName == orig(name)
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+junit.framework.TestCase.countTestCases():::ENTER
+===========================================================================
+junit.framework.TestCase.countTestCases():::EXIT
+this.fName == orig(this.fName)
+return == 1
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.run(junit.framework.TestResult):::ENTER
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fRunTests >= size(result.fFailures[])
+===========================================================================
+junit.framework.TestCase.run(junit.framework.TestResult):::EXIT
+this.fName == orig(this.fName)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+this.fName.toString == orig(this.fName.toString)
+result.fRunTests - orig(result.fRunTests) - 1 == 0
+result.fRunTests >= size(result.fListeners[])
+orig(result.fRunTests) >= size(result.fFailures[])
+===========================================================================
+junit.framework.TestCase.runBare():::ENTER
+===========================================================================
+junit.framework.TestCase.runBare():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.runTest():::ENTER
+===========================================================================
+junit.framework.TestCase.runTest():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestResult$1:::OBJECT
+this.val$test != null
+this.val$test.getClass().getName() == org.apache.commons.validator.FieldTest.class
+this.val$test.fName != null
+===========================================================================
+junit.framework.TestResult$1.TestResult$1(junit.framework.TestCase):::ENTER
+$hidden$1.getClass().getName() == org.apache.commons.validator.FieldTest.class
+===========================================================================
+junit.framework.TestResult$1.TestResult$1(junit.framework.TestCase):::EXIT
+this.val$test == orig($hidden$1)
+this.val$test.fName == $hidden$1.fName
+$hidden$1.fName == orig($hidden$1.fName)
+this.val$test.getClass().getName() == orig($hidden$1.getClass().getName())
+this.val$test.fName.toString == $hidden$1.fName.toString
+$hidden$1.fName.toString == orig($hidden$1.fName.toString)
+===========================================================================
+junit.framework.TestResult$1.protect():::ENTER
+===========================================================================
+junit.framework.TestResult$1.protect():::EXIT
+this.val$test == orig(this.val$test)
+this.val$test.fName == orig(this.val$test.fName)
+this.val$test.getClass().getName() == orig(this.val$test.getClass().getName())
+this.val$test.fName.toString == orig(this.val$test.fName.toString)
+===========================================================================
+junit.framework.TestResult:::OBJECT
+this.fFailures[] == this.fErrors[]
+this has only one value
+this.fFailures has only one value
+this.fFailures != null
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+this.fErrors has only one value
+this.fErrors != null
+this.fListeners has only one value
+this.fListeners != null
+this.fListeners[] elements has only one value
+this.fListeners[] elements != null
+this.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+this.fListeners[].getClass().getName() one of { [], [junit.textui.ResultPrinter] }
+this.fRunTests >= 0
+this.fStop == false
+size(this.fListeners[]) one of { 0, 1 }
+this.fRunTests >= size(this.fFailures[])
+this.fRunTests >= size(this.fListeners[])-1
+size(this.fFailures[]) <= size(this.fListeners[])
+size(this.fFailures[]) >= size(this.fListeners[])-1
+size(this.fFailures[])-1 <= size(this.fListeners[])-1
+===========================================================================
+junit.framework.TestResult.TestResult():::EXIT
+this.fFailures[] == this.fListeners[]
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.addListener(junit.framework.TestListener):::ENTER
+this.fFailures[] == this.fListeners[]
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])
+listener has only one value
+listener.getClass().getName() == junit.textui.ResultPrinter.class
+===========================================================================
+junit.framework.TestResult.addListener(junit.framework.TestListener):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fFailures[] == orig(this.fListeners[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])-1
+this.fRunTests == orig(size(this.fFailures[]))
+this.fRunTests == orig(size(this.fErrors[]))
+this.fRunTests == orig(size(this.fListeners[]))
+this.fStop == orig(this.fStop)
+orig(listener) == this.fListeners[this.fRunTests]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+orig(listener) in this.fListeners[]
+this.fListeners[] elements == orig(listener)
+this.fListeners[] elements == this.fListeners[this.fRunTests]
+orig(listener.getClass().getName()) in this.fListeners[].getClass().getName()
+===========================================================================
+junit.framework.TestResult.cloneListeners():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.cloneListeners():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == return[]
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return[] == orig(this.fListeners[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == size(return[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+return != null
+return[] contains no nulls and has only one value, of length 1
+return[] elements has only one value
+return[] elements != null
+return[].getClass().getName() == [junit.textui.ResultPrinter]
+return[].getClass().getName() elements == junit.textui.ResultPrinter.class
+size(return[]) == 1
+this.fRunTests >= size(return[])
+===========================================================================
+junit.framework.TestResult.endTest(junit.framework.Test):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.FieldTest.class
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.endTest(junit.framework.Test):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.errorCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 9
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.errorCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return == size(this.fFailures[])
+return == size(this.fErrors[])
+return == size(this.fListeners[])-1
+return == orig(size(this.fFailures[]))
+return == orig(size(this.fErrors[]))
+return == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 9
+size(this.fListeners[]) == 1
+this.fListeners[] elements == this.fListeners[return]
+===========================================================================
+junit.framework.TestResult.errors():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 9
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.errors():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 9
+return has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failureCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 9
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failureCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return == size(this.fFailures[])
+return == size(this.fErrors[])
+return == size(this.fListeners[])-1
+return == orig(size(this.fFailures[]))
+return == orig(size(this.fErrors[]))
+return == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 9
+size(this.fListeners[]) == 1
+this.fListeners[] elements == this.fListeners[return]
+===========================================================================
+junit.framework.TestResult.failures():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 9
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failures():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 9
+return has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.run(junit.framework.TestCase):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.FieldTest.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.run(junit.framework.TestCase):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fStop == orig(this.fStop)
+test.fName == orig(test.fName)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests - orig(this.fRunTests) - 1 == 0
+this.fRunTests >= size(this.fListeners[])
+test.fName.toString == orig(test.fName.toString)
+orig(this.fRunTests) >= size(this.fFailures[])
+===========================================================================
+junit.framework.TestResult.runCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 9
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.runCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == return
+this.fStop == orig(this.fStop)
+return == orig(this.fRunTests)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == 9
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.runProtected(junit.framework.Test, junit.framework.Protectable):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.FieldTest.class
+p.getClass().getName() == junit.framework.TestResult$1.class
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+test.getClass().getName() != p.getClass().getName()
+===========================================================================
+junit.framework.TestResult.runProtected(junit.framework.Test, junit.framework.Protectable):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.shouldStop():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == return
+return == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == false
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::EXIT;condition="not(return == true)"
+===========================================================================
+junit.framework.TestResult.startTest(junit.framework.Test):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.FieldTest.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.startTest(junit.framework.Test):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests - orig(this.fRunTests) - 1 == 0
+this.fRunTests >= size(this.fListeners[])
+orig(this.fRunTests) >= size(this.fFailures[])
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 9
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT164
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT164;condition="return == true"
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 9
+return == true
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT;condition="return == true"
+===========================================================================
+junit.framework.TestSuite:::CLASS
+===========================================================================
+junit.framework.TestSuite:::OBJECT
+this.fTests != null
+this.fTests[] elements != null
+this.fName.toString == "org.apache.commons.validator.FieldTest"
+===========================================================================
+junit.framework.TestSuite.TestSuite():::EXIT
+junit.framework.TestSuite.class$0 == junit.framework.TestSuite.class$1
+this.fTests has only one value
+this.fTests[] == []
+this.fTests[].getClass().getName() == []
+this.fName == null
+junit.framework.TestSuite.class$0 == null
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::ENTER
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::EXIT81
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::EXIT
+this.fTests has only one value
+this.fTests[] contains no nulls and has only one value, of length 9
+this.fTests[].getClass().getName() == [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest]
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.FieldTest.class
+this.fName has only one value
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) == 9
+===========================================================================
+junit.framework.TestSuite.addTest(junit.framework.Test):::ENTER
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.FieldTest.class
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+===========================================================================
+junit.framework.TestSuite.addTest(junit.framework.Test):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+size(this.fTests[])-1 == orig(size(this.fTests[]))
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+orig(test) in this.fTests[]
+orig(test.getClass().getName()) in this.fTests[].getClass().getName()
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::ENTER
+size(this.fTests[]) == size(names[])
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.FieldTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+names has only one value
+names != null
+names[] elements != null
+names[].getClass().getName() elements == java.lang.String.class
+theClass has only one value
+theClass != null
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT111
+this.fTests[] == orig(this.fTests[])
+names[] == orig(names[])
+size(this.fTests[]) == orig(size(names[]))
+this.fTests[].getClass().getName() one of { [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] }
+names[].getClass().getName() one of { [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+size(this.fTests[]) one of { 8, 9 }
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT115
+size(names[])-1 == orig(size(this.fTests[]))
+size(names[])-1 == orig(size(names[]))
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.FieldTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+names[] elements != null
+names[].getClass().getName() elements == java.lang.String.class
+this.fName.toString == orig(this.fName.toString)
+size(this.fTests[]) >= orig(size(names[]))
+size(names[])-1 <= orig(size(names[]))
+size(names[])-1 >= orig(size(names[]))-1
+===========================================================================
+junit.framework.TestSuite.addTestSuite(java.lang.Class):::ENTER
+junit.framework.TestSuite.class$0 == junit.framework.TestSuite.class$1
+this has only one value
+this.fTests has only one value
+this.fTests[] == []
+this.fTests[].getClass().getName() == []
+this.fName == null
+junit.framework.TestSuite.class$0 == null
+testClass has only one value
+===========================================================================
+junit.framework.TestSuite.addTestSuite(java.lang.Class):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+size(this.fTests[])-1 == orig(size(this.fTests[]))
+this.fTests has only one value
+this.fTests[] contains no nulls and has only one value, of length 1
+this.fTests[] elements has only one value
+this.fTests[].getClass().getName() == [junit.framework.TestSuite]
+this.fTests[].getClass().getName() elements == junit.framework.TestSuite.class
+this.fName == null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) == 1
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::ENTER
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::EXIT144
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::EXIT
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+return.getClass().getName() == org.apache.commons.validator.FieldTest.class
+name.toString == orig(name.toString)
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::ENTER
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::EXIT177
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::EXIT
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 has only one value
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::ENTER
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.FieldTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT185
+return == true
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT185;condition="return == true"
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT186
+this.fTests[].getClass().getName() one of { [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] }
+return == false
+size(this.fTests[]) one of { 8, 9 }
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT186;condition="not(return == true)"
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+(return == false)  ==>  (size(this.fTests[]) one of { 8, 9 })
+(return == false)  ==>  (this.fTests[].getClass().getName() one of { [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] })
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.FieldTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT;condition="return == true"
+return == true
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT;condition="not(return == true)"
+this.fTests[].getClass().getName() one of { [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] }
+return == false
+size(this.fTests[]) one of { 8, 9 }
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::ENTER
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.FieldTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT192
+return == true
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT192;condition="return == true"
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT193
+this.fTests[].getClass().getName() one of { [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] }
+return == false
+size(this.fTests[]) one of { 8, 9 }
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT193;condition="not(return == true)"
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+(return == false)  ==>  (size(this.fTests[]) one of { 8, 9 })
+(return == false)  ==>  (this.fTests[].getClass().getName() one of { [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] })
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.FieldTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT;condition="return == true"
+return == true
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT;condition="not(return == true)"
+this.fTests[].getClass().getName() one of { [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] }
+return == false
+size(this.fTests[]) one of { 8, 9 }
+===========================================================================
+junit.framework.TestSuite.run(junit.framework.TestResult):::ENTER
+result.fFailures[] == result.fErrors[]
+result.fRunTests == size(result.fFailures[])
+result.fRunTests == size(result.fErrors[])
+result.fRunTests == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 9 }
+size(result.fListeners[]) == 1
+result.fListeners[] elements == result.fListeners[result.fRunTests]
+===========================================================================
+junit.framework.TestSuite.run(junit.framework.TestResult):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+orig(result.fRunTests) == size(result.fFailures[])
+orig(result.fRunTests) == size(result.fErrors[])
+orig(result.fRunTests) == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fRunTests == 9
+result.fStop == false
+size(this.fTests[]) one of { 1, 9 }
+size(result.fListeners[]) == 1
+this.fName.toString == orig(this.fName.toString)
+result.fListeners[] elements == result.fListeners[orig(result.fRunTests)]
+===========================================================================
+junit.framework.TestSuite.runTest(junit.framework.Test, junit.framework.TestResult):::ENTER
+test == this.fTests[result.fRunTests]
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 9 }
+size(result.fListeners[]) == 1
+test in this.fTests[]
+test.getClass().getName() in this.fTests[].getClass().getName()
+result.fRunTests <= size(this.fTests[])-1
+result.fRunTests >= size(result.fFailures[])
+size(this.fTests[]) >= size(result.fListeners[])
+size(this.fTests[])-1 >= size(result.fFailures[])
+size(this.fTests[])-1 != size(result.fListeners[])
+===========================================================================
+junit.framework.TestSuite.runTest(junit.framework.Test, junit.framework.TestResult):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+orig(test) == this.fTests[orig(result.fRunTests)]
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 9 }
+size(result.fListeners[]) == 1
+orig(test) in this.fTests[]
+orig(test.getClass().getName()) in this.fTests[].getClass().getName()
+this.fName.toString == orig(this.fName.toString)
+result.fRunTests > orig(result.fRunTests)
+result.fRunTests >= size(result.fListeners[])
+orig(result.fRunTests) <= size(this.fTests[])-1
+orig(result.fRunTests) >= size(result.fFailures[])
+size(this.fTests[]) >= size(result.fListeners[])
+size(this.fTests[])-1 >= size(result.fFailures[])
+size(this.fTests[])-1 != size(result.fListeners[])
+result.fRunTests - orig(result.fRunTests) + size(this.fTests[]) - 10 == 0
+result.fRunTests - orig(result.fRunTests) + size(this.fTests[])-1 - 9 == 0
+===========================================================================
+junit.framework.TestSuite.tests():::ENTER
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) one of { 1, 9 }
+===========================================================================
+junit.framework.TestSuite.tests():::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest, org.apache.commons.validator.FieldTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fTests[]) one of { 1, 9 }
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.runner.BaseTestRunner:::CLASS
+junit.runner.BaseTestRunner.SUITE_METHODNAME has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == "suite"
+junit.runner.BaseTestRunner.fPreferences has only one value
+junit.runner.BaseTestRunner.fgMaxMessageLength == 500
+junit.runner.BaseTestRunner.fgFilterStack == true
+===========================================================================
+junit.runner.BaseTestRunner:::OBJECT
+junit.runner.BaseTestRunner.fgFilterStack == this.fLoading
+this has only one value
+this.getClass().getName() == junit.textui.TestRunner.class
+===========================================================================
+junit.runner.BaseTestRunner.BaseTestRunner():::EXIT
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String):::ENTER
+key has only one value
+key.toString == "maxmessage"
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String):::EXIT
+key.toString == "maxmessage"
+return == null
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::ENTER
+key has only one value
+key.toString == "maxmessage"
+dflt == 500
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::EXIT243
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::EXIT
+key.toString == "maxmessage"
+return == 500
+===========================================================================
+junit.runner.BaseTestRunner.getPreferences():::EXIT
+return has only one value
+===========================================================================
+junit.runner.BaseTestRunner.getPreferencesFile():::EXIT
+return has only one value
+===========================================================================
+junit.textui.ResultPrinter:::OBJECT
+this has only one value
+this.fWriter has only one value
+this.fWriter != null
+this.fColumn >= 0
+===========================================================================
+junit.textui.ResultPrinter.ResultPrinter(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+junit.textui.ResultPrinter.ResultPrinter(java.io.PrintStream):::EXIT
+this.fWriter == orig(writer)
+this.fColumn == 0
+===========================================================================
+junit.textui.ResultPrinter.elapsedTimeAsString(long):::ENTER
+this.fColumn == 9
+runTime == 488
+===========================================================================
+junit.textui.ResultPrinter.elapsedTimeAsString(long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 9
+return has only one value
+return.toString == "0.488"
+===========================================================================
+junit.textui.ResultPrinter.endTest(junit.framework.Test):::ENTER
+test.getClass().getName() == org.apache.commons.validator.FieldTest.class
+===========================================================================
+junit.textui.ResultPrinter.endTest(junit.framework.Test):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+===========================================================================
+junit.textui.ResultPrinter.getWriter():::ENTER
+===========================================================================
+junit.textui.ResultPrinter.getWriter():::EXIT
+this.fWriter == return
+this.fColumn == orig(this.fColumn)
+return == orig(this.fWriter)
+return has only one value
+return != null
+===========================================================================
+junit.textui.ResultPrinter.print(junit.framework.TestResult, long):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 9
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+runTime == 488
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.print(junit.framework.TestResult, long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 9
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::ENTER
+this.fColumn == 9
+booBoos.getClass().getName() == java.util.Vector$1.class
+count == 0
+type.toString one of { "error", "failure" }
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT55
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 9
+type.toString one of { "error", "failure" }
+type.toString == orig(type.toString)
+===========================================================================
+junit.textui.ResultPrinter.printErrors(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 9
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printErrors(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 9
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printFailures(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 9
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printFailures(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 9
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printFooter(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 9
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printFooter(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 9
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printHeader(long):::ENTER
+this.fColumn == 9
+runTime == 488
+===========================================================================
+junit.textui.ResultPrinter.printHeader(long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 9
+===========================================================================
+junit.textui.ResultPrinter.startTest(junit.framework.Test):::ENTER
+test.getClass().getName() == org.apache.commons.validator.FieldTest.class
+===========================================================================
+junit.textui.ResultPrinter.startTest(junit.framework.Test):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn - orig(this.fColumn) - 1 == 0
+===========================================================================
+junit.textui.TestRunner:::CLASS
+junit.runner.BaseTestRunner.SUITE_METHODNAME has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME != null
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == "suite"
+junit.runner.BaseTestRunner.fPreferences has only one value
+junit.runner.BaseTestRunner.fPreferences != null
+junit.runner.BaseTestRunner.fgMaxMessageLength == 500
+junit.runner.BaseTestRunner.fgFilterStack == true
+===========================================================================
+junit.textui.TestRunner:::OBJECT
+junit.runner.BaseTestRunner.fgFilterStack == this.fLoading
+this has only one value
+this.fPrinter has only one value
+this.fPrinter.fWriter has only one value
+this.fPrinter.fColumn one of { 0, 9 }
+this.fPrinter.fColumn >= junit.textui.TestRunner.SUCCESS_EXIT
+this.fPrinter.fColumn != junit.textui.TestRunner.FAILURE_EXIT
+this.fPrinter.fColumn != junit.textui.TestRunner.EXCEPTION_EXIT
+this.fPrinter.fColumn < junit.runner.BaseTestRunner.fgMaxMessageLength
+===========================================================================
+junit.textui.TestRunner.TestRunner():::EXIT
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.TestRunner(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+junit.textui.TestRunner.TestRunner(java.io.PrintStream):::EXIT
+this.fPrinter.fWriter == orig(writer)
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.TestRunner(junit.textui.ResultPrinter):::ENTER
+printer has only one value
+printer.fWriter has only one value
+printer.fColumn == 0
+===========================================================================
+junit.textui.TestRunner.TestRunner(junit.textui.ResultPrinter):::EXIT
+this.fPrinter == orig(printer)
+this.fPrinter.fWriter == printer.fWriter
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == printer.fColumn
+junit.textui.TestRunner.SUCCESS_EXIT == orig(printer.fColumn)
+printer.fWriter == orig(printer.fWriter)
+printer.fWriter has only one value
+===========================================================================
+junit.textui.TestRunner.createTestResult():::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.createTestResult():::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return.fFailures[] == return.fListeners[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fStop == false
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test):::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+test has only one value
+test.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 9
+return.fStop == false
+return.fListeners[] elements == this.fPrinter
+this.fPrinter in return.fListeners[]
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test, boolean):::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+suite has only one value
+suite.getClass().getName() == junit.framework.TestSuite.class
+wait == false
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test, boolean):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return.fStop == orig(wait)
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 9
+return.fStop == false
+return.fListeners[] elements == this.fPrinter
+this.fPrinter in return.fListeners[]
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::ENTER
+this.fPrinter.fColumn == 9
+wait == false
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::EXIT126
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == orig(this.fPrinter.fColumn)
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+this.fPrinter.fColumn == 9
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.textui.TestRunner.run(junit.framework.Test):::ENTER
+test has only one value
+test.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+junit.textui.TestRunner.run(junit.framework.Test):::EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+return.fFailures[] == return.fErrors[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 9
+return.fStop == false
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+org.apache.commons.collections.FastHashMap:::OBJECT
+this.map != null
+this.fast == false
+===========================================================================
+org.apache.commons.collections.FastHashMap.FastHashMap():::EXIT
+===========================================================================
+org.apache.commons.validator.Arg:::OBJECT
+this.bundle == null
+this.name.toString one of { "mask", "required" }
+this.position >= -1
+this.resource == true
+this.key.toString > this.name.toString
+===========================================================================
+org.apache.commons.validator.Arg.Arg():::EXIT
+this.bundle == this.key
+this.bundle == this.name
+this.position == -1
+===========================================================================
+org.apache.commons.validator.Arg.getKey():::ENTER
+this.key != null
+===========================================================================
+org.apache.commons.validator.Arg.getKey():::EXIT
+this.bundle == orig(this.bundle)
+this.key == return
+this.name == orig(this.name)
+this.position == orig(this.position)
+this.resource == orig(this.resource)
+return == orig(this.key)
+return != null
+this.key.toString == return.toString
+this.name.toString < return.toString
+this.name.toString == orig(this.name.toString)
+return.toString == orig(this.key.toString)
+===========================================================================
+org.apache.commons.validator.Arg.getName():::ENTER
+this.key != null
+===========================================================================
+org.apache.commons.validator.Arg.getName():::EXIT
+this.bundle == orig(this.bundle)
+this.key == orig(this.key)
+this.name == return
+this.position == orig(this.position)
+this.resource == orig(this.resource)
+return == orig(this.name)
+this.key != null
+return.toString one of { "mask", "required" }
+this.key.toString > return.toString
+this.key.toString == orig(this.key.toString)
+this.name.toString == return.toString
+return.toString == orig(this.name.toString)
+===========================================================================
+org.apache.commons.validator.Arg.getPosition():::ENTER
+this.key != null
+===========================================================================
+org.apache.commons.validator.Arg.getPosition():::EXIT
+this.bundle == orig(this.bundle)
+this.key == orig(this.key)
+this.name == orig(this.name)
+this.position == return
+this.resource == orig(this.resource)
+return == orig(this.position)
+this.key != null
+return >= -1
+this.key.toString == orig(this.key.toString)
+this.name.toString == orig(this.name.toString)
+===========================================================================
+org.apache.commons.validator.Arg.setKey(java.lang.String):::ENTER
+this.bundle == this.key
+this.bundle == this.name
+this.position == -1
+key != null
+===========================================================================
+org.apache.commons.validator.Arg.setKey(java.lang.String):::EXIT
+this.bundle == this.name
+this.bundle == orig(this.bundle)
+this.bundle == orig(this.key)
+this.bundle == orig(this.name)
+this.key == orig(key)
+this.position == orig(this.position)
+this.resource == orig(this.resource)
+this.key != null
+this.position == -1
+this.key.toString == key.toString
+key.toString == orig(key.toString)
+===========================================================================
+org.apache.commons.validator.Arg.setName(java.lang.String):::ENTER
+this.bundle == this.name
+this.position == -1
+name.toString one of { "mask", "required" }
+this.key.toString > name.toString
+===========================================================================
+org.apache.commons.validator.Arg.setName(java.lang.String):::EXIT
+this.bundle == orig(this.bundle)
+this.bundle == orig(this.name)
+this.key == orig(this.key)
+this.name == orig(name)
+this.position == orig(this.position)
+this.resource == orig(this.resource)
+this.position == -1
+name.toString one of { "mask", "required" }
+this.key.toString > name.toString
+this.key.toString == orig(this.key.toString)
+this.name.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.validator.Arg.setPosition(int):::ENTER
+this.key != null
+this.position == -1
+position >= 0
+this.position < position
+===========================================================================
+org.apache.commons.validator.Arg.setPosition(int):::EXIT
+this.bundle == orig(this.bundle)
+this.key == orig(this.key)
+this.name == orig(this.name)
+this.position == orig(position)
+this.resource == orig(this.resource)
+this.key != null
+this.position >= 0
+this.key.toString == orig(this.key.toString)
+this.name.toString == orig(this.name.toString)
+this.position > orig(this.position)
+===========================================================================
+org.apache.commons.validator.Field:::CLASS
+org.apache.commons.validator.Field.DEFAULT_ARG has only one value
+org.apache.commons.validator.Field.DEFAULT_ARG != null
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == "org.apache.commons.validator.Field.DEFAULT"
+org.apache.commons.validator.Field.TOKEN_INDEXED has only one value
+org.apache.commons.validator.Field.TOKEN_INDEXED != null
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == "[]"
+org.apache.commons.validator.Field.TOKEN_START has only one value
+org.apache.commons.validator.Field.TOKEN_START != null
+org.apache.commons.validator.Field.TOKEN_START.toString == "${"
+org.apache.commons.validator.Field.TOKEN_END has only one value
+org.apache.commons.validator.Field.TOKEN_END != null
+org.apache.commons.validator.Field.TOKEN_END.toString == "}"
+org.apache.commons.validator.Field.TOKEN_VAR has only one value
+org.apache.commons.validator.Field.TOKEN_VAR != null
+org.apache.commons.validator.Field.TOKEN_VAR.toString == "var:"
+org.apache.commons.validator.Field.DEFAULT_ARG.toString > org.apache.commons.validator.Field.TOKEN_INDEXED.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString > org.apache.commons.validator.Field.TOKEN_START.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString < org.apache.commons.validator.Field.TOKEN_END.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString < org.apache.commons.validator.Field.TOKEN_VAR.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString > org.apache.commons.validator.Field.TOKEN_START.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < org.apache.commons.validator.Field.TOKEN_END.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < org.apache.commons.validator.Field.TOKEN_VAR.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < org.apache.commons.validator.Field.TOKEN_END.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < org.apache.commons.validator.Field.TOKEN_VAR.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > org.apache.commons.validator.Field.TOKEN_VAR.toString
+===========================================================================
+org.apache.commons.validator.Field:::OBJECT
+this.property == this.indexedProperty
+this.property == this.indexedListProperty
+this.property == this.key
+this.property == this.depends
+this.page == this.fieldOrder
+this.page == size(this.dependencyList[])
+this.hVars.fast == this.hMsgs.fast
+this.property == null
+this.dependencyList != null
+this.dependencyList[] == []
+this.dependencyList[].getClass().getName() == []
+this.dependencyList.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+this.hVars != null
+this.hVars.map != null
+this.hVars.fast == false
+this.hMsgs != null
+this.hMsgs.map != null
+this.args != null
+this.args.getClass().getName() == java.util.Map[].class
+this.page <= size(this.args[])
+this.dependencyList.getClass().getName() != this.args.getClass().getName()
+size(this.dependencyList[])-1 <= size(this.args[])-1
+===========================================================================
+org.apache.commons.validator.Field.Field():::EXIT
+this.page == size(this.args[])
+this.args[] == []
+===========================================================================
+org.apache.commons.validator.Field.addArg(org.apache.commons.validator.Arg):::ENTER
+this.property == arg.bundle
+arg != null
+arg.key != null
+arg.name.toString one of { "mask", "required" }
+arg.resource == true
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != arg.key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != arg.name.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < arg.key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < arg.name.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < arg.key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < arg.name.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > arg.key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > arg.name.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > arg.key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > arg.name.toString
+arg.key.toString > arg.name.toString
+arg.position >= size(this.dependencyList[])-1
+===========================================================================
+org.apache.commons.validator.Field.addArg(org.apache.commons.validator.Arg):::EXIT319
+===========================================================================
+org.apache.commons.validator.Field.addArg(org.apache.commons.validator.Arg):::EXIT
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.property == arg.bundle
+this.property == orig(this.property)
+this.property == orig(this.indexedProperty)
+this.property == orig(this.indexedListProperty)
+this.property == orig(this.key)
+this.property == orig(this.depends)
+this.property == orig(arg.bundle)
+this.page == orig(this.page)
+this.page == orig(this.fieldOrder)
+this.page == orig(size(this.dependencyList[]))
+this.dependencyList == orig(this.dependencyList)
+this.dependencyList[] == orig(this.dependencyList[])
+this.hVars == orig(this.hVars)
+this.hVars.map == orig(this.hVars.map)
+this.hVars.fast == orig(this.hVars.fast)
+this.hVars.fast == orig(this.hMsgs.fast)
+this.hMsgs == orig(this.hMsgs)
+this.hMsgs.map == orig(this.hMsgs.map)
+arg.key == orig(arg.key)
+arg.name == orig(arg.name)
+arg.resource == orig(arg.resource)
+arg.key != null
+arg.name.toString one of { "mask", "required" }
+arg.position >= 0
+arg.resource == true
+size(this.args[]) >= 1
+this.args[arg.position] != null
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != arg.key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != arg.name.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < arg.key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < arg.name.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString < arg.key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < arg.name.toString
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString > arg.key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > arg.name.toString
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString > arg.key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > arg.name.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.page <= arg.position
+this.page <= size(this.args[])-1
+this.page <= orig(size(this.args[]))
+this.dependencyList.getClass().getName() == orig(this.dependencyList.getClass().getName())
+this.args.getClass().getName() == orig(this.args.getClass().getName())
+arg.key.toString > arg.name.toString
+arg.key.toString == orig(arg.key.toString)
+arg.name.toString == orig(arg.name.toString)
+arg.position >= orig(arg.position)
+arg.position <= size(this.args[])-1
+orig(arg.position) >= size(this.dependencyList[])-1
+orig(arg.position) <= size(this.args[])-1
+size(this.dependencyList[])-1 <= orig(size(this.args[]))-1
+size(this.args[]) >= orig(size(this.args[]))
+size(this.args[])-1 >= orig(size(this.args[]))-1
+===========================================================================
+org.apache.commons.validator.Field.determineArgPosition(org.apache.commons.validator.Arg):::ENTER
+this.property == arg.bundle
+arg != null
+arg.key != null
+arg.name.toString one of { "mask", "required" }
+arg.resource == true
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != arg.key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != arg.name.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < arg.key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < arg.name.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < arg.key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < arg.name.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > arg.key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > arg.name.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > arg.key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > arg.name.toString
+arg.key.toString > arg.name.toString
+arg.position >= size(this.dependencyList[])-1
+===========================================================================
+org.apache.commons.validator.Field.determineArgPosition(org.apache.commons.validator.Arg):::EXIT330
+arg.position == orig(arg.position)
+arg.name.toString == "required"
+arg.position != size(this.args[])-1
+===========================================================================
+org.apache.commons.validator.Field.determineArgPosition(org.apache.commons.validator.Arg):::EXIT336
+this.property == arg.name
+this.property == orig(arg.name)
+this.page == arg.position
+this.page == size(this.args[])
+this.page == orig(size(this.args[]))
+orig(arg.position) == size(this.dependencyList[])-1
+orig(arg.position) == size(this.args[])-1
+orig(arg.position) == orig(size(this.dependencyList[]))-1
+orig(arg.position) == orig(size(this.args[]))-1
+this.args[] == []
+arg.key has only one value
+arg.key.toString == "default-position-0"
+===========================================================================
+org.apache.commons.validator.Field.determineArgPosition(org.apache.commons.validator.Arg):::EXIT360
+orig(arg.position) == size(this.dependencyList[])-1
+orig(arg.position) == orig(size(this.dependencyList[]))-1
+size(this.args[]) >= 1
+this.page <= size(this.args[])-1
+arg.position <= size(this.args[])
+===========================================================================
+org.apache.commons.validator.Field.determineArgPosition(org.apache.commons.validator.Arg):::EXIT
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.property == arg.bundle
+this.property == orig(this.property)
+this.property == orig(this.indexedProperty)
+this.property == orig(this.indexedListProperty)
+this.property == orig(this.key)
+this.property == orig(this.depends)
+this.property == orig(arg.bundle)
+this.page == orig(this.page)
+this.page == orig(this.fieldOrder)
+this.page == orig(size(this.dependencyList[]))
+this.dependencyList == orig(this.dependencyList)
+this.dependencyList[] == orig(this.dependencyList[])
+this.hVars == orig(this.hVars)
+this.hVars.map == orig(this.hVars.map)
+this.hVars.fast == orig(this.hVars.fast)
+this.hVars.fast == orig(this.hMsgs.fast)
+this.hMsgs == orig(this.hMsgs)
+this.hMsgs.map == orig(this.hMsgs.map)
+this.args == orig(this.args)
+this.args[] == orig(this.args[])
+arg.key == orig(arg.key)
+arg.name == orig(arg.name)
+arg.resource == orig(arg.resource)
+arg.key != null
+arg.name.toString one of { "mask", "required" }
+arg.position >= 0
+arg.resource == true
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != arg.key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != arg.name.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < arg.key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < arg.name.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString < arg.key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < arg.name.toString
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString > arg.key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > arg.name.toString
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString > arg.key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > arg.name.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.page <= arg.position
+this.dependencyList.getClass().getName() == orig(this.dependencyList.getClass().getName())
+this.args.getClass().getName() == orig(this.args.getClass().getName())
+arg.key.toString > arg.name.toString
+arg.key.toString == orig(arg.key.toString)
+arg.name.toString == orig(arg.name.toString)
+arg.position >= orig(arg.position)
+orig(arg.position) >= size(this.dependencyList[])-1
+===========================================================================
+org.apache.commons.validator.Field.ensureArgsCapacity(org.apache.commons.validator.Arg):::ENTER
+this.property == arg.bundle
+arg != null
+arg.key != null
+arg.name.toString one of { "mask", "required" }
+arg.position >= 0
+arg.resource == true
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != arg.key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != arg.name.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < arg.key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < arg.name.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < arg.key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < arg.name.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > arg.key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > arg.name.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > arg.key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > arg.name.toString
+this.page <= arg.position
+arg.key.toString > arg.name.toString
+===========================================================================
+org.apache.commons.validator.Field.ensureArgsCapacity(org.apache.commons.validator.Arg):::EXIT
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.property == arg.bundle
+this.property == orig(this.property)
+this.property == orig(this.indexedProperty)
+this.property == orig(this.indexedListProperty)
+this.property == orig(this.key)
+this.property == orig(this.depends)
+this.property == orig(arg.bundle)
+this.page == orig(this.page)
+this.page == orig(this.fieldOrder)
+this.page == orig(size(this.dependencyList[]))
+this.dependencyList == orig(this.dependencyList)
+this.dependencyList[] == orig(this.dependencyList[])
+this.hVars == orig(this.hVars)
+this.hVars.map == orig(this.hVars.map)
+this.hVars.fast == orig(this.hVars.fast)
+this.hVars.fast == orig(this.hMsgs.fast)
+this.hMsgs == orig(this.hMsgs)
+this.hMsgs.map == orig(this.hMsgs.map)
+arg.key == orig(arg.key)
+arg.name == orig(arg.name)
+arg.position == orig(arg.position)
+arg.resource == orig(arg.resource)
+arg.key != null
+arg.name.toString one of { "mask", "required" }
+arg.position >= 0
+arg.resource == true
+size(this.args[]) >= 1
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != arg.key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != arg.name.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < arg.key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < arg.name.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString < arg.key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < arg.name.toString
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString > arg.key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > arg.name.toString
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString > arg.key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > arg.name.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.page <= arg.position
+this.page <= size(this.args[])-1
+this.page <= orig(size(this.args[]))
+this.dependencyList.getClass().getName() == orig(this.dependencyList.getClass().getName())
+this.args.getClass().getName() == orig(this.args.getClass().getName())
+arg.key.toString > arg.name.toString
+arg.key.toString == orig(arg.key.toString)
+arg.name.toString == orig(arg.name.toString)
+arg.position <= size(this.args[])-1
+size(this.dependencyList[])-1 <= orig(size(this.args[]))-1
+size(this.args[]) >= orig(size(this.args[]))
+size(this.args[])-1 >= orig(size(this.args[]))-1
+===========================================================================
+org.apache.commons.validator.Field.getArg(int):::ENTER
+position >= 0
+size(this.args[]) one of { 3, 4 }
+this.args[this.page] != null
+this.args[position] != null
+this.page <= position
+this.page < size(this.args[])-1
+position <= size(this.args[])-1
+===========================================================================
+org.apache.commons.validator.Field.getArg(int):::EXIT
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.property == return.bundle
+this.property == orig(this.property)
+this.property == orig(this.indexedProperty)
+this.property == orig(this.indexedListProperty)
+this.property == orig(this.key)
+this.property == orig(this.depends)
+this.page == orig(this.page)
+this.page == orig(this.fieldOrder)
+this.page == orig(size(this.dependencyList[]))
+this.dependencyList == orig(this.dependencyList)
+this.dependencyList[] == orig(this.dependencyList[])
+this.hVars == orig(this.hVars)
+this.hVars.map == orig(this.hVars.map)
+this.hVars.fast == orig(this.hVars.fast)
+this.hVars.fast == orig(this.hMsgs.fast)
+this.hMsgs == orig(this.hMsgs)
+this.hMsgs.map == orig(this.hMsgs.map)
+this.args == orig(this.args)
+this.args[] == orig(this.args[])
+return.bundle == return.name
+return.position == orig(position)
+return.bundle == null
+return.key != null
+return.position >= 0
+return.resource == true
+size(this.args[]) one of { 3, 4 }
+this.args[this.page] != null
+this.args[return.position] != null
+this.args[orig(position)] != null
+org.apache.commons.validator.Field.DEFAULT_ARG.toString > return.key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < return.key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString < return.key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString > return.key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString > return.key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.page <= return.position
+this.page <= orig(position)
+this.page < size(this.args[])-1
+this.dependencyList.getClass().getName() == orig(this.dependencyList.getClass().getName())
+this.args.getClass().getName() == orig(this.args.getClass().getName())
+return.position <= size(this.args[])-1
+orig(position) <= size(this.args[])-1
+===========================================================================
+org.apache.commons.validator.Field.getArg(java.lang.String, int):::ENTER
+key != null
+key.toString one of { "mask", "org.apache.commons.validator.Field.DEFAULT", "required" }
+position >= 0
+size(this.args[]) one of { 3, 4 }
+this.args[this.page] != null
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > key.toString
+this.page <= position
+this.page < size(this.args[])-1
+position <= size(this.args[])-1
+===========================================================================
+org.apache.commons.validator.Field.getArg(java.lang.String, int):::EXIT398
+this.args[this.page] == this.args[orig(position)-1]
+this.args[this.page] == orig(this.args[post(position)-1])
+this.args[this.page] == orig(this.args[position-1])
+this.dependencyList has only one value
+this.hVars has only one value
+this.hVars.map has only one value
+this.hMsgs has only one value
+this.hMsgs.map has only one value
+this.args has only one value
+this.args[] has only one value, of length 4
+this.args[].getClass().getName() == [java.util.HashMap, null, java.util.HashMap, java.util.HashMap]
+key.toString == "required"
+return == null
+orig(this) has only one value
+orig(key) has only one value
+orig(position) == 1
+size(this.args[]) == 4
+this.args[this.page] has only one value
+this.args[orig(position)] == null
+===========================================================================
+org.apache.commons.validator.Field.getArg(java.lang.String, int):::EXIT406
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(key)
+this.args[].getClass().getName() elements == java.util.HashMap.class
+this.args[].getClass().getName() one of { [java.util.HashMap, java.util.HashMap, java.util.HashMap], [java.util.HashMap, java.util.HashMap, java.util.HashMap, java.util.HashMap] }
+return == null
+orig(position) one of { 1, 2, 3 }
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(key.toString)
+this.page < orig(position)
+size(this.args[])-1 % orig(position) == 0
+===========================================================================
+org.apache.commons.validator.Field.getArg(java.lang.String, int):::EXIT409
+this.args[orig(position)] != null
+===========================================================================
+org.apache.commons.validator.Field.getArg(java.lang.String, int):::EXIT
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.property == return.bundle
+this.property == orig(this.property)
+this.property == orig(this.indexedProperty)
+this.property == orig(this.indexedListProperty)
+this.property == orig(this.key)
+this.property == orig(this.depends)
+this.page == orig(this.page)
+this.page == orig(this.fieldOrder)
+this.page == orig(size(this.dependencyList[]))
+this.dependencyList == orig(this.dependencyList)
+this.dependencyList[] == orig(this.dependencyList[])
+this.hVars == orig(this.hVars)
+this.hVars.map == orig(this.hVars.map)
+this.hVars.fast == orig(this.hVars.fast)
+this.hVars.fast == orig(this.hMsgs.fast)
+this.hMsgs == orig(this.hMsgs)
+this.hMsgs.map == orig(this.hMsgs.map)
+this.args == orig(this.args)
+this.args[] == orig(this.args[])
+return.position == orig(position)
+key.toString one of { "mask", "org.apache.commons.validator.Field.DEFAULT", "required" }
+return.bundle == null
+return.key != null
+return.name.toString one of { "mask", "required" }
+return.position >= 0
+return.resource == true
+size(this.args[]) one of { 3, 4 }
+this.args[this.page] != null
+this.args[return.position] != null
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != return.key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != return.name.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < return.key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < return.name.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < return.key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < return.name.toString
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > return.key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > return.name.toString
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > return.key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > return.name.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.page <= return.position
+this.page <= orig(position)
+this.page < size(this.args[])-1
+this.dependencyList.getClass().getName() == orig(this.dependencyList.getClass().getName())
+this.args.getClass().getName() == orig(this.args.getClass().getName())
+key.toString != return.key.toString
+key.toString == return.name.toString
+key.toString == orig(key.toString)
+return.key.toString > return.name.toString
+return.position <= size(this.args[])-1
+orig(position) <= size(this.args[])-1
+===========================================================================
+org.apache.commons.validator.Field.getArgs(java.lang.String):::ENTER
+key != null
+key.toString one of { "mask", "required" }
+size(this.args[]) one of { 0, 3, 4 }
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > key.toString
+this.page != size(this.args[])-1
+===========================================================================
+org.apache.commons.validator.Field.getArgs(java.lang.String):::EXIT
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.property == orig(this.property)
+this.property == orig(this.indexedProperty)
+this.property == orig(this.indexedListProperty)
+this.property == orig(this.key)
+this.property == orig(this.depends)
+this.page == orig(this.page)
+this.page == orig(this.fieldOrder)
+this.page == orig(size(this.dependencyList[]))
+this.dependencyList == orig(this.dependencyList)
+this.dependencyList[] == orig(this.dependencyList[])
+this.hVars == orig(this.hVars)
+this.hVars.map == orig(this.hVars.map)
+this.hVars.fast == orig(this.hVars.fast)
+this.hVars.fast == orig(this.hMsgs.fast)
+this.hMsgs == orig(this.hMsgs)
+this.hMsgs.map == orig(this.hMsgs.map)
+this.args == orig(this.args)
+this.args[] == orig(this.args[])
+return[].bundle.toString <= return[].key.toString (lexically)
+return[].bundle.toString <= return[].name.toString (lexically)
+return[].key.toString >= return[].name.toString (lexically)
+size(this.args[]) == size(return[])
+size(return[]) == orig(size(this.args[]))
+key.toString one of { "mask", "required" }
+return != null
+return.getClass().getName() == org.apache.commons.validator.Arg[].class
+return[].bundle elements == null
+return[].bundle.toString elements == null
+return[].name.toString elements one of { "mask", "required", null }
+return[].position one of { [], [0, 1, 2], [0, 1, 2, 3] }
+return[].position elements >= 0
+return[].position sorted by <
+return[].resource elements == true
+return[].resource one of { [], [1, 1, 1], [1, 1, 1, 1] }
+size(return[]) one of { 0, 3, 4 }
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+return[].bundle elements == this.property
+return[].position elements >= this.page
+this.page <= size(return[])
+this.page != size(return[])-1
+this.dependencyList.getClass().getName() != return.getClass().getName()
+this.dependencyList.getClass().getName() == orig(this.dependencyList.getClass().getName())
+this.args.getClass().getName() != return.getClass().getName()
+this.args.getClass().getName() == orig(this.args.getClass().getName())
+key.toString == orig(key.toString)
+return[].position elements <= size(return[])-1
+size(this.dependencyList[])-1 <= size(return[])-1
+===========================================================================
+org.apache.commons.validator.FieldTest:::OBJECT
+this.field.property == this.field.indexedProperty
+this.field.property == this.field.indexedListProperty
+this.field.property == this.field.key
+this.field.property == this.field.depends
+this.field.page == this.field.fieldOrder
+this.field.page == size(this.field.dependencyList[])
+this.field.hVars.fast == this.field.hMsgs.fast
+org.apache.commons.validator.Field.DEFAULT_ARG has only one value
+org.apache.commons.validator.Field.DEFAULT_ARG != null
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == "org.apache.commons.validator.Field.DEFAULT"
+org.apache.commons.validator.Field.TOKEN_INDEXED has only one value
+org.apache.commons.validator.Field.TOKEN_INDEXED != null
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == "[]"
+org.apache.commons.validator.Field.TOKEN_START has only one value
+org.apache.commons.validator.Field.TOKEN_START != null
+org.apache.commons.validator.Field.TOKEN_START.toString == "${"
+org.apache.commons.validator.Field.TOKEN_END has only one value
+org.apache.commons.validator.Field.TOKEN_END != null
+org.apache.commons.validator.Field.TOKEN_END.toString == "}"
+org.apache.commons.validator.Field.TOKEN_VAR has only one value
+org.apache.commons.validator.Field.TOKEN_VAR != null
+org.apache.commons.validator.Field.TOKEN_VAR.toString == "var:"
+this.field.property == null
+this.field.dependencyList != null
+this.field.dependencyList[] == []
+this.field.dependencyList[].getClass().getName() == []
+this.field.dependencyList.getClass().getName() == java.util.Collections$SynchronizedRandomAccessList.class
+this.field.hVars != null
+this.field.hVars.map != null
+this.field.hVars.fast == false
+this.field.hMsgs != null
+this.field.hMsgs.map != null
+this.field.args != null
+this.field.args.getClass().getName() == java.util.Map[].class
+this.fName != null
+org.apache.commons.validator.Field.DEFAULT_ARG.toString > org.apache.commons.validator.Field.TOKEN_INDEXED.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString > org.apache.commons.validator.Field.TOKEN_START.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString < org.apache.commons.validator.Field.TOKEN_END.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString < org.apache.commons.validator.Field.TOKEN_VAR.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString < this.fName.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString > org.apache.commons.validator.Field.TOKEN_START.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < org.apache.commons.validator.Field.TOKEN_END.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < org.apache.commons.validator.Field.TOKEN_VAR.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < this.fName.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < org.apache.commons.validator.Field.TOKEN_END.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < org.apache.commons.validator.Field.TOKEN_VAR.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < this.fName.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > org.apache.commons.validator.Field.TOKEN_VAR.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > this.fName.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > this.fName.toString
+this.field.page <= size(this.field.args[])
+this.field.dependencyList.getClass().getName() != this.field.args.getClass().getName()
+size(this.field.dependencyList[])-1 <= size(this.field.args[])-1
+===========================================================================
+org.apache.commons.validator.FieldTest.FieldTest(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.validator.FieldTest.FieldTest(java.lang.String):::EXIT
+this.fName == orig(name)
+this.field == null
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.createArg(java.lang.String):::ENTER
+this.field != null
+key != null
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > key.toString
+this.fName.toString > key.toString
+===========================================================================
+org.apache.commons.validator.FieldTest.createArg(java.lang.String):::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == return.bundle
+this.field.indexedProperty == return.bundle
+this.field.indexedListProperty == return.bundle
+this.field.key == return.bundle
+this.field.depends == return.bundle
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.field.args == orig(this.field.args)
+this.field.args[] == orig(this.field.args[])
+this.fName == orig(this.fName)
+return.bundle == return.name
+return.bundle == orig(this.field.property)
+return.bundle == orig(this.field.indexedProperty)
+return.bundle == orig(this.field.indexedListProperty)
+return.bundle == orig(this.field.key)
+return.bundle == orig(this.field.depends)
+return.key == orig(key)
+return.position == size(this.field.dependencyList[])-1
+return.position == orig(size(this.field.dependencyList[]))-1
+this.field != null
+return != null
+return.bundle == null
+return.key != null
+return.resource == true
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString > key.toString
+this.fName.toString == orig(this.fName.toString)
+key.toString == return.key.toString
+key.toString == orig(key.toString)
+return.position <= size(this.field.args[])-1
+===========================================================================
+org.apache.commons.validator.FieldTest.createArg(java.lang.String, int):::ENTER
+this.fName.toString one of { "testDefaultOnePosition", "testDefaultSomePositions", "testDefaultUsingPositions" }
+key.toString one of { "default-position-0", "default-position-1", "default-position-2" }
+position one of { 0, 1, 2 }
+===========================================================================
+org.apache.commons.validator.FieldTest.createArg(java.lang.String, int):::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == return.bundle
+this.field.indexedProperty == return.bundle
+this.field.indexedListProperty == return.bundle
+this.field.key == return.bundle
+this.field.depends == return.bundle
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.field.args == orig(this.field.args)
+this.field.args[] == orig(this.field.args[])
+this.fName == orig(this.fName)
+return.bundle == return.name
+return.bundle == orig(this.field.property)
+return.bundle == orig(this.field.indexedProperty)
+return.bundle == orig(this.field.indexedListProperty)
+return.bundle == orig(this.field.key)
+return.bundle == orig(this.field.depends)
+return.key == orig(key)
+return.position == orig(position)
+this.fName.toString one of { "testDefaultOnePosition", "testDefaultSomePositions", "testDefaultUsingPositions" }
+key.toString one of { "default-position-0", "default-position-1", "default-position-2" }
+return.bundle == null
+return.position one of { 0, 1, 2 }
+return.resource == true
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+key.toString == return.key.toString
+key.toString == orig(key.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.createArg(java.lang.String, java.lang.String):::ENTER
+name.toString one of { "mask", "required" }
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != name.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < name.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < name.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > name.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > name.toString
+this.fName.toString > key.toString
+this.fName.toString > name.toString
+key.toString > name.toString
+===========================================================================
+org.apache.commons.validator.FieldTest.createArg(java.lang.String, java.lang.String):::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == return.bundle
+this.field.indexedProperty == return.bundle
+this.field.indexedListProperty == return.bundle
+this.field.key == return.bundle
+this.field.depends == return.bundle
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.field.args == orig(this.field.args)
+this.field.args[] == orig(this.field.args[])
+this.fName == orig(this.fName)
+return.bundle == orig(this.field.property)
+return.bundle == orig(this.field.indexedProperty)
+return.bundle == orig(this.field.indexedListProperty)
+return.bundle == orig(this.field.key)
+return.bundle == orig(this.field.depends)
+return.key == orig(key)
+return.name == orig(name)
+return.position == size(this.field.dependencyList[])-1
+return.position == orig(size(this.field.dependencyList[]))-1
+name.toString one of { "mask", "required" }
+return.bundle == null
+return.resource == true
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != key.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString != name.toString
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < name.toString
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString < key.toString
+org.apache.commons.validator.Field.TOKEN_START.toString < name.toString
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_END.toString > name.toString
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString > key.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString > name.toString
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString > key.toString
+this.fName.toString > name.toString
+this.fName.toString == orig(this.fName.toString)
+key.toString > name.toString
+key.toString == return.key.toString
+key.toString == orig(key.toString)
+name.toString == return.name.toString
+name.toString == orig(name.toString)
+return.position <= size(this.field.args[])-1
+===========================================================================
+org.apache.commons.validator.FieldTest.createArg(java.lang.String, java.lang.String, int):::ENTER
+this.fName.toString one of { "testOverrideSomePosition", "testOverrideUsingPositionA", "testOverrideUsingPositionB" }
+key.toString one of { "required-position-1", "required-position-3" }
+name has only one value
+name.toString == "required"
+position one of { 1, 3 }
+size(this.field.args[]) one of { 0, 3, 4 }
+===========================================================================
+org.apache.commons.validator.FieldTest.createArg(java.lang.String, java.lang.String, int):::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == return.bundle
+this.field.indexedProperty == return.bundle
+this.field.indexedListProperty == return.bundle
+this.field.key == return.bundle
+this.field.depends == return.bundle
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.field.args == orig(this.field.args)
+this.field.args[] == orig(this.field.args[])
+this.fName == orig(this.fName)
+return.bundle == orig(this.field.property)
+return.bundle == orig(this.field.indexedProperty)
+return.bundle == orig(this.field.indexedListProperty)
+return.bundle == orig(this.field.key)
+return.bundle == orig(this.field.depends)
+return.key == orig(key)
+return.name == orig(name)
+return.position == orig(position)
+this.fName.toString one of { "testOverrideSomePosition", "testOverrideUsingPositionA", "testOverrideUsingPositionB" }
+key.toString one of { "required-position-1", "required-position-3" }
+name.toString == "required"
+return.bundle == null
+return.name has only one value
+return.position one of { 1, 3 }
+return.resource == true
+size(this.field.args[]) one of { 0, 3, 4 }
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+key.toString == return.key.toString
+key.toString == orig(key.toString)
+name.toString == return.name.toString
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.setUp():::ENTER
+this.field == null
+===========================================================================
+org.apache.commons.validator.FieldTest.setUp():::EXIT
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.page == size(this.field.args[])
+this.fName == orig(this.fName)
+this.field.args[] == []
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.DEFAULT_ARG.toString > orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.DEFAULT_ARG.toString > orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.DEFAULT_ARG.toString < orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.DEFAULT_ARG.toString < orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString > orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString < orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString < orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString < orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString < orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString < orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString > orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString > orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString > orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString > orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString > orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString > orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString > orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString < orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.fName.toString > orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+this.fName.toString > orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+this.fName.toString > orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+this.fName.toString < orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+this.fName.toString < orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.tearDown():::ENTER
+size(this.field.args[]) one of { 0, 3, 4 }
+this.field.page != size(this.field.args[])-1
+===========================================================================
+org.apache.commons.validator.FieldTest.tearDown():::EXIT
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.fName == orig(this.fName)
+this.field == null
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.testDefaultOnePosition():::ENTER
+this.field.page == size(this.field.args[])
+this has only one value
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] == []
+this.fName has only one value
+this.fName.toString == "testDefaultOnePosition"
+===========================================================================
+org.apache.commons.validator.FieldTest.testDefaultOnePosition():::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == orig(this.field.property)
+this.field.property == orig(this.field.indexedProperty)
+this.field.property == orig(this.field.indexedListProperty)
+this.field.property == orig(this.field.key)
+this.field.property == orig(this.field.depends)
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.page == orig(size(this.field.args[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.fName == orig(this.fName)
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] has only one value, of length 4
+this.field.args[].getClass().getName() == [java.util.HashMap, null, java.util.HashMap, java.util.HashMap]
+this.fName has only one value
+this.fName.toString == "testDefaultOnePosition"
+size(this.field.args[]) == 4
+this.field.args[this.field.page] has only one value
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.testDefaultPositionImplied():::ENTER
+this.field.page == size(this.field.args[])
+this has only one value
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] == []
+this.fName has only one value
+this.fName.toString == "testDefaultPositionImplied"
+===========================================================================
+org.apache.commons.validator.FieldTest.testDefaultPositionImplied():::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == orig(this.field.property)
+this.field.property == orig(this.field.indexedProperty)
+this.field.property == orig(this.field.indexedListProperty)
+this.field.property == orig(this.field.key)
+this.field.property == orig(this.field.depends)
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.page == orig(size(this.field.args[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.fName == orig(this.fName)
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] contains no nulls and has only one value, of length 3
+this.field.args[].getClass().getName() == [java.util.HashMap, java.util.HashMap, java.util.HashMap]
+this.field.args[].getClass().getName() elements == java.util.HashMap.class
+this.fName has only one value
+this.fName.toString == "testDefaultPositionImplied"
+size(this.field.args[]) == 3
+this.field.args[this.field.page] has only one value
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.testDefaultSomePositions():::ENTER
+this.field.page == size(this.field.args[])
+this has only one value
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] == []
+this.fName has only one value
+this.fName.toString == "testDefaultSomePositions"
+===========================================================================
+org.apache.commons.validator.FieldTest.testDefaultSomePositions():::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == orig(this.field.property)
+this.field.property == orig(this.field.indexedProperty)
+this.field.property == orig(this.field.indexedListProperty)
+this.field.property == orig(this.field.key)
+this.field.property == orig(this.field.depends)
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.page == orig(size(this.field.args[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.fName == orig(this.fName)
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] contains no nulls and has only one value, of length 4
+this.field.args[].getClass().getName() == [java.util.HashMap, java.util.HashMap, java.util.HashMap, java.util.HashMap]
+this.field.args[].getClass().getName() elements == java.util.HashMap.class
+this.fName has only one value
+this.fName.toString == "testDefaultSomePositions"
+size(this.field.args[]) == 4
+this.field.args[this.field.page] has only one value
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.testDefaultUsingPositions():::ENTER
+this.field.page == size(this.field.args[])
+this has only one value
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] == []
+this.fName has only one value
+this.fName.toString == "testDefaultUsingPositions"
+===========================================================================
+org.apache.commons.validator.FieldTest.testDefaultUsingPositions():::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == orig(this.field.property)
+this.field.property == orig(this.field.indexedProperty)
+this.field.property == orig(this.field.indexedListProperty)
+this.field.property == orig(this.field.key)
+this.field.property == orig(this.field.depends)
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.page == orig(size(this.field.args[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.fName == orig(this.fName)
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] contains no nulls and has only one value, of length 3
+this.field.args[].getClass().getName() == [java.util.HashMap, java.util.HashMap, java.util.HashMap]
+this.field.args[].getClass().getName() elements == java.util.HashMap.class
+this.fName has only one value
+this.fName.toString == "testDefaultUsingPositions"
+size(this.field.args[]) == 3
+this.field.args[this.field.page] has only one value
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.testEmptyArgs():::ENTER
+this.field.page == size(this.field.args[])
+this has only one value
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] == []
+this.fName has only one value
+this.fName.toString == "testEmptyArgs"
+===========================================================================
+org.apache.commons.validator.FieldTest.testEmptyArgs():::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == orig(this.field.property)
+this.field.property == orig(this.field.indexedProperty)
+this.field.property == orig(this.field.indexedListProperty)
+this.field.property == orig(this.field.key)
+this.field.property == orig(this.field.depends)
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == size(this.field.args[])
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.page == orig(size(this.field.args[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.field.args == orig(this.field.args)
+this.field.args[] == orig(this.field.args[])
+this.fName == orig(this.fName)
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] == []
+this.fName has only one value
+this.fName.toString == "testEmptyArgs"
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.testOverridePositionImplied():::ENTER
+this.field.page == size(this.field.args[])
+this has only one value
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] == []
+this.fName has only one value
+this.fName.toString == "testOverridePositionImplied"
+===========================================================================
+org.apache.commons.validator.FieldTest.testOverridePositionImplied():::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == orig(this.field.property)
+this.field.property == orig(this.field.indexedProperty)
+this.field.property == orig(this.field.indexedListProperty)
+this.field.property == orig(this.field.key)
+this.field.property == orig(this.field.depends)
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.page == orig(size(this.field.args[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.fName == orig(this.fName)
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] contains no nulls and has only one value, of length 3
+this.field.args[].getClass().getName() == [java.util.HashMap, java.util.HashMap, java.util.HashMap]
+this.field.args[].getClass().getName() elements == java.util.HashMap.class
+this.fName has only one value
+this.fName.toString == "testOverridePositionImplied"
+size(this.field.args[]) == 3
+this.field.args[this.field.page] has only one value
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.testOverrideSomePosition():::ENTER
+this.field.page == size(this.field.args[])
+this has only one value
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] == []
+this.fName has only one value
+this.fName.toString == "testOverrideSomePosition"
+===========================================================================
+org.apache.commons.validator.FieldTest.testOverrideSomePosition():::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == orig(this.field.property)
+this.field.property == orig(this.field.indexedProperty)
+this.field.property == orig(this.field.indexedListProperty)
+this.field.property == orig(this.field.key)
+this.field.property == orig(this.field.depends)
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.page == orig(size(this.field.args[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.fName == orig(this.fName)
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] contains no nulls and has only one value, of length 4
+this.field.args[].getClass().getName() == [java.util.HashMap, java.util.HashMap, java.util.HashMap, java.util.HashMap]
+this.field.args[].getClass().getName() elements == java.util.HashMap.class
+this.fName has only one value
+this.fName.toString == "testOverrideSomePosition"
+size(this.field.args[]) == 4
+this.field.args[this.field.page] has only one value
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.testOverrideUsingPositionA():::ENTER
+this.field.page == size(this.field.args[])
+this has only one value
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] == []
+this.fName has only one value
+this.fName.toString == "testOverrideUsingPositionA"
+===========================================================================
+org.apache.commons.validator.FieldTest.testOverrideUsingPositionA():::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == orig(this.field.property)
+this.field.property == orig(this.field.indexedProperty)
+this.field.property == orig(this.field.indexedListProperty)
+this.field.property == orig(this.field.key)
+this.field.property == orig(this.field.depends)
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.page == orig(size(this.field.args[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.fName == orig(this.fName)
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] contains no nulls and has only one value, of length 3
+this.field.args[].getClass().getName() == [java.util.HashMap, java.util.HashMap, java.util.HashMap]
+this.field.args[].getClass().getName() elements == java.util.HashMap.class
+this.fName has only one value
+this.fName.toString == "testOverrideUsingPositionA"
+size(this.field.args[]) == 3
+this.field.args[this.field.page] has only one value
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.FieldTest.testOverrideUsingPositionB():::ENTER
+this.field.page == size(this.field.args[])
+this has only one value
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] == []
+this.fName has only one value
+this.fName.toString == "testOverrideUsingPositionB"
+===========================================================================
+org.apache.commons.validator.FieldTest.testOverrideUsingPositionB():::EXIT
+this.field == orig(this.field)
+org.apache.commons.validator.Field.DEFAULT_ARG == orig(org.apache.commons.validator.Field.DEFAULT_ARG)
+org.apache.commons.validator.Field.TOKEN_INDEXED == orig(org.apache.commons.validator.Field.TOKEN_INDEXED)
+org.apache.commons.validator.Field.TOKEN_START == orig(org.apache.commons.validator.Field.TOKEN_START)
+org.apache.commons.validator.Field.TOKEN_END == orig(org.apache.commons.validator.Field.TOKEN_END)
+org.apache.commons.validator.Field.TOKEN_VAR == orig(org.apache.commons.validator.Field.TOKEN_VAR)
+this.field.property == orig(this.field.property)
+this.field.property == orig(this.field.indexedProperty)
+this.field.property == orig(this.field.indexedListProperty)
+this.field.property == orig(this.field.key)
+this.field.property == orig(this.field.depends)
+this.field.page == orig(this.field.page)
+this.field.page == orig(this.field.fieldOrder)
+this.field.page == orig(size(this.field.dependencyList[]))
+this.field.page == orig(size(this.field.args[]))
+this.field.dependencyList == orig(this.field.dependencyList)
+this.field.dependencyList[] == orig(this.field.dependencyList[])
+this.field.hVars == orig(this.field.hVars)
+this.field.hVars.map == orig(this.field.hVars.map)
+this.field.hVars.fast == orig(this.field.hVars.fast)
+this.field.hVars.fast == orig(this.field.hMsgs.fast)
+this.field.hMsgs == orig(this.field.hMsgs)
+this.field.hMsgs.map == orig(this.field.hMsgs.map)
+this.fName == orig(this.fName)
+this.field has only one value
+this.field.dependencyList has only one value
+this.field.hVars has only one value
+this.field.hVars.map has only one value
+this.field.hMsgs has only one value
+this.field.hMsgs.map has only one value
+this.field.args has only one value
+this.field.args[] contains no nulls and has only one value, of length 4
+this.field.args[].getClass().getName() == [java.util.HashMap, java.util.HashMap, java.util.HashMap, java.util.HashMap]
+this.field.args[].getClass().getName() elements == java.util.HashMap.class
+this.fName has only one value
+this.fName.toString == "testOverrideUsingPositionB"
+size(this.field.args[]) == 4
+this.field.args[this.field.page] has only one value
+org.apache.commons.validator.Field.DEFAULT_ARG.toString == orig(org.apache.commons.validator.Field.DEFAULT_ARG.toString)
+org.apache.commons.validator.Field.TOKEN_INDEXED.toString == orig(org.apache.commons.validator.Field.TOKEN_INDEXED.toString)
+org.apache.commons.validator.Field.TOKEN_START.toString == orig(org.apache.commons.validator.Field.TOKEN_START.toString)
+org.apache.commons.validator.Field.TOKEN_END.toString == orig(org.apache.commons.validator.Field.TOKEN_END.toString)
+org.apache.commons.validator.Field.TOKEN_VAR.toString == orig(org.apache.commons.validator.Field.TOKEN_VAR.toString)
+this.field.dependencyList.getClass().getName() == orig(this.field.dependencyList.getClass().getName())
+this.field.args.getClass().getName() == orig(this.field.args.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.daikon.FieldTest.main(java.lang.String[]):::ENTER
+arg has only one value
+arg.getClass().getName() == java.lang.String[].class
+arg[] == []
+arg[].toString == []
+===========================================================================
+org.apache.commons.validator.daikon.FieldTest.main(java.lang.String[]):::EXIT
+arg[] == orig(arg[])
+arg[] == []
+arg[].toString == []

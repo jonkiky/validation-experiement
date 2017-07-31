@@ -1,0 +1,9 @@
+package org.apache.commons.validator.daikon;
+import junit.framework.TestSuite;
+public class VerhoeffCheckDigit {
+public static void main(String arg[]){
+TestSuite suite = new TestSuite();
+suite.addTestSuite(org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit.class);
+junit.textui.TestRunner.run(suite);
+}
+}

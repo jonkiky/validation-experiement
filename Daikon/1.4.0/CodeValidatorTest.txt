@@ -1,0 +1,2155 @@
+===========================================================================
+junit.framework.Assert:::OBJECT
+===========================================================================
+junit.framework.Assert.Assert():::EXIT
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, boolean, boolean):::ENTER
+expected == actual
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, boolean, boolean):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, int, int):::ENTER
+expected == actual
+message != null
+expected >= -1
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, int, int):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::ENTER
+message != null
+expected.getClass().getName() == actual.getClass().getName()
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::EXIT61
+orig(expected) == orig(actual)
+orig(expected) == null
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::EXIT63
+orig(expected) != null
+orig(actual) != null
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::ENTER
+expected.toString one of { "RegexValidator{^(?:([0-9]{3})(?:[-\\s])([0-9]{3}))|([0-9]{6})$}", "RegexValidator{^[0-9]*$}" }
+expected.toString == actual.toString
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::EXIT80
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::EXIT
+expected.toString one of { "RegexValidator{^(?:([0-9]{3})(?:[-\\s])([0-9]{3}))|([0-9]{6})$}", "RegexValidator{^[0-9]*$}" }
+message.toString == orig(message.toString)
+expected.toString == actual.toString
+expected.toString == orig(expected.toString)
+expected.toString == orig(actual.toString)
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.Object):::ENTER
+object.getClass().getName() == java.lang.String.class
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.String, java.lang.Object):::ENTER
+message.toString one of { "EAN CheckDigit", "No Regex" }
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.String, java.lang.Object):::EXIT
+message.toString one of { "EAN CheckDigit", "No Regex" }
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.String, java.lang.Object):::ENTER
+message.toString one of { "No CheckDigit", "No Regex" }
+object == null
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.String, java.lang.Object):::EXIT
+message.toString one of { "No CheckDigit", "No Regex" }
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertTrue(java.lang.String, boolean):::ENTER
+message.toString one of { "EAN CheckDigit", "No CheckDigit", "No Regex" }
+condition == true
+===========================================================================
+junit.framework.Assert.assertTrue(java.lang.String, boolean):::EXIT
+message.toString one of { "EAN CheckDigit", "No CheckDigit", "No Regex" }
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.TestCase:::OBJECT
+this.getClass().getName() == org.apache.commons.validator.routines.CodeValidatorTest.class
+this.fName != null
+===========================================================================
+junit.framework.TestCase.TestCase(java.lang.String):::ENTER
+===========================================================================
+junit.framework.TestCase.TestCase(java.lang.String):::EXIT
+this.fName == orig(name)
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+junit.framework.TestCase.countTestCases():::ENTER
+===========================================================================
+junit.framework.TestCase.countTestCases():::EXIT
+this.fName == orig(this.fName)
+return == 1
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.run(junit.framework.TestResult):::ENTER
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fRunTests >= size(result.fFailures[])
+===========================================================================
+junit.framework.TestCase.run(junit.framework.TestResult):::EXIT
+this.fName == orig(this.fName)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+this.fName.toString == orig(this.fName.toString)
+result.fRunTests - orig(result.fRunTests) - 1 == 0
+result.fRunTests >= size(result.fListeners[])
+orig(result.fRunTests) >= size(result.fFailures[])
+===========================================================================
+junit.framework.TestCase.runBare():::ENTER
+===========================================================================
+junit.framework.TestCase.runBare():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.runTest():::ENTER
+===========================================================================
+junit.framework.TestCase.runTest():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.setUp():::ENTER
+===========================================================================
+junit.framework.TestCase.setUp():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.tearDown():::ENTER
+===========================================================================
+junit.framework.TestCase.tearDown():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestResult$1:::OBJECT
+this.val$test != null
+this.val$test.getClass().getName() == org.apache.commons.validator.routines.CodeValidatorTest.class
+this.val$test.fName != null
+===========================================================================
+junit.framework.TestResult$1.TestResult$1(junit.framework.TestCase):::ENTER
+$hidden$1.getClass().getName() == org.apache.commons.validator.routines.CodeValidatorTest.class
+===========================================================================
+junit.framework.TestResult$1.TestResult$1(junit.framework.TestCase):::EXIT
+this.val$test == orig($hidden$1)
+this.val$test.fName == $hidden$1.fName
+$hidden$1.fName == orig($hidden$1.fName)
+this.val$test.getClass().getName() == orig($hidden$1.getClass().getName())
+this.val$test.fName.toString == $hidden$1.fName.toString
+$hidden$1.fName.toString == orig($hidden$1.fName.toString)
+===========================================================================
+junit.framework.TestResult$1.protect():::ENTER
+===========================================================================
+junit.framework.TestResult$1.protect():::EXIT
+this.val$test == orig(this.val$test)
+this.val$test.fName == orig(this.val$test.fName)
+this.val$test.getClass().getName() == orig(this.val$test.getClass().getName())
+this.val$test.fName.toString == orig(this.val$test.fName.toString)
+===========================================================================
+junit.framework.TestResult:::OBJECT
+this.fFailures[] == this.fErrors[]
+this has only one value
+this.fFailures has only one value
+this.fFailures != null
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+this.fErrors has only one value
+this.fErrors != null
+this.fListeners has only one value
+this.fListeners != null
+this.fListeners[] elements has only one value
+this.fListeners[] elements != null
+this.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+this.fListeners[].getClass().getName() one of { [], [junit.textui.ResultPrinter] }
+this.fRunTests >= 0
+this.fStop == false
+size(this.fListeners[]) one of { 0, 1 }
+this.fRunTests >= size(this.fFailures[])
+this.fRunTests >= size(this.fListeners[])-1
+size(this.fFailures[]) <= size(this.fListeners[])
+size(this.fFailures[]) >= size(this.fListeners[])-1
+size(this.fFailures[])-1 <= size(this.fListeners[])-1
+===========================================================================
+junit.framework.TestResult.TestResult():::EXIT
+this.fFailures[] == this.fListeners[]
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.addListener(junit.framework.TestListener):::ENTER
+this.fFailures[] == this.fListeners[]
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])
+listener has only one value
+listener.getClass().getName() == junit.textui.ResultPrinter.class
+===========================================================================
+junit.framework.TestResult.addListener(junit.framework.TestListener):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fFailures[] == orig(this.fListeners[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])-1
+this.fRunTests == orig(size(this.fFailures[]))
+this.fRunTests == orig(size(this.fErrors[]))
+this.fRunTests == orig(size(this.fListeners[]))
+this.fStop == orig(this.fStop)
+orig(listener) == this.fListeners[this.fRunTests]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+orig(listener) in this.fListeners[]
+this.fListeners[] elements == orig(listener)
+this.fListeners[] elements == this.fListeners[this.fRunTests]
+orig(listener.getClass().getName()) in this.fListeners[].getClass().getName()
+===========================================================================
+junit.framework.TestResult.cloneListeners():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.cloneListeners():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == return[]
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return[] == orig(this.fListeners[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == size(return[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+return != null
+return[] contains no nulls and has only one value, of length 1
+return[] elements has only one value
+return[] elements != null
+return[].getClass().getName() == [junit.textui.ResultPrinter]
+return[].getClass().getName() elements == junit.textui.ResultPrinter.class
+size(return[]) == 1
+this.fRunTests >= size(return[])
+===========================================================================
+junit.framework.TestResult.endTest(junit.framework.Test):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.CodeValidatorTest.class
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.endTest(junit.framework.Test):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.errorCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.errorCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return == size(this.fFailures[])
+return == size(this.fErrors[])
+return == size(this.fListeners[])-1
+return == orig(size(this.fFailures[]))
+return == orig(size(this.fErrors[]))
+return == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+this.fListeners[] elements == this.fListeners[return]
+===========================================================================
+junit.framework.TestResult.errors():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.errors():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+return has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failureCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failureCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return == size(this.fFailures[])
+return == size(this.fErrors[])
+return == size(this.fListeners[])-1
+return == orig(size(this.fFailures[]))
+return == orig(size(this.fErrors[]))
+return == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+this.fListeners[] elements == this.fListeners[return]
+===========================================================================
+junit.framework.TestResult.failures():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failures():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+return has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.run(junit.framework.TestCase):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.CodeValidatorTest.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.run(junit.framework.TestCase):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fStop == orig(this.fStop)
+test.fName == orig(test.fName)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests - orig(this.fRunTests) - 1 == 0
+this.fRunTests >= size(this.fListeners[])
+test.fName.toString == orig(test.fName.toString)
+orig(this.fRunTests) >= size(this.fFailures[])
+===========================================================================
+junit.framework.TestResult.runCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.runCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == return
+this.fStop == orig(this.fStop)
+return == orig(this.fRunTests)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.runProtected(junit.framework.Test, junit.framework.Protectable):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.CodeValidatorTest.class
+p.getClass().getName() == junit.framework.TestResult$1.class
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+test.getClass().getName() != p.getClass().getName()
+===========================================================================
+junit.framework.TestResult.runProtected(junit.framework.Test, junit.framework.Protectable):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.shouldStop():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == return
+return == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == false
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::EXIT;condition="not(return == true)"
+===========================================================================
+junit.framework.TestResult.startTest(junit.framework.Test):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.CodeValidatorTest.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.startTest(junit.framework.Test):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests - orig(this.fRunTests) - 1 == 0
+this.fRunTests >= size(this.fListeners[])
+orig(this.fRunTests) >= size(this.fFailures[])
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT164
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT164;condition="return == true"
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 7
+return == true
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT;condition="return == true"
+===========================================================================
+junit.framework.TestSuite:::CLASS
+===========================================================================
+junit.framework.TestSuite:::OBJECT
+this.fTests != null
+this.fTests[] elements != null
+this.fName.toString == "org.apache.commons.validator.routines.CodeValidatorTest"
+===========================================================================
+junit.framework.TestSuite.TestSuite():::EXIT
+junit.framework.TestSuite.class$0 == junit.framework.TestSuite.class$1
+this.fTests has only one value
+this.fTests[] == []
+this.fTests[].getClass().getName() == []
+this.fName == null
+junit.framework.TestSuite.class$0 == null
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::ENTER
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::EXIT81
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::EXIT
+this.fTests has only one value
+this.fTests[] contains no nulls and has only one value, of length 7
+this.fTests[].getClass().getName() == [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest]
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.CodeValidatorTest.class
+this.fName has only one value
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) == 7
+===========================================================================
+junit.framework.TestSuite.addTest(junit.framework.Test):::ENTER
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.CodeValidatorTest.class
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+===========================================================================
+junit.framework.TestSuite.addTest(junit.framework.Test):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+size(this.fTests[])-1 == orig(size(this.fTests[]))
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+orig(test) in this.fTests[]
+orig(test.getClass().getName()) in this.fTests[].getClass().getName()
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::ENTER
+size(this.fTests[]) == size(names[])
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.CodeValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+names has only one value
+names != null
+names[] elements != null
+names[].getClass().getName() elements == java.lang.String.class
+theClass has only one value
+theClass != null
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT111
+this.fTests[] == orig(this.fTests[])
+names[] == orig(names[])
+size(this.fTests[]) == orig(size(names[]))
+this.fTests[].getClass().getName() one of { [], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] }
+names[].getClass().getName() one of { [], [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String] }
+size(this.fTests[]) one of { 0, 7 }
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT115
+size(names[])-1 == orig(size(this.fTests[]))
+size(names[])-1 == orig(size(names[]))
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.CodeValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+names[] elements != null
+names[].getClass().getName() elements == java.lang.String.class
+this.fName.toString == orig(this.fName.toString)
+size(this.fTests[]) >= orig(size(names[]))
+size(names[])-1 <= orig(size(names[]))
+size(names[])-1 >= orig(size(names[]))-1
+===========================================================================
+junit.framework.TestSuite.addTestSuite(java.lang.Class):::ENTER
+junit.framework.TestSuite.class$0 == junit.framework.TestSuite.class$1
+this has only one value
+this.fTests has only one value
+this.fTests[] == []
+this.fTests[].getClass().getName() == []
+this.fName == null
+junit.framework.TestSuite.class$0 == null
+testClass has only one value
+===========================================================================
+junit.framework.TestSuite.addTestSuite(java.lang.Class):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+size(this.fTests[])-1 == orig(size(this.fTests[]))
+this.fTests has only one value
+this.fTests[] contains no nulls and has only one value, of length 1
+this.fTests[] elements has only one value
+this.fTests[].getClass().getName() == [junit.framework.TestSuite]
+this.fTests[].getClass().getName() elements == junit.framework.TestSuite.class
+this.fName == null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) == 1
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::ENTER
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::EXIT144
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::EXIT
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+return.getClass().getName() == org.apache.commons.validator.routines.CodeValidatorTest.class
+name.toString == orig(name.toString)
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::ENTER
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::EXIT177
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::EXIT
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 has only one value
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::ENTER
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.CodeValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT185
+return == true
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT185;condition="return == true"
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT186
+this.fTests[].getClass().getName() one of { [], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] }
+return == false
+size(this.fTests[]) one of { 0, 7 }
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT186;condition="not(return == true)"
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+(return == false)  ==>  (size(this.fTests[]) one of { 0, 7 })
+(return == false)  ==>  (this.fTests[].getClass().getName() one of { [], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] })
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.CodeValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT;condition="return == true"
+return == true
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT;condition="not(return == true)"
+this.fTests[].getClass().getName() one of { [], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] }
+return == false
+size(this.fTests[]) one of { 0, 7 }
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::ENTER
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.CodeValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT192
+return == true
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT192;condition="return == true"
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT193
+this.fTests[].getClass().getName() one of { [], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] }
+return == false
+size(this.fTests[]) one of { 0, 7 }
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT193;condition="not(return == true)"
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+(return == false)  ==>  (size(this.fTests[]) one of { 0, 7 })
+(return == false)  ==>  (this.fTests[].getClass().getName() one of { [], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] })
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.CodeValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT;condition="return == true"
+return == true
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT;condition="not(return == true)"
+this.fTests[].getClass().getName() one of { [], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] }
+return == false
+size(this.fTests[]) one of { 0, 7 }
+===========================================================================
+junit.framework.TestSuite.run(junit.framework.TestResult):::ENTER
+result.fFailures[] == result.fErrors[]
+result.fRunTests == size(result.fFailures[])
+result.fRunTests == size(result.fErrors[])
+result.fRunTests == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 7 }
+size(result.fListeners[]) == 1
+result.fListeners[] elements == result.fListeners[result.fRunTests]
+===========================================================================
+junit.framework.TestSuite.run(junit.framework.TestResult):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+orig(result.fRunTests) == size(result.fFailures[])
+orig(result.fRunTests) == size(result.fErrors[])
+orig(result.fRunTests) == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fRunTests == 7
+result.fStop == false
+size(this.fTests[]) one of { 1, 7 }
+size(result.fListeners[]) == 1
+this.fName.toString == orig(this.fName.toString)
+result.fListeners[] elements == result.fListeners[orig(result.fRunTests)]
+===========================================================================
+junit.framework.TestSuite.runTest(junit.framework.Test, junit.framework.TestResult):::ENTER
+test == this.fTests[result.fRunTests]
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 7 }
+size(result.fListeners[]) == 1
+test in this.fTests[]
+test.getClass().getName() in this.fTests[].getClass().getName()
+result.fRunTests <= size(this.fTests[])-1
+result.fRunTests >= size(result.fFailures[])
+size(this.fTests[]) >= size(result.fListeners[])
+size(this.fTests[])-1 >= size(result.fFailures[])
+size(this.fTests[])-1 != size(result.fListeners[])
+===========================================================================
+junit.framework.TestSuite.runTest(junit.framework.Test, junit.framework.TestResult):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+orig(test) == this.fTests[orig(result.fRunTests)]
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 7 }
+size(result.fListeners[]) == 1
+orig(test) in this.fTests[]
+orig(test.getClass().getName()) in this.fTests[].getClass().getName()
+this.fName.toString == orig(this.fName.toString)
+result.fRunTests > orig(result.fRunTests)
+result.fRunTests >= size(result.fListeners[])
+orig(result.fRunTests) <= size(this.fTests[])-1
+orig(result.fRunTests) >= size(result.fFailures[])
+size(this.fTests[]) >= size(result.fListeners[])
+size(this.fTests[])-1 >= size(result.fFailures[])
+size(this.fTests[])-1 != size(result.fListeners[])
+result.fRunTests - orig(result.fRunTests) + size(this.fTests[]) - 8 == 0
+result.fRunTests - orig(result.fRunTests) + size(this.fTests[])-1 - 7 == 0
+===========================================================================
+junit.framework.TestSuite.tests():::ENTER
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) one of { 1, 7 }
+===========================================================================
+junit.framework.TestSuite.tests():::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest, org.apache.commons.validator.routines.CodeValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fTests[]) one of { 1, 7 }
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.runner.BaseTestRunner:::CLASS
+junit.runner.BaseTestRunner.SUITE_METHODNAME has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == "suite"
+junit.runner.BaseTestRunner.fPreferences has only one value
+junit.runner.BaseTestRunner.fgMaxMessageLength == 500
+junit.runner.BaseTestRunner.fgFilterStack == true
+===========================================================================
+junit.runner.BaseTestRunner:::OBJECT
+junit.runner.BaseTestRunner.fgFilterStack == this.fLoading
+this has only one value
+this.getClass().getName() == junit.textui.TestRunner.class
+===========================================================================
+junit.runner.BaseTestRunner.BaseTestRunner():::EXIT
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String):::ENTER
+key has only one value
+key.toString == "maxmessage"
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String):::EXIT
+key.toString == "maxmessage"
+return == null
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::ENTER
+key has only one value
+key.toString == "maxmessage"
+dflt == 500
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::EXIT243
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::EXIT
+key.toString == "maxmessage"
+return == 500
+===========================================================================
+junit.runner.BaseTestRunner.getPreferences():::EXIT
+return has only one value
+===========================================================================
+junit.runner.BaseTestRunner.getPreferencesFile():::EXIT
+return has only one value
+===========================================================================
+junit.textui.ResultPrinter:::OBJECT
+this has only one value
+this.fWriter has only one value
+this.fWriter != null
+this.fColumn >= 0
+===========================================================================
+junit.textui.ResultPrinter.ResultPrinter(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+junit.textui.ResultPrinter.ResultPrinter(java.io.PrintStream):::EXIT
+this.fWriter == orig(writer)
+this.fColumn == 0
+===========================================================================
+junit.textui.ResultPrinter.elapsedTimeAsString(long):::ENTER
+this.fColumn == 7
+runTime == 272
+===========================================================================
+junit.textui.ResultPrinter.elapsedTimeAsString(long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 7
+return has only one value
+return.toString == "0.272"
+===========================================================================
+junit.textui.ResultPrinter.endTest(junit.framework.Test):::ENTER
+test.getClass().getName() == org.apache.commons.validator.routines.CodeValidatorTest.class
+===========================================================================
+junit.textui.ResultPrinter.endTest(junit.framework.Test):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+===========================================================================
+junit.textui.ResultPrinter.getWriter():::ENTER
+===========================================================================
+junit.textui.ResultPrinter.getWriter():::EXIT
+this.fWriter == return
+this.fColumn == orig(this.fColumn)
+return == orig(this.fWriter)
+return has only one value
+return != null
+===========================================================================
+junit.textui.ResultPrinter.print(junit.framework.TestResult, long):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 7
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+runTime == 272
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.print(junit.framework.TestResult, long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 7
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::ENTER
+this.fColumn == 7
+booBoos.getClass().getName() == java.util.Vector$1.class
+count == 0
+type.toString one of { "error", "failure" }
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT55
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 7
+type.toString one of { "error", "failure" }
+type.toString == orig(type.toString)
+===========================================================================
+junit.textui.ResultPrinter.printErrors(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 7
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printErrors(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 7
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printFailures(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 7
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printFailures(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 7
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printFooter(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 7
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printFooter(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 7
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printHeader(long):::ENTER
+this.fColumn == 7
+runTime == 272
+===========================================================================
+junit.textui.ResultPrinter.printHeader(long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 7
+===========================================================================
+junit.textui.ResultPrinter.startTest(junit.framework.Test):::ENTER
+test.getClass().getName() == org.apache.commons.validator.routines.CodeValidatorTest.class
+===========================================================================
+junit.textui.ResultPrinter.startTest(junit.framework.Test):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn - orig(this.fColumn) - 1 == 0
+===========================================================================
+junit.textui.TestRunner:::CLASS
+junit.runner.BaseTestRunner.SUITE_METHODNAME has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME != null
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == "suite"
+junit.runner.BaseTestRunner.fPreferences has only one value
+junit.runner.BaseTestRunner.fPreferences != null
+junit.runner.BaseTestRunner.fgMaxMessageLength == 500
+junit.runner.BaseTestRunner.fgFilterStack == true
+===========================================================================
+junit.textui.TestRunner:::OBJECT
+junit.runner.BaseTestRunner.fgFilterStack == this.fLoading
+this has only one value
+this.fPrinter has only one value
+this.fPrinter.fWriter has only one value
+this.fPrinter.fColumn one of { 0, 7 }
+this.fPrinter.fColumn >= junit.textui.TestRunner.SUCCESS_EXIT
+this.fPrinter.fColumn != junit.textui.TestRunner.FAILURE_EXIT
+this.fPrinter.fColumn != junit.textui.TestRunner.EXCEPTION_EXIT
+this.fPrinter.fColumn < junit.runner.BaseTestRunner.fgMaxMessageLength
+===========================================================================
+junit.textui.TestRunner.TestRunner():::EXIT
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.TestRunner(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+junit.textui.TestRunner.TestRunner(java.io.PrintStream):::EXIT
+this.fPrinter.fWriter == orig(writer)
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.TestRunner(junit.textui.ResultPrinter):::ENTER
+printer has only one value
+printer.fWriter has only one value
+printer.fColumn == 0
+===========================================================================
+junit.textui.TestRunner.TestRunner(junit.textui.ResultPrinter):::EXIT
+this.fPrinter == orig(printer)
+this.fPrinter.fWriter == printer.fWriter
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == printer.fColumn
+junit.textui.TestRunner.SUCCESS_EXIT == orig(printer.fColumn)
+printer.fWriter == orig(printer.fWriter)
+printer.fWriter has only one value
+===========================================================================
+junit.textui.TestRunner.createTestResult():::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.createTestResult():::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return.fFailures[] == return.fListeners[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fStop == false
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test):::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+test has only one value
+test.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 7
+return.fStop == false
+return.fListeners[] elements == this.fPrinter
+this.fPrinter in return.fListeners[]
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test, boolean):::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+suite has only one value
+suite.getClass().getName() == junit.framework.TestSuite.class
+wait == false
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test, boolean):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return.fStop == orig(wait)
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 7
+return.fStop == false
+return.fListeners[] elements == this.fPrinter
+this.fPrinter in return.fListeners[]
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::ENTER
+this.fPrinter.fColumn == 7
+wait == false
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::EXIT126
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == orig(this.fPrinter.fColumn)
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+this.fPrinter.fColumn == 7
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.textui.TestRunner.run(junit.framework.Test):::ENTER
+test has only one value
+test.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+junit.textui.TestRunner.run(junit.framework.Test):::EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+return.fFailures[] == return.fErrors[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 7
+return.fStop == false
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+org.apache.commons.validator.daikon.CodeValidatorTest.main(java.lang.String[]):::ENTER
+arg has only one value
+arg.getClass().getName() == java.lang.String[].class
+arg[] == []
+arg[].toString == []
+===========================================================================
+org.apache.commons.validator.daikon.CodeValidatorTest.main(java.lang.String[]):::EXIT
+arg[] == orig(arg[])
+arg[] == []
+arg[].toString == []
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator:::CLASS
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator:::OBJECT
+this.regexValidator.patterns != null
+this.regexValidator.patterns.getClass().getName() == java.util.regex.Pattern[].class
+this.regexValidator.patterns[] elements != null
+this.regexValidator.patterns[].getClass().getName() == [java.util.regex.Pattern]
+this.regexValidator.patterns[].getClass().getName() elements == java.util.regex.Pattern.class
+this.minLength >= -1
+this.maxLength >= -1
+this.checkdigit.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+size(this.regexValidator.patterns[]) == 1
+org.apache.commons.validator.routines.CodeValidator.serialVersionUID > this.minLength
+org.apache.commons.validator.routines.CodeValidator.serialVersionUID > this.maxLength
+org.apache.commons.validator.routines.RegexValidator.serialVersionUID < this.minLength
+org.apache.commons.validator.routines.RegexValidator.serialVersionUID < this.maxLength
+this.regexValidator.patterns.getClass().getName() != this.checkdigit.getClass().getName()
+this.minLength != size(this.regexValidator.patterns[])
+size(this.regexValidator.patterns[])-1 % this.minLength == 0
+this.minLength != size(this.regexValidator.patterns[])-1
+this.maxLength != size(this.regexValidator.patterns[])
+size(this.regexValidator.patterns[])-1 % this.maxLength == 0
+this.maxLength != size(this.regexValidator.patterns[])-1
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(java.lang.String, int, int, org.apache.commons.validator.routines.checkdigit.CheckDigit):::ENTER
+regex.toString one of { "^([0-9]{3,4})$", "^[0-9]*$" }
+minLength >= -1
+maxLength >= -1
+checkdigit.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(java.lang.String, int, int, org.apache.commons.validator.routines.checkdigit.CheckDigit):::EXIT
+this.minLength == orig(minLength)
+this.maxLength == orig(maxLength)
+this.checkdigit == orig(checkdigit)
+regex.toString one of { "^([0-9]{3,4})$", "^[0-9]*$" }
+this.checkdigit.getClass().getName() == orig(checkdigit.getClass().getName())
+regex.toString == orig(regex.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(java.lang.String, int, org.apache.commons.validator.routines.checkdigit.CheckDigit):::ENTER
+regex.toString == "^[0-9]*$"
+length one of { -1, 13 }
+checkdigit has only one value
+checkdigit.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(java.lang.String, int, org.apache.commons.validator.routines.checkdigit.CheckDigit):::EXIT
+this.minLength == this.maxLength
+this.minLength == orig(length)
+this.checkdigit == orig(checkdigit)
+this.regexValidator.patterns has only one value
+this.regexValidator.patterns[] contains no nulls and has only one value, of length 1
+this.regexValidator.patterns[] elements has only one value
+this.minLength one of { -1, 13 }
+this.checkdigit has only one value
+regex.toString == "^[0-9]*$"
+this.checkdigit.getClass().getName() == orig(checkdigit.getClass().getName())
+regex.toString == orig(regex.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(java.lang.String, org.apache.commons.validator.routines.checkdigit.CheckDigit):::ENTER
+regex has only one value
+regex.toString == "^[0-9]*$"
+checkdigit has only one value
+checkdigit.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(java.lang.String, org.apache.commons.validator.routines.checkdigit.CheckDigit):::EXIT
+this.minLength == this.maxLength
+this.checkdigit == orig(checkdigit)
+this.regexValidator has only one value
+this.regexValidator.patterns has only one value
+this.regexValidator.patterns[] contains no nulls and has only one value, of length 1
+this.regexValidator.patterns[] elements has only one value
+this.minLength == -1
+this.checkdigit has only one value
+regex.toString == "^[0-9]*$"
+this.checkdigit.getClass().getName() == orig(checkdigit.getClass().getName())
+regex.toString == orig(regex.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(org.apache.commons.validator.routines.RegexValidator, int, int, org.apache.commons.validator.routines.checkdigit.CheckDigit):::ENTER
+regexValidator.patterns.getClass().getName() == java.util.regex.Pattern[].class
+regexValidator.patterns[].getClass().getName() == [java.util.regex.Pattern]
+regexValidator.patterns[].getClass().getName() elements == java.util.regex.Pattern.class
+checkdigit.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+size(regexValidator.patterns[]) == 1
+maxLength % minLength == 0
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(org.apache.commons.validator.routines.RegexValidator, int, int, org.apache.commons.validator.routines.checkdigit.CheckDigit):::EXIT
+this.regexValidator == orig(regexValidator)
+this.regexValidator.patterns == regexValidator.patterns
+this.regexValidator.patterns[] == regexValidator.patterns[]
+this.minLength == orig(minLength)
+this.maxLength == orig(maxLength)
+this.checkdigit == orig(checkdigit)
+regexValidator.patterns == orig(regexValidator.patterns)
+regexValidator.patterns[] == orig(regexValidator.patterns[])
+regexValidator.patterns.getClass().getName() == java.util.regex.Pattern[].class
+regexValidator.patterns[].getClass().getName() == [java.util.regex.Pattern]
+regexValidator.patterns[].getClass().getName() elements == java.util.regex.Pattern.class
+size(regexValidator.patterns[]) == 1
+this.regexValidator.patterns.getClass().getName() == regexValidator.patterns.getClass().getName()
+this.maxLength % this.minLength == 0
+this.checkdigit.getClass().getName() == orig(checkdigit.getClass().getName())
+regexValidator.patterns.getClass().getName() == orig(regexValidator.patterns.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(org.apache.commons.validator.routines.RegexValidator, int, org.apache.commons.validator.routines.checkdigit.CheckDigit):::ENTER
+regexValidator.patterns.getClass().getName() == java.util.regex.Pattern[].class
+regexValidator.patterns[].getClass().getName() == [java.util.regex.Pattern]
+regexValidator.patterns[].getClass().getName() elements == java.util.regex.Pattern.class
+length one of { 6, 13 }
+checkdigit.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+size(regexValidator.patterns[]) == 1
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(org.apache.commons.validator.routines.RegexValidator, int, org.apache.commons.validator.routines.checkdigit.CheckDigit):::EXIT
+this.regexValidator == orig(regexValidator)
+this.regexValidator.patterns == regexValidator.patterns
+this.regexValidator.patterns[] == regexValidator.patterns[]
+this.minLength == this.maxLength
+this.minLength == orig(length)
+this.checkdigit == orig(checkdigit)
+regexValidator.patterns == orig(regexValidator.patterns)
+regexValidator.patterns[] == orig(regexValidator.patterns[])
+this.minLength one of { 6, 13 }
+regexValidator.patterns.getClass().getName() == java.util.regex.Pattern[].class
+regexValidator.patterns[].getClass().getName() == [java.util.regex.Pattern]
+regexValidator.patterns[].getClass().getName() elements == java.util.regex.Pattern.class
+size(regexValidator.patterns[]) == 1
+this.regexValidator.patterns.getClass().getName() == regexValidator.patterns.getClass().getName()
+this.checkdigit.getClass().getName() == orig(checkdigit.getClass().getName())
+regexValidator.patterns.getClass().getName() == orig(regexValidator.patterns.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(org.apache.commons.validator.routines.RegexValidator, org.apache.commons.validator.routines.checkdigit.CheckDigit):::ENTER
+regexValidator has only one value
+regexValidator.patterns has only one value
+regexValidator.patterns.getClass().getName() == java.util.regex.Pattern[].class
+regexValidator.patterns[] contains no nulls and has only one value, of length 1
+regexValidator.patterns[] elements has only one value
+regexValidator.patterns[].getClass().getName() == [java.util.regex.Pattern]
+regexValidator.patterns[].getClass().getName() elements == java.util.regex.Pattern.class
+checkdigit has only one value
+checkdigit.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+size(regexValidator.patterns[]) == 1
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(org.apache.commons.validator.routines.RegexValidator, org.apache.commons.validator.routines.checkdigit.CheckDigit):::EXIT
+this.regexValidator == orig(regexValidator)
+this.regexValidator.patterns == regexValidator.patterns
+this.regexValidator.patterns[] == regexValidator.patterns[]
+this.minLength == this.maxLength
+this.checkdigit == orig(checkdigit)
+regexValidator.patterns == orig(regexValidator.patterns)
+regexValidator.patterns[] == orig(regexValidator.patterns[])
+this.regexValidator has only one value
+this.minLength == -1
+this.checkdigit has only one value
+regexValidator.patterns has only one value
+regexValidator.patterns.getClass().getName() == java.util.regex.Pattern[].class
+regexValidator.patterns[] contains no nulls and has only one value, of length 1
+regexValidator.patterns[] elements has only one value
+regexValidator.patterns[].getClass().getName() == [java.util.regex.Pattern]
+regexValidator.patterns[].getClass().getName() elements == java.util.regex.Pattern.class
+size(regexValidator.patterns[]) == 1
+this.regexValidator.patterns.getClass().getName() == regexValidator.patterns.getClass().getName()
+this.checkdigit.getClass().getName() == orig(checkdigit.getClass().getName())
+regexValidator.patterns.getClass().getName() == orig(regexValidator.patterns.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.getCheckDigit():::ENTER
+this.minLength one of { -1, 10, 13 }
+this.maxLength one of { -1, 13, 20 }
+this.maxLength % this.minLength == 0
+this.minLength <= this.maxLength
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.getCheckDigit():::EXIT
+this.regexValidator == orig(this.regexValidator)
+this.regexValidator.patterns == orig(this.regexValidator.patterns)
+this.regexValidator.patterns[] == orig(this.regexValidator.patterns[])
+this.minLength == orig(this.minLength)
+this.maxLength == orig(this.maxLength)
+this.checkdigit == return
+return == orig(this.checkdigit)
+this.minLength one of { -1, 10, 13 }
+this.maxLength one of { -1, 13, 20 }
+return.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+this.regexValidator.patterns.getClass().getName() == orig(this.regexValidator.patterns.getClass().getName())
+this.maxLength % this.minLength == 0
+this.minLength <= this.maxLength
+this.checkdigit.getClass().getName() == return.getClass().getName()
+return.getClass().getName() == orig(this.checkdigit.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.getMaxLength():::ENTER
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.getMaxLength():::EXIT
+this.regexValidator == orig(this.regexValidator)
+this.regexValidator.patterns == orig(this.regexValidator.patterns)
+this.regexValidator.patterns[] == orig(this.regexValidator.patterns[])
+this.minLength == orig(this.minLength)
+this.maxLength == return
+this.checkdigit == orig(this.checkdigit)
+return == orig(this.maxLength)
+return >= -1
+org.apache.commons.validator.routines.CodeValidator.serialVersionUID > return
+org.apache.commons.validator.routines.RegexValidator.serialVersionUID < return
+this.regexValidator.patterns.getClass().getName() == orig(this.regexValidator.patterns.getClass().getName())
+this.checkdigit.getClass().getName() == orig(this.checkdigit.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.getMinLength():::ENTER
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.getMinLength():::EXIT
+this.regexValidator == orig(this.regexValidator)
+this.regexValidator.patterns == orig(this.regexValidator.patterns)
+this.regexValidator.patterns[] == orig(this.regexValidator.patterns[])
+this.minLength == return
+this.maxLength == orig(this.maxLength)
+this.checkdigit == orig(this.checkdigit)
+return == orig(this.minLength)
+return >= -1
+org.apache.commons.validator.routines.CodeValidator.serialVersionUID > return
+org.apache.commons.validator.routines.RegexValidator.serialVersionUID < return
+this.regexValidator.patterns.getClass().getName() == orig(this.regexValidator.patterns.getClass().getName())
+this.checkdigit.getClass().getName() == orig(this.checkdigit.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.getRegexValidator():::ENTER
+this.maxLength % this.minLength == 0
+this.minLength <= this.maxLength
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.getRegexValidator():::EXIT
+this.regexValidator == return
+this.regexValidator.patterns == return.patterns
+this.regexValidator.patterns[] == return.patterns[]
+this.minLength == orig(this.minLength)
+this.maxLength == orig(this.maxLength)
+this.checkdigit == orig(this.checkdigit)
+return == orig(this.regexValidator)
+return.patterns == orig(this.regexValidator.patterns)
+return.patterns[] == orig(this.regexValidator.patterns[])
+return.patterns.getClass().getName() == java.util.regex.Pattern[].class
+return.patterns[].getClass().getName() == [java.util.regex.Pattern]
+return.patterns[].getClass().getName() elements == java.util.regex.Pattern.class
+size(return.patterns[]) == 1
+this.regexValidator.patterns.getClass().getName() == return.patterns.getClass().getName()
+this.maxLength % this.minLength == 0
+this.minLength <= this.maxLength
+this.minLength != size(return.patterns[])
+this.minLength != size(return.patterns[])-1
+this.maxLength != size(return.patterns[])
+this.maxLength != size(return.patterns[])-1
+this.checkdigit.getClass().getName() == orig(this.checkdigit.getClass().getName())
+return.patterns.getClass().getName() == orig(this.regexValidator.patterns.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::ENTER
+this.minLength == this.maxLength
+this.regexValidator == null
+this.minLength == -1
+input.toString one of { "9781930110991", "9781930110992" }
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT205
+return == true
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT205;condition="return == true"
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT206
+this.checkdigit has only one value
+input.toString == "9781930110992"
+return == false
+orig(this) has only one value
+orig(input) has only one value
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT206;condition="not(return == true)"
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT
+this.regexValidator == orig(this.regexValidator)
+this.minLength == this.maxLength
+this.minLength == orig(this.minLength)
+this.minLength == orig(this.maxLength)
+this.checkdigit == orig(this.checkdigit)
+(return == false)  ==>  (input.toString == "9781930110992")
+(return == false)  ==>  (orig(input) has only one value)
+(return == false)  ==>  (orig(this) has only one value)
+(return == false)  ==>  (this.checkdigit has only one value)
+(return == true)  ==>  (input.toString one of { "9781930110991", "9781930110992" })
+this.regexValidator == null
+this.minLength == -1
+input.toString one of { "9781930110991", "9781930110992" }
+input.toString == orig(input.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT;condition="not(return == true)"
+this.checkdigit has only one value
+input.toString == "9781930110992"
+return == false
+orig(this) has only one value
+orig(input) has only one value
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::ENTER
+this.checkdigit.getClass().getName() in this.regexValidator.patterns[].getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT219
+this.regexValidator == return
+this.checkdigit == return
+return == orig(input)
+this.regexValidator == null
+this.minLength one of { -1, 0 }
+this.maxLength one of { -1, 0 }
+this.checkdigit == null
+return == null
+orig(input) == null
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT224
+this.regexValidator == return
+this.minLength == this.maxLength
+this.minLength == orig(this.maxLength)
+this.checkdigit == return
+this.regexValidator == null
+this.minLength == -1
+this.checkdigit == null
+input.toString one of { "", "   " }
+return == null
+orig(this) has only one value
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT231
+this.minLength == this.maxLength
+this.minLength == orig(this.maxLength)
+this.checkdigit == return
+this.minLength one of { -1, 6 }
+this.checkdigit == null
+return == null
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT238
+this.regexValidator == return
+this.checkdigit == return
+this.regexValidator == null
+this.minLength one of { -1, 11 }
+this.maxLength one of { -1, 11, 21 }
+this.checkdigit == null
+input.toString one of { "1234567890", "123456789012", "1234567890123456789012" }
+return == null
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT243
+this.regexValidator == return
+this.minLength == this.maxLength
+this.minLength == orig(this.maxLength)
+this.regexValidator == null
+this.minLength == -1
+this.checkdigit has only one value
+input.toString one of { "9781930110992", "978193011099X" }
+return == null
+orig(this) has only one value
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT246
+this.minLength one of { -1, 6, 11 }
+return != null
+orig(input) != null
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT
+this.regexValidator == orig(this.regexValidator)
+this.regexValidator.patterns == orig(this.regexValidator.patterns)
+this.regexValidator.patterns[] == orig(this.regexValidator.patterns[])
+this.minLength == orig(this.minLength)
+this.maxLength == orig(this.maxLength)
+this.checkdigit == orig(this.checkdigit)
+return.getClass().getName() == java.lang.String.class
+this.regexValidator.patterns.getClass().getName() != return.getClass().getName()
+this.regexValidator.patterns.getClass().getName() == orig(this.regexValidator.patterns.getClass().getName())
+this.checkdigit.getClass().getName() in this.regexValidator.patterns[].getClass().getName()
+this.checkdigit.getClass().getName() == orig(this.checkdigit.getClass().getName())
+input.toString == orig(input.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest:::OBJECT
+this.fName != null
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.CodeValidatorTest(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.CodeValidatorTest(java.lang.String):::EXIT
+this.fName == orig(name)
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.setUp():::ENTER
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.setUp():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.tearDown():::ENTER
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.tearDown():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testCheckDigit():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testCheckDigit"
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testCheckDigit():::EXIT
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testCheckDigit"
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testConstructors():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testConstructors"
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testConstructors():::EXIT
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testConstructors"
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testLength():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testLength"
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testLength():::EXIT
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testLength"
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testNoInput():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testNoInput"
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testNoInput():::EXIT
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testNoInput"
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testRegex():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testRegex"
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testRegex():::EXIT
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testRegex"
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testValidator294_1():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testValidator294_1"
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testValidator294_1():::EXIT
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testValidator294_1"
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testValidator294_2():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testValidator294_2"
+===========================================================================
+org.apache.commons.validator.routines.CodeValidatorTest.testValidator294_2():::EXIT
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testValidator294_2"
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator:::CLASS
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator:::OBJECT
+this.patterns != null
+this.patterns.getClass().getName() == java.util.regex.Pattern[].class
+this.patterns[] elements != null
+this.patterns[].getClass().getName() == [java.util.regex.Pattern]
+this.patterns[].getClass().getName() elements == java.util.regex.Pattern.class
+size(this.patterns[]) == 1
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.RegexValidator(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.RegexValidator(java.lang.String):::EXIT
+regex.toString == orig(regex.toString)
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.RegexValidator(java.lang.String, boolean):::ENTER
+caseSensitive == true
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.RegexValidator(java.lang.String, boolean):::EXIT
+regex.toString == orig(regex.toString)
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.RegexValidator(java.lang.String[], boolean):::ENTER
+regexs.getClass().getName() == java.lang.String[].class
+caseSensitive == true
+size(regexs[]) == 1
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.RegexValidator(java.lang.String[], boolean):::EXIT
+regexs[] == orig(regexs[])
+size(this.patterns[]) == orig(size(regexs[]))
+this.patterns.getClass().getName() != orig(regexs.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.toString():::ENTER
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.toString():::EXIT
+this.patterns == orig(this.patterns)
+this.patterns[] == orig(this.patterns[])
+return.toString one of { "RegexValidator{^(?:([0-9]{3})(?:[-\\s])([0-9]{3}))|([0-9]{6})$}", "RegexValidator{^[0-9]*$}" }
+this.patterns.getClass().getName() == orig(this.patterns.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.validate(java.lang.String):::ENTER
+value != null
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.validate(java.lang.String):::EXIT184
+return == orig(value)
+this.patterns has only one value
+this.patterns[] contains no nulls and has only one value, of length 1
+this.patterns[] elements has only one value
+value.toString one of { "123", "1234" }
+orig(this) has only one value
+value.toString == return.toString
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.validate(java.lang.String):::EXIT193
+value.toString one of { "123 456", "123-456", "123456" }
+return.toString == "123456"
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.validate(java.lang.String):::EXIT196
+return == null
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.validate(java.lang.String):::EXIT
+this.patterns == orig(this.patterns)
+this.patterns[] == orig(this.patterns[])
+return.toString one of { "123", "1234", "123456" }
+this.patterns.getClass().getName() == orig(this.patterns.getClass().getName())
+value.toString <= return.toString
+value.toString == orig(value.toString)
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.CheckDigitException:::CLASS
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.CheckDigitException:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.CheckDigitException.CheckDigitException(java.lang.String):::ENTER
+msg has only one value
+msg.toString == "Invalid Character[13] = 'X'"
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.CheckDigitException.CheckDigitException(java.lang.String):::EXIT
+msg.toString == "Invalid Character[13] = 'X'"
+msg.toString == orig(msg.toString)
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit:::CLASS
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT has only one value
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT != null
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT has only one value
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT != null
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] == [3, 1]
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] elements one of { 1, 3 }
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] sorted by >
+size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[]) == 2
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] elements < org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.serialVersionUID
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] elements < org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] elements >= size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])-1
+size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])-1 in org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[]
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit:::OBJECT
+this has only one value
+this.modulus == 10
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] elements < this.modulus
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13CheckDigit():::EXIT
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.weightedValue(int, int, int):::ENTER
+charValue >= 0
+leftPos >= 1
+rightPos >= 1
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.serialVersionUID > charValue
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.serialVersionUID > leftPos
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.serialVersionUID > rightPos
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > charValue
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > leftPos
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > rightPos
+this.modulus > charValue
+charValue != leftPos
+leftPos + rightPos - 14 == 0
+leftPos >= size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])-1
+rightPos >= size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])-1
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.weightedValue(int, int, int):::EXIT
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT == orig(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT)
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT == orig(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT)
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] == orig(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])
+this.modulus == orig(this.modulus)
+return >= 0
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.serialVersionUID > return
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT.getClass().getName() == orig(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT.getClass().getName())
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > return
+this.modulus != return
+this.modulus > orig(charValue)
+return >= orig(charValue)
+return != orig(leftPos)
+orig(leftPos) >= size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])-1
+orig(rightPos) >= size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])-1
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit:::CLASS
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit:::OBJECT
+this has only one value
+this.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+this.modulus == 10
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.ModulusCheckDigit(int):::ENTER
+modulus == 10
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.ModulusCheckDigit(int):::EXIT
+this.modulus == orig(modulus)
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.calculateModulus(java.lang.String, boolean):::ENTER
+code.toString one of { "9781930110991", "9781930110992" }
+includesCheckDigit == true
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.calculateModulus(java.lang.String, boolean):::EXIT
+this.modulus == orig(this.modulus)
+code.toString one of { "9781930110991", "9781930110992" }
+return one of { 0, 1 }
+code.toString == orig(code.toString)
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::ENTER
+code.toString one of { "9781930110991", "9781930110992", "978193011099X" }
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT73
+code.toString == "9781930110991"
+return == true
+orig(code) has only one value
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT73;condition="return == true"
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT74
+code.toString == "9781930110992"
+return == false
+orig(code) has only one value
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT74;condition="not(return == true)"
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT75
+code.toString == "978193011099X"
+return == false
+orig(code) has only one value
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT75;condition="not(return == true)"
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT
+this.modulus == orig(this.modulus)
+(code.toString == "9781930110991")  <==>  (return == true)
+(code.toString == "9781930110991")  ==>  (orig(code) has only one value)
+(code.toString one of { "9781930110992", "978193011099X" })  <==>  (return == false)
+code.toString one of { "9781930110991", "9781930110992", "978193011099X" }
+code.toString == orig(code.toString)
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT;condition="return == true"
+code.toString == "9781930110991"
+return == true
+orig(code) has only one value
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT;condition="not(return == true)"
+code.toString one of { "9781930110992", "978193011099X" }
+return == false
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.toInt(char, int, int):::ENTER
+leftPos >= 1
+rightPos >= 1
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > character
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > leftPos
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > rightPos
+this.modulus < character
+character > leftPos
+character > rightPos
+leftPos + rightPos - 14 == 0
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.toInt(char, int, int):::EXIT
+this.modulus == orig(this.modulus)
+return >= 0
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > return
+this.modulus > return
+this.modulus < orig(character)
+return - orig(character) + 48 == 0
+return != orig(leftPos)

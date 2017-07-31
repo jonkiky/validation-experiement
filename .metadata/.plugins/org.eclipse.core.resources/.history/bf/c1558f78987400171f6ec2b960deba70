@@ -1,0 +1,9 @@
+package org.apache.commons.validator.daikon;
+import junit.framework.TestSuite;
+public class checkdigit,EAN13CheckDigitTest {
+public static void main(String arg[]){
+TestSuite suite = new TestSuite();
+suite.addTestSuite(org.apache.commons.validator.routines.checkdigit,EAN13CheckDigitTest.class);
+junit.textui.TestRunner.run(suite);
+}
+}

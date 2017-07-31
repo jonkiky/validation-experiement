@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/commons-validator-1.4.0-src/src/test/org/apache/commons/validator/daikon/ExtensionTest.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.apache.commons.validator.daikon.ExtensionTest"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="commons-validator-1.4.0-src"/>
+</launchConfiguration>

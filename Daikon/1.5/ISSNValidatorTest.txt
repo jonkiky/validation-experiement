@@ -1,0 +1,2277 @@
+===========================================================================
+junit.framework.Assert:::OBJECT
+===========================================================================
+junit.framework.Assert.Assert():::EXIT
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String):::ENTER
+expected.toString one of { "9770264359008", "9771144875007", "9771234567003" }
+expected.toString == actual.toString
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String):::EXIT
+expected.toString one of { "9770264359008", "9771144875007", "9771234567003" }
+expected.toString == actual.toString
+expected.toString == orig(expected.toString)
+expected.toString == orig(actual.toString)
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::ENTER
+message == null
+expected.toString one of { "9770264359008", "9771144875007", "9771234567003" }
+expected.toString == actual.toString
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::EXIT80
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::EXIT
+expected.toString one of { "9770264359008", "9771144875007", "9771234567003" }
+expected.toString == actual.toString
+expected.toString == orig(expected.toString)
+expected.toString == orig(actual.toString)
+===========================================================================
+junit.framework.Assert.assertFalse(java.lang.String, boolean):::ENTER
+message != null
+condition == false
+===========================================================================
+junit.framework.Assert.assertFalse(java.lang.String, boolean):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.Object):::ENTER
+object.getClass().getName() == java.lang.String.class
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.String, java.lang.Object):::ENTER
+message == null
+object.getClass().getName() == java.lang.String.class
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.String, java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.Object):::ENTER
+object == null
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.String, java.lang.Object):::ENTER
+message == object
+message == null
+object == null
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.String, java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertTrue(java.lang.String, boolean):::ENTER
+condition == true
+===========================================================================
+junit.framework.Assert.assertTrue(java.lang.String, boolean):::EXIT
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.TestCase:::OBJECT
+this.getClass().getName() == org.apache.commons.validator.routines.ISSNValidatorTest.class
+this.fName != null
+===========================================================================
+junit.framework.TestCase.TestCase(java.lang.String):::ENTER
+===========================================================================
+junit.framework.TestCase.TestCase(java.lang.String):::EXIT
+this.fName == orig(name)
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+junit.framework.TestCase.countTestCases():::ENTER
+===========================================================================
+junit.framework.TestCase.countTestCases():::EXIT
+this.fName == orig(this.fName)
+return == 1
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.run(junit.framework.TestResult):::ENTER
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+===========================================================================
+junit.framework.TestCase.run(junit.framework.TestResult):::EXIT
+this.fName == orig(this.fName)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+this.fName.toString == orig(this.fName.toString)
+result.fRunTests - orig(result.fRunTests) - 1 == 0
+===========================================================================
+junit.framework.TestCase.runBare():::ENTER
+===========================================================================
+junit.framework.TestCase.runBare():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.runTest():::ENTER
+===========================================================================
+junit.framework.TestCase.runTest():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.setUp():::ENTER
+===========================================================================
+junit.framework.TestCase.setUp():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.tearDown():::ENTER
+===========================================================================
+junit.framework.TestCase.tearDown():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestResult$1:::OBJECT
+this.val$test != null
+this.val$test.getClass().getName() == org.apache.commons.validator.routines.ISSNValidatorTest.class
+this.val$test.fName != null
+===========================================================================
+junit.framework.TestResult$1.TestResult$1(junit.framework.TestCase):::ENTER
+$hidden$1.getClass().getName() == org.apache.commons.validator.routines.ISSNValidatorTest.class
+===========================================================================
+junit.framework.TestResult$1.TestResult$1(junit.framework.TestCase):::EXIT
+this.val$test == orig($hidden$1)
+this.val$test.fName == $hidden$1.fName
+$hidden$1.fName == orig($hidden$1.fName)
+this.val$test.getClass().getName() == orig($hidden$1.getClass().getName())
+this.val$test.fName.toString == $hidden$1.fName.toString
+$hidden$1.fName.toString == orig($hidden$1.fName.toString)
+===========================================================================
+junit.framework.TestResult$1.protect():::ENTER
+===========================================================================
+junit.framework.TestResult$1.protect():::EXIT
+this.val$test == orig(this.val$test)
+this.val$test.fName == orig(this.val$test.fName)
+this.val$test.getClass().getName() == orig(this.val$test.getClass().getName())
+this.val$test.fName.toString == orig(this.val$test.fName.toString)
+===========================================================================
+junit.framework.TestResult:::OBJECT
+this.fFailures[] == this.fErrors[]
+this has only one value
+this.fFailures has only one value
+this.fFailures != null
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+this.fErrors has only one value
+this.fErrors != null
+this.fListeners has only one value
+this.fListeners != null
+this.fListeners[] elements has only one value
+this.fListeners[] elements != null
+this.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+this.fListeners[].getClass().getName() one of { [], [junit.textui.ResultPrinter] }
+this.fRunTests >= 0
+this.fStop == false
+size(this.fListeners[]) one of { 0, 1 }
+this.fRunTests >= size(this.fFailures[])
+this.fRunTests >= size(this.fListeners[])-1
+size(this.fFailures[]) <= size(this.fListeners[])
+size(this.fFailures[]) >= size(this.fListeners[])-1
+size(this.fFailures[])-1 <= size(this.fListeners[])-1
+===========================================================================
+junit.framework.TestResult.TestResult():::EXIT
+this.fFailures[] == this.fListeners[]
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.addListener(junit.framework.TestListener):::ENTER
+this.fFailures[] == this.fListeners[]
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])
+listener has only one value
+listener.getClass().getName() == junit.textui.ResultPrinter.class
+===========================================================================
+junit.framework.TestResult.addListener(junit.framework.TestListener):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fFailures[] == orig(this.fListeners[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])-1
+this.fRunTests == orig(size(this.fFailures[]))
+this.fRunTests == orig(size(this.fErrors[]))
+this.fRunTests == orig(size(this.fListeners[]))
+this.fStop == orig(this.fStop)
+orig(listener) == this.fListeners[this.fRunTests]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+orig(listener) in this.fListeners[]
+this.fListeners[] elements == orig(listener)
+this.fListeners[] elements == this.fListeners[this.fRunTests]
+orig(listener.getClass().getName()) in this.fListeners[].getClass().getName()
+===========================================================================
+junit.framework.TestResult.cloneListeners():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.cloneListeners():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == return[]
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return[] == orig(this.fListeners[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == size(return[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+return != null
+return[] contains no nulls and has only one value, of length 1
+return[] elements has only one value
+return[] elements != null
+return[].getClass().getName() == [junit.textui.ResultPrinter]
+return[].getClass().getName() elements == junit.textui.ResultPrinter.class
+size(return[]) == 1
+this.fRunTests >= size(return[])
+===========================================================================
+junit.framework.TestResult.endTest(junit.framework.Test):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.ISSNValidatorTest.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.endTest(junit.framework.Test):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.errorCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 6
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.errorCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return == size(this.fFailures[])
+return == size(this.fErrors[])
+return == size(this.fListeners[])-1
+return == orig(size(this.fFailures[]))
+return == orig(size(this.fErrors[]))
+return == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 6
+size(this.fListeners[]) == 1
+this.fListeners[] elements == this.fListeners[return]
+===========================================================================
+junit.framework.TestResult.errors():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 6
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.errors():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 6
+return has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failureCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 6
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failureCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return == size(this.fFailures[])
+return == size(this.fErrors[])
+return == size(this.fListeners[])-1
+return == orig(size(this.fFailures[]))
+return == orig(size(this.fErrors[]))
+return == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 6
+size(this.fListeners[]) == 1
+this.fListeners[] elements == this.fListeners[return]
+===========================================================================
+junit.framework.TestResult.failures():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 6
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failures():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 6
+return has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.run(junit.framework.TestCase):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.ISSNValidatorTest.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.run(junit.framework.TestCase):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fStop == orig(this.fStop)
+test.fName == orig(test.fName)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests - orig(this.fRunTests) - 1 == 0
+test.fName.toString == orig(test.fName.toString)
+===========================================================================
+junit.framework.TestResult.runCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 6
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.runCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == return
+this.fStop == orig(this.fStop)
+return == orig(this.fRunTests)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == 6
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.runProtected(junit.framework.Test, junit.framework.Protectable):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.ISSNValidatorTest.class
+p.getClass().getName() == junit.framework.TestResult$1.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.runProtected(junit.framework.Test, junit.framework.Protectable):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == return
+return == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == false
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::EXIT;condition="not(return == true)"
+===========================================================================
+junit.framework.TestResult.startTest(junit.framework.Test):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.getClass().getName() == org.apache.commons.validator.routines.ISSNValidatorTest.class
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.startTest(junit.framework.Test):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests - orig(this.fRunTests) - 1 == 0
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 6
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT164
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT164;condition="return == true"
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 6
+return == true
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT;condition="return == true"
+===========================================================================
+junit.framework.TestSuite:::CLASS
+===========================================================================
+junit.framework.TestSuite:::OBJECT
+this.fTests != null
+this.fTests[] elements != null
+this.fName.toString == "org.apache.commons.validator.routines.ISSNValidatorTest"
+===========================================================================
+junit.framework.TestSuite.TestSuite():::EXIT
+junit.framework.TestSuite.class$0 == junit.framework.TestSuite.class$1
+this.fTests has only one value
+this.fTests[] == []
+this.fTests[].getClass().getName() == []
+this.fName == null
+junit.framework.TestSuite.class$0 == null
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::ENTER
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::EXIT81
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::EXIT
+this.fTests has only one value
+this.fTests[] contains no nulls and has only one value, of length 6
+this.fTests[].getClass().getName() == [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest]
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.ISSNValidatorTest.class
+this.fName has only one value
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) == 6
+===========================================================================
+junit.framework.TestSuite.addTest(junit.framework.Test):::ENTER
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.ISSNValidatorTest.class
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+===========================================================================
+junit.framework.TestSuite.addTest(junit.framework.Test):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+size(this.fTests[])-1 == orig(size(this.fTests[]))
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+orig(test) in this.fTests[]
+orig(test.getClass().getName()) in this.fTests[].getClass().getName()
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::ENTER
+size(this.fTests[]) == size(names[])
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.ISSNValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+names has only one value
+names != null
+names[] elements != null
+names[].getClass().getName() elements == java.lang.String.class
+theClass has only one value
+theClass != null
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT111
+this.fTests[] == orig(this.fTests[])
+names[] == orig(names[])
+size(this.fTests[]) == orig(size(names[]))
+this.fTests[] contains no nulls and has only one value, of length 6
+this.fTests[].getClass().getName() == [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest]
+names[] contains no nulls and has only one value, of length 6
+names[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+size(this.fTests[]) == 6
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT115
+size(names[])-1 == orig(size(this.fTests[]))
+size(names[])-1 == orig(size(names[]))
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.Vector, java.lang.Class):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.ISSNValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+names[] elements != null
+names[].getClass().getName() elements == java.lang.String.class
+this.fName.toString == orig(this.fName.toString)
+size(this.fTests[]) >= orig(size(names[]))
+size(names[])-1 <= orig(size(names[]))
+size(names[])-1 >= orig(size(names[]))-1
+===========================================================================
+junit.framework.TestSuite.addTestSuite(java.lang.Class):::ENTER
+junit.framework.TestSuite.class$0 == junit.framework.TestSuite.class$1
+this has only one value
+this.fTests has only one value
+this.fTests[] == []
+this.fTests[].getClass().getName() == []
+this.fName == null
+junit.framework.TestSuite.class$0 == null
+testClass has only one value
+===========================================================================
+junit.framework.TestSuite.addTestSuite(java.lang.Class):::EXIT
+this.fTests == orig(this.fTests)
+this.fName == orig(this.fName)
+size(this.fTests[])-1 == orig(size(this.fTests[]))
+this.fTests has only one value
+this.fTests[] contains no nulls and has only one value, of length 1
+this.fTests[] elements has only one value
+this.fTests[].getClass().getName() == [junit.framework.TestSuite]
+this.fTests[].getClass().getName() elements == junit.framework.TestSuite.class
+this.fName == null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) == 1
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::ENTER
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::EXIT144
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::EXIT
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+return.getClass().getName() == org.apache.commons.validator.routines.ISSNValidatorTest.class
+name.toString == orig(name.toString)
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::ENTER
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::EXIT177
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::EXIT
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 has only one value
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::ENTER
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.ISSNValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT185
+return == true
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT185;condition="return == true"
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT186
+this.fTests[] contains no nulls and has only one value, of length 6
+this.fTests[].getClass().getName() == [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest]
+return == false
+size(this.fTests[]) == 6
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT186;condition="not(return == true)"
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+(return == false)  <==>  (size(this.fTests[]) == 6)
+(return == false)  ==>  (this.fTests[] contains no nulls and has only one value, of length 6)
+(return == false)  ==>  (this.fTests[].getClass().getName() == [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest])
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.ISSNValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT;condition="return == true"
+return == true
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT;condition="not(return == true)"
+this.fTests[] contains no nulls and has only one value, of length 6
+this.fTests[].getClass().getName() == [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest]
+return == false
+size(this.fTests[]) == 6
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::ENTER
+this has only one value
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.ISSNValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+m != null
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT192
+return == true
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT192;condition="return == true"
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT193
+this.fTests[] contains no nulls and has only one value, of length 6
+this.fTests[].getClass().getName() == [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest]
+return == false
+size(this.fTests[]) == 6
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT193;condition="not(return == true)"
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+(return == false)  <==>  (size(this.fTests[]) == 6)
+(return == false)  ==>  (this.fTests[] contains no nulls and has only one value, of length 6)
+(return == false)  ==>  (this.fTests[].getClass().getName() == [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest])
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.validator.routines.ISSNValidatorTest.class
+this.fName has only one value
+this.fName != null
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$0 != null
+junit.framework.TestSuite.class$1 has only one value
+junit.framework.TestSuite.class$1 != null
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT;condition="return == true"
+return == true
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT;condition="not(return == true)"
+this.fTests[] contains no nulls and has only one value, of length 6
+this.fTests[].getClass().getName() == [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest]
+return == false
+size(this.fTests[]) == 6
+===========================================================================
+junit.framework.TestSuite.run(junit.framework.TestResult):::ENTER
+result.fFailures[] == result.fErrors[]
+result.fRunTests == size(result.fFailures[])
+result.fRunTests == size(result.fErrors[])
+result.fRunTests == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 6 }
+size(result.fListeners[]) == 1
+result.fListeners[] elements == result.fListeners[result.fRunTests]
+===========================================================================
+junit.framework.TestSuite.run(junit.framework.TestResult):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+orig(result.fRunTests) == size(result.fFailures[])
+orig(result.fRunTests) == size(result.fErrors[])
+orig(result.fRunTests) == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fRunTests == 6
+result.fStop == false
+size(this.fTests[]) one of { 1, 6 }
+size(result.fListeners[]) == 1
+this.fName.toString == orig(this.fName.toString)
+result.fListeners[] elements == result.fListeners[orig(result.fRunTests)]
+===========================================================================
+junit.framework.TestSuite.runTest(junit.framework.Test, junit.framework.TestResult):::ENTER
+test == this.fTests[result.fRunTests]
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 6 }
+size(result.fListeners[]) == 1
+test in this.fTests[]
+test.getClass().getName() in this.fTests[].getClass().getName()
+result.fRunTests <= size(this.fTests[])-1
+result.fRunTests >= size(result.fFailures[])
+size(this.fTests[]) >= size(result.fListeners[])
+size(this.fTests[])-1 >= size(result.fFailures[])
+size(this.fTests[])-1 != size(result.fListeners[])
+===========================================================================
+junit.framework.TestSuite.runTest(junit.framework.Test, junit.framework.TestResult):::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+orig(test) == this.fTests[orig(result.fRunTests)]
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 6 }
+size(result.fListeners[]) == 1
+orig(test) in this.fTests[]
+orig(test.getClass().getName()) in this.fTests[].getClass().getName()
+this.fName.toString == orig(this.fName.toString)
+result.fRunTests > orig(result.fRunTests)
+result.fRunTests >= size(result.fListeners[])
+orig(result.fRunTests) <= size(this.fTests[])-1
+orig(result.fRunTests) >= size(result.fFailures[])
+size(this.fTests[]) >= size(result.fListeners[])
+size(this.fTests[])-1 >= size(result.fFailures[])
+size(this.fTests[])-1 != size(result.fListeners[])
+result.fRunTests - orig(result.fRunTests) + size(this.fTests[]) - 7 == 0
+result.fRunTests - orig(result.fRunTests) + size(this.fTests[])-1 - 6 == 0
+===========================================================================
+junit.framework.TestSuite.tests():::ENTER
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+size(this.fTests[]) one of { 1, 6 }
+===========================================================================
+junit.framework.TestSuite.tests():::EXIT
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+this.fName == orig(this.fName)
+junit.framework.TestSuite.class$0 == orig(junit.framework.TestSuite.class$0)
+junit.framework.TestSuite.class$1 == orig(junit.framework.TestSuite.class$1)
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest, org.apache.commons.validator.routines.ISSNValidatorTest] }
+junit.framework.TestSuite.class$0 has only one value
+junit.framework.TestSuite.class$1 has only one value
+return.getClass().getName() == java.util.Vector$1.class
+size(this.fTests[]) one of { 1, 6 }
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.runner.BaseTestRunner:::CLASS
+junit.runner.BaseTestRunner.SUITE_METHODNAME has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == "suite"
+junit.runner.BaseTestRunner.fPreferences has only one value
+junit.runner.BaseTestRunner.fgMaxMessageLength == 500
+junit.runner.BaseTestRunner.fgFilterStack == true
+===========================================================================
+junit.runner.BaseTestRunner:::OBJECT
+junit.runner.BaseTestRunner.fgFilterStack == this.fLoading
+this has only one value
+this.getClass().getName() == junit.textui.TestRunner.class
+===========================================================================
+junit.runner.BaseTestRunner.BaseTestRunner():::EXIT
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String):::ENTER
+key has only one value
+key.toString == "maxmessage"
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String):::EXIT
+key.toString == "maxmessage"
+return == null
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::ENTER
+key has only one value
+key.toString == "maxmessage"
+dflt == 500
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::EXIT243
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::EXIT
+key.toString == "maxmessage"
+return == 500
+===========================================================================
+junit.runner.BaseTestRunner.getPreferences():::EXIT
+return has only one value
+===========================================================================
+junit.runner.BaseTestRunner.getPreferencesFile():::EXIT
+return has only one value
+===========================================================================
+junit.textui.ResultPrinter:::OBJECT
+this has only one value
+this.fWriter has only one value
+this.fWriter != null
+this.fColumn >= 0
+===========================================================================
+junit.textui.ResultPrinter.ResultPrinter(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+junit.textui.ResultPrinter.ResultPrinter(java.io.PrintStream):::EXIT
+this.fWriter == orig(writer)
+this.fColumn == 0
+===========================================================================
+junit.textui.ResultPrinter.elapsedTimeAsString(long):::ENTER
+this.fColumn == 6
+runTime == 235
+===========================================================================
+junit.textui.ResultPrinter.elapsedTimeAsString(long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 6
+return has only one value
+return.toString == "0.235"
+===========================================================================
+junit.textui.ResultPrinter.endTest(junit.framework.Test):::ENTER
+test.getClass().getName() == org.apache.commons.validator.routines.ISSNValidatorTest.class
+===========================================================================
+junit.textui.ResultPrinter.endTest(junit.framework.Test):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+===========================================================================
+junit.textui.ResultPrinter.getWriter():::ENTER
+===========================================================================
+junit.textui.ResultPrinter.getWriter():::EXIT
+this.fWriter == return
+this.fColumn == orig(this.fColumn)
+return == orig(this.fWriter)
+return has only one value
+return != null
+===========================================================================
+junit.textui.ResultPrinter.print(junit.framework.TestResult, long):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 6
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+runTime == 235
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.print(junit.framework.TestResult, long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 6
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::ENTER
+this.fColumn == 6
+booBoos.getClass().getName() == java.util.Vector$1.class
+count == 0
+type.toString one of { "error", "failure" }
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT55
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 6
+type.toString one of { "error", "failure" }
+type.toString == orig(type.toString)
+===========================================================================
+junit.textui.ResultPrinter.printErrors(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 6
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printErrors(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 6
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printFailures(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 6
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printFailures(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 6
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printFooter(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 6
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+===========================================================================
+junit.textui.ResultPrinter.printFooter(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 6
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printHeader(long):::ENTER
+this.fColumn == 6
+runTime == 235
+===========================================================================
+junit.textui.ResultPrinter.printHeader(long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 6
+===========================================================================
+junit.textui.ResultPrinter.startTest(junit.framework.Test):::ENTER
+test.getClass().getName() == org.apache.commons.validator.routines.ISSNValidatorTest.class
+===========================================================================
+junit.textui.ResultPrinter.startTest(junit.framework.Test):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn - orig(this.fColumn) - 1 == 0
+===========================================================================
+junit.textui.TestRunner:::CLASS
+junit.runner.BaseTestRunner.SUITE_METHODNAME has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME != null
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == "suite"
+junit.runner.BaseTestRunner.fPreferences has only one value
+junit.runner.BaseTestRunner.fPreferences != null
+junit.runner.BaseTestRunner.fgMaxMessageLength == 500
+junit.runner.BaseTestRunner.fgFilterStack == true
+===========================================================================
+junit.textui.TestRunner:::OBJECT
+junit.runner.BaseTestRunner.fgFilterStack == this.fLoading
+this has only one value
+this.fPrinter has only one value
+this.fPrinter.fWriter has only one value
+this.fPrinter.fColumn one of { 0, 6 }
+this.fPrinter.fColumn >= junit.textui.TestRunner.SUCCESS_EXIT
+this.fPrinter.fColumn != junit.textui.TestRunner.FAILURE_EXIT
+this.fPrinter.fColumn != junit.textui.TestRunner.EXCEPTION_EXIT
+this.fPrinter.fColumn < junit.runner.BaseTestRunner.fgMaxMessageLength
+===========================================================================
+junit.textui.TestRunner.TestRunner():::EXIT
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.TestRunner(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+junit.textui.TestRunner.TestRunner(java.io.PrintStream):::EXIT
+this.fPrinter.fWriter == orig(writer)
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.TestRunner(junit.textui.ResultPrinter):::ENTER
+printer has only one value
+printer.fWriter has only one value
+printer.fColumn == 0
+===========================================================================
+junit.textui.TestRunner.TestRunner(junit.textui.ResultPrinter):::EXIT
+this.fPrinter == orig(printer)
+this.fPrinter.fWriter == printer.fWriter
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == printer.fColumn
+junit.textui.TestRunner.SUCCESS_EXIT == orig(printer.fColumn)
+printer.fWriter == orig(printer.fWriter)
+printer.fWriter has only one value
+===========================================================================
+junit.textui.TestRunner.createTestResult():::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.createTestResult():::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return.fFailures[] == return.fListeners[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fStop == false
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test):::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+test has only one value
+test.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 6
+return.fStop == false
+return.fListeners[] elements == this.fPrinter
+this.fPrinter in return.fListeners[]
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test, boolean):::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+suite has only one value
+suite.getClass().getName() == junit.framework.TestSuite.class
+wait == false
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test, boolean):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return.fStop == orig(wait)
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 6
+return.fStop == false
+return.fListeners[] elements == this.fPrinter
+this.fPrinter in return.fListeners[]
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::ENTER
+this.fPrinter.fColumn == 6
+wait == false
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::EXIT126
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == orig(this.fPrinter.fColumn)
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+this.fPrinter.fColumn == 6
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.textui.TestRunner.run(junit.framework.Test):::ENTER
+test has only one value
+test.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+junit.textui.TestRunner.run(junit.framework.Test):::EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+return.fFailures[] == return.fErrors[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 6
+return.fStop == false
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+org.apache.commons.validator.daikon.ISSNValidatorTest.main(java.lang.String[]):::ENTER
+arg has only one value
+arg.getClass().getName() == java.lang.String[].class
+arg[] == []
+arg[].toString == []
+===========================================================================
+org.apache.commons.validator.daikon.ISSNValidatorTest.main(java.lang.String[]):::EXIT
+arg[] == orig(arg[])
+arg[] == []
+arg[].toString == []
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator:::CLASS
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator:::OBJECT
+this.minLength == this.maxLength
+this has only one value
+this.regexValidator has only one value
+this.regexValidator != null
+this.regexValidator.patterns has only one value
+this.regexValidator.patterns != null
+this.regexValidator.patterns.getClass().getName() == java.util.regex.Pattern[].class
+this.regexValidator.patterns[] contains no nulls and has only one value, of length 1
+this.regexValidator.patterns[] elements has only one value
+this.regexValidator.patterns[] elements != null
+this.regexValidator.patterns[].getClass().getName() == [java.util.regex.Pattern]
+this.regexValidator.patterns[].getClass().getName() elements == java.util.regex.Pattern.class
+this.minLength == 8
+this.checkdigit has only one value
+this.checkdigit != null
+this.checkdigit.getClass().getName() == org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.class
+size(this.regexValidator.patterns[]) == 1
+this.regexValidator.patterns.getClass().getName() != this.checkdigit.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(java.lang.String, int, int, org.apache.commons.validator.routines.checkdigit.CheckDigit):::ENTER
+minLength == maxLength
+regex has only one value
+regex.toString == "(?:ISSN )?(\\d{4})-(\\d{3}[0-9X])$"
+minLength == 8
+checkdigit has only one value
+checkdigit.getClass().getName() == org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.class
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(java.lang.String, int, int, org.apache.commons.validator.routines.checkdigit.CheckDigit):::EXIT
+this.minLength == orig(minLength)
+this.minLength == orig(maxLength)
+this.checkdigit == orig(checkdigit)
+regex.toString == "(?:ISSN )?(\\d{4})-(\\d{3}[0-9X])$"
+this.checkdigit.getClass().getName() == orig(checkdigit.getClass().getName())
+regex.toString == orig(regex.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(java.lang.String, int, org.apache.commons.validator.routines.checkdigit.CheckDigit):::ENTER
+regex has only one value
+regex.toString == "(?:ISSN )?(\\d{4})-(\\d{3}[0-9X])$"
+length == 8
+checkdigit has only one value
+checkdigit.getClass().getName() == org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.class
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.CodeValidator(java.lang.String, int, org.apache.commons.validator.routines.checkdigit.CheckDigit):::EXIT
+this.minLength == orig(length)
+this.checkdigit == orig(checkdigit)
+regex.toString == "(?:ISSN )?(\\d{4})-(\\d{3}[0-9X])$"
+this.checkdigit.getClass().getName() == orig(checkdigit.getClass().getName())
+regex.toString == orig(regex.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT234
+return == true
+orig(input) != null
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT234;condition="return == true"
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT235
+return == false
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT235;condition="not(return == true)"
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT
+this.regexValidator == orig(this.regexValidator)
+this.regexValidator.patterns == orig(this.regexValidator.patterns)
+this.regexValidator.patterns[] == orig(this.regexValidator.patterns[])
+this.minLength == orig(this.minLength)
+this.minLength == orig(this.maxLength)
+this.checkdigit == orig(this.checkdigit)
+(return == true)  ==>  (orig(input) != null)
+this.regexValidator.patterns.getClass().getName() == orig(this.regexValidator.patterns.getClass().getName())
+this.checkdigit.getClass().getName() == orig(this.checkdigit.getClass().getName())
+input.toString == orig(input.toString)
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT;condition="return == true"
+return == true
+orig(input) != null
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.isValid(java.lang.String):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT252
+return == orig(input)
+return == null
+orig(input) == null
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT257
+input.toString one of { "", "   " }
+return == null
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT264
+return == null
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT276
+input.toString == "1911-1478"
+return == null
+orig(input) has only one value
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT279
+return != null
+orig(input) != null
+===========================================================================
+org.apache.commons.validator.routines.CodeValidator.validate(java.lang.String):::EXIT
+this.regexValidator == orig(this.regexValidator)
+this.regexValidator.patterns == orig(this.regexValidator.patterns)
+this.regexValidator.patterns[] == orig(this.regexValidator.patterns[])
+this.minLength == orig(this.minLength)
+this.minLength == orig(this.maxLength)
+this.checkdigit == orig(this.checkdigit)
+return.getClass().getName() == java.lang.String.class
+this.regexValidator.patterns.getClass().getName() != return.getClass().getName()
+this.regexValidator.patterns.getClass().getName() == orig(this.regexValidator.patterns.getClass().getName())
+this.checkdigit.getClass().getName() != return.getClass().getName()
+this.checkdigit.getClass().getName() == orig(this.checkdigit.getClass().getName())
+input.toString == orig(input.toString)
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator:::CLASS
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.maxLength
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX has only one value
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX != null
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString == "(?:ISSN )?(\\d{4})-(\\d{3}[0-9X])$"
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR has only one value
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR != null
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator has only one value
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator != null
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns has only one value
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns != null
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns.getClass().getName() == java.util.regex.Pattern[].class
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[] contains no nulls and has only one value, of length 1
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[] elements has only one value
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[] elements != null
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[].getClass().getName() == [java.util.regex.Pattern]
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[].getClass().getName() elements == java.util.regex.Pattern.class
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == 8
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit has only one value
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit != null
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() == org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.class
+org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR has only one value
+org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR != null
+size(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[]) == 1
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns.getClass().getName() != org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator:::OBJECT
+this == org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR
+this has only one value
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.ISSNValidator():::EXIT
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.convertToEAN13(java.lang.String, java.lang.String):::ENTER
+suffix != null
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString < issn.toString
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString < suffix.toString
+issn.toString != suffix.toString
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.convertToEAN13(java.lang.String, java.lang.String):::EXIT128
+return == orig(issn)
+suffix.toString == "00"
+return == null
+orig(suffix) has only one value
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.convertToEAN13(java.lang.String, java.lang.String):::EXIT137
+return != null
+orig(issn) != null
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.convertToEAN13(java.lang.String, java.lang.String):::EXIT
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[] == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[])
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.maxLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR == orig(this)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR)
+(return != null)  <==>  (orig(issn) != null)
+(return != null)  ==>  (issn.toString != return.toString)
+(return != null)  ==>  (issn.toString != suffix.toString)
+(return != null)  ==>  (org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString < issn.toString)
+(return != null)  ==>  (org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString < return.toString)
+(return != null)  ==>  (suffix.toString != return.toString)
+(return == null)  <==>  (orig(issn) == null)
+(return == null)  ==>  (orig(suffix) has only one value)
+(return == null)  ==>  (return == orig(issn))
+(return == null)  ==>  (suffix.toString == "00")
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString < issn.toString
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString < suffix.toString
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString < return.toString
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns.getClass().getName())
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName())
+issn.toString != suffix.toString
+issn.toString != return.toString
+issn.toString == orig(issn.toString)
+suffix.toString != return.toString
+suffix.toString == orig(suffix.toString)
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.getInstance():::ENTER
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.getInstance():::EXIT
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[] == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[])
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.maxLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR == return
+org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns.getClass().getName())
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName())
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.isValid(java.lang.String):::ENTER
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString != code.toString
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.isValid(java.lang.String):::EXIT
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[] == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[])
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.maxLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR == orig(this)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR)
+(return == true)  ==>  (org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString < code.toString)
+(return == true)  ==>  (orig(code) != null)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString != code.toString
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns.getClass().getName())
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName())
+code.toString == orig(code.toString)
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.isValid(java.lang.String):::EXIT;condition="return == true"
+return == true
+orig(code) != null
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString < code.toString
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.isValid(java.lang.String):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.validate(java.lang.String):::ENTER
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString < code.toString
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidator.validate(java.lang.String):::EXIT
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[] == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns[])
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.maxLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR == orig(this)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR)
+return.getClass().getName() == java.lang.String.class
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString < code.toString
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns.getClass().getName() != return.getClass().getName()
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator.patterns.getClass().getName())
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() != return.getClass().getName()
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName())
+code.toString == orig(code.toString)
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest:::CLASS
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.maxLength
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR has only one value
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR != null
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX has only one value
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX != null
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString == "(?:ISSN )?(\\d{4})-(\\d{3}[0-9X])$"
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR has only one value
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR != null
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator has only one value
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator != null
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == 8
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit has only one value
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit != null
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() == org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.class
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest:::OBJECT
+this.validFormat != null
+this.validFormat.getClass().getName() == java.lang.String[].class
+this.validFormat[] contains no nulls and has only one value, of length 14
+this.validFormat[] elements != null
+this.validFormat[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.validFormat[].getClass().getName() elements == java.lang.String.class
+this.validFormat[].toString == [ISSN 0317-8471, 1050-124X, ISSN 1562-6865, 1063-7710, 1748-7188, ISSN 0264-2875, 1750-0095, 1188-1534, 1911-1479, ISSN 1911-1460, 0001-6772, 1365-201X, 0264-3596, 1144-875X]
+this.invalidFormat != null
+this.invalidFormat[] contains no nulls and has only one value, of length 11
+this.invalidFormat[] elements != null
+this.invalidFormat[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+this.invalidFormat[].getClass().getName() elements == java.lang.String.class
+this.invalidFormat[].toString == [,    , ISBN 0317-8471, '1050-124X, ISSN1562-6865, 10637710, 1748-7188', ISSN  0264-2875, 1750 0095, 1188_1534, 1911-1478]
+this.fName != null
+size(this.validFormat[]) == 14
+size(this.invalidFormat[]) == 11
+this.validFormat[org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength] has only one value
+this.validFormat[org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength-1] has only one value
+this.invalidFormat[org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength] has only one value
+this.invalidFormat[org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength-1] has only one value
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString < this.fName.toString
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() != this.validFormat.getClass().getName()
+this.validFormat.getClass().getName() == this.invalidFormat.getClass().getName()
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.ISSNValidatorTest(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.ISSNValidatorTest(java.lang.String):::EXIT
+this.fName == orig(name)
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.testInvalid():::ENTER
+this has only one value
+this.validFormat has only one value
+this.invalidFormat has only one value
+this.fName has only one value
+this.fName.toString == "testInvalid"
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.testInvalid():::EXIT
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.maxLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit)
+this.validFormat == orig(this.validFormat)
+this.validFormat[] == orig(this.validFormat[])
+this.invalidFormat == orig(this.invalidFormat)
+this.invalidFormat[] == orig(this.invalidFormat[])
+this.fName == orig(this.fName)
+this.validFormat has only one value
+this.invalidFormat has only one value
+this.fName has only one value
+this.fName.toString == "testInvalid"
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName())
+this.validFormat.getClass().getName() == orig(this.validFormat.getClass().getName())
+this.validFormat.getClass().getName() == orig(this.invalidFormat.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.testIsValidISSN():::ENTER
+this has only one value
+this.validFormat has only one value
+this.invalidFormat has only one value
+this.fName has only one value
+this.fName.toString == "testIsValidISSN"
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.testIsValidISSN():::EXIT
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.maxLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit)
+this.validFormat == orig(this.validFormat)
+this.validFormat[] == orig(this.validFormat[])
+this.invalidFormat == orig(this.invalidFormat)
+this.invalidFormat[] == orig(this.invalidFormat[])
+this.fName == orig(this.fName)
+this.validFormat has only one value
+this.invalidFormat has only one value
+this.fName has only one value
+this.fName.toString == "testIsValidISSN"
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName())
+this.validFormat.getClass().getName() == orig(this.validFormat.getClass().getName())
+this.validFormat.getClass().getName() == orig(this.invalidFormat.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.testIsValidISSNConvert():::ENTER
+this has only one value
+this.validFormat has only one value
+this.invalidFormat has only one value
+this.fName has only one value
+this.fName.toString == "testIsValidISSNConvert"
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.testIsValidISSNConvert():::EXIT
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.maxLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit)
+this.validFormat == orig(this.validFormat)
+this.validFormat[] == orig(this.validFormat[])
+this.invalidFormat == orig(this.invalidFormat)
+this.invalidFormat[] == orig(this.invalidFormat[])
+this.fName == orig(this.fName)
+this.validFormat has only one value
+this.invalidFormat has only one value
+this.fName has only one value
+this.fName.toString == "testIsValidISSNConvert"
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName())
+this.validFormat.getClass().getName() == orig(this.validFormat.getClass().getName())
+this.validFormat.getClass().getName() == orig(this.invalidFormat.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.testIsValidISSNConvertNull():::ENTER
+this has only one value
+this.validFormat has only one value
+this.invalidFormat has only one value
+this.fName has only one value
+this.fName.toString == "testIsValidISSNConvertNull"
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.testIsValidISSNConvertNull():::EXIT
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.maxLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit)
+this.validFormat == orig(this.validFormat)
+this.validFormat[] == orig(this.validFormat[])
+this.invalidFormat == orig(this.invalidFormat)
+this.invalidFormat[] == orig(this.invalidFormat[])
+this.fName == orig(this.fName)
+this.validFormat has only one value
+this.invalidFormat has only one value
+this.fName has only one value
+this.fName.toString == "testIsValidISSNConvertNull"
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName())
+this.validFormat.getClass().getName() == orig(this.validFormat.getClass().getName())
+this.validFormat.getClass().getName() == orig(this.invalidFormat.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.testIsValidISSNConvertSuffix():::ENTER
+this has only one value
+this.validFormat has only one value
+this.invalidFormat has only one value
+this.fName has only one value
+this.fName.toString == "testIsValidISSNConvertSuffix"
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.testIsValidISSNConvertSuffix():::EXIT
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.maxLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit)
+this.validFormat == orig(this.validFormat)
+this.validFormat[] == orig(this.validFormat[])
+this.invalidFormat == orig(this.invalidFormat)
+this.invalidFormat[] == orig(this.invalidFormat[])
+this.fName == orig(this.fName)
+this.validFormat has only one value
+this.invalidFormat has only one value
+this.fName has only one value
+this.fName.toString == "testIsValidISSNConvertSuffix"
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName())
+this.validFormat.getClass().getName() == orig(this.validFormat.getClass().getName())
+this.validFormat.getClass().getName() == orig(this.invalidFormat.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.testNull():::ENTER
+this has only one value
+this.validFormat has only one value
+this.invalidFormat has only one value
+this.fName has only one value
+this.fName.toString == "testNull"
+===========================================================================
+org.apache.commons.validator.routines.ISSNValidatorTest.testNull():::EXIT
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidatorTest.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.regexValidator)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.minLength == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.maxLength)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit)
+this.validFormat == orig(this.validFormat)
+this.validFormat[] == orig(this.validFormat[])
+this.invalidFormat == orig(this.invalidFormat)
+this.invalidFormat[] == orig(this.invalidFormat[])
+this.fName == orig(this.fName)
+this.validFormat has only one value
+this.invalidFormat has only one value
+this.fName has only one value
+this.fName.toString == "testNull"
+org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString == orig(org.apache.commons.validator.routines.ISSNValidator.ISSN_REGEX.toString)
+org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName() == orig(org.apache.commons.validator.routines.ISSNValidator.VALIDATOR.checkdigit.getClass().getName())
+this.validFormat.getClass().getName() == orig(this.validFormat.getClass().getName())
+this.validFormat.getClass().getName() == orig(this.invalidFormat.getClass().getName())
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator:::CLASS
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator:::OBJECT
+this has only one value
+this.patterns has only one value
+this.patterns != null
+this.patterns.getClass().getName() == java.util.regex.Pattern[].class
+this.patterns[] contains no nulls and has only one value, of length 1
+this.patterns[] elements has only one value
+this.patterns[] elements != null
+this.patterns[].getClass().getName() == [java.util.regex.Pattern]
+this.patterns[].getClass().getName() elements == java.util.regex.Pattern.class
+size(this.patterns[]) == 1
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.RegexValidator(java.lang.String):::ENTER
+regex has only one value
+regex.toString == "(?:ISSN )?(\\d{4})-(\\d{3}[0-9X])$"
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.RegexValidator(java.lang.String):::EXIT
+regex.toString == "(?:ISSN )?(\\d{4})-(\\d{3}[0-9X])$"
+regex.toString == orig(regex.toString)
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.RegexValidator(java.lang.String, boolean):::ENTER
+regex has only one value
+regex.toString == "(?:ISSN )?(\\d{4})-(\\d{3}[0-9X])$"
+caseSensitive == true
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.RegexValidator(java.lang.String, boolean):::EXIT
+regex.toString == "(?:ISSN )?(\\d{4})-(\\d{3}[0-9X])$"
+regex.toString == orig(regex.toString)
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.RegexValidator(java.lang.String[], boolean):::ENTER
+regexs has only one value
+regexs.getClass().getName() == java.lang.String[].class
+regexs[] contains no nulls and has only one value, of length 1
+regexs[] elements has only one value
+regexs[].toString == [(?:ISSN )?(\d{4})-(\d{3}[0-9X])$]
+regexs[].toString elements == "(?:ISSN )?(\\d{4})-(\\d{3}[0-9X])$"
+caseSensitive == true
+size(regexs[]) == 1
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.RegexValidator(java.lang.String[], boolean):::EXIT
+regexs[] == orig(regexs[])
+size(this.patterns[]) == orig(size(regexs[]))
+regexs[] contains no nulls and has only one value, of length 1
+regexs[] elements has only one value
+regexs[].toString == [(?:ISSN )?(\d{4})-(\d{3}[0-9X])$]
+regexs[].toString elements == "(?:ISSN )?(\\d{4})-(\\d{3}[0-9X])$"
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.validate(java.lang.String):::ENTER
+value != null
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.validate(java.lang.String):::EXIT206
+return != null
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.validate(java.lang.String):::EXIT209
+return == null
+===========================================================================
+org.apache.commons.validator.routines.RegexValidator.validate(java.lang.String):::EXIT
+this.patterns == orig(this.patterns)
+this.patterns[] == orig(this.patterns[])
+this.patterns.getClass().getName() == orig(this.patterns.getClass().getName())
+value.toString != return.toString
+value.toString == orig(value.toString)
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit:::CLASS
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT has only one value
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT != null
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT has only one value
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT != null
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] == [3, 1]
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] elements one of { 1, 3 }
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] sorted by >
+size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[]) == 2
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] elements < org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.serialVersionUID
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] elements < org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] elements >= size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])-1
+size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])-1 in org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[]
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit:::OBJECT
+this has only one value
+this.modulus == 10
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] elements < this.modulus
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13CheckDigit():::EXIT
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.weightedValue(int, int, int):::ENTER
+charValue >= 0
+leftPos >= 1
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.serialVersionUID > charValue
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.serialVersionUID > leftPos
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.serialVersionUID > rightPos
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > charValue
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > leftPos
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > rightPos
+this.modulus > charValue
+leftPos + rightPos - 14 == 0
+leftPos >= size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])-1
+rightPos >= size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])-1
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.weightedValue(int, int, int):::EXIT
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT == orig(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT)
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT == orig(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT)
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[] == orig(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])
+this.modulus == orig(this.modulus)
+return >= 0
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.serialVersionUID > return
+org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT.getClass().getName() == orig(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.EAN13_CHECK_DIGIT.getClass().getName())
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > return
+this.modulus != return
+this.modulus > orig(charValue)
+return >= orig(charValue)
+orig(leftPos) >= size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])-1
+orig(rightPos) >= size(org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.POSITION_WEIGHT[])-1
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit:::CLASS
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.ISSN_CHECK_DIGIT has only one value
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.ISSN_CHECK_DIGIT != null
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.ISSN_CHECK_DIGIT.getClass().getName() == org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.class
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit:::OBJECT
+this has only one value
+this.modulus == 11
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.ISSNCheckDigit():::EXIT
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.toInt(char, int, int):::ENTER
+leftPos >= 1
+rightPos >= 1
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.serialVersionUID < character
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.serialVersionUID <= leftPos
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.serialVersionUID <= rightPos
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > character
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > leftPos
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > rightPos
+this.modulus < character
+this.modulus > leftPos
+this.modulus > rightPos
+character > leftPos
+character > rightPos
+leftPos != rightPos
+leftPos + rightPos - 9 == 0
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.toInt(char, int, int):::EXIT81
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.serialVersionUID == orig(rightPos)
+return == 10
+orig(character) == 88
+orig(leftPos) == 8
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.toInt(char, int, int):::EXIT83
+return - orig(character) + 48 == 0
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.toInt(char, int, int):::EXIT
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.ISSN_CHECK_DIGIT == orig(org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.ISSN_CHECK_DIGIT)
+this.modulus == orig(this.modulus)
+(return <= 9)  ==>  (orig(leftPos) + orig(rightPos) - 9 == 0)
+(return <= 9)  ==>  (orig(leftPos) >= 1)
+(return <= 9)  ==>  (return - orig(character) + 48 == 0)
+(return == 10)  <==>  (orig(character) == 88)
+(return == 10)  ==>  (org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.serialVersionUID < orig(leftPos))
+(return == 10)  ==>  (org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.serialVersionUID < return)
+(return == 10)  ==>  (org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.serialVersionUID == orig(rightPos))
+(return == 10)  ==>  (orig(leftPos) == 8)
+(return == 10)  ==>  (orig(leftPos) > orig(rightPos))
+(return == 10)  ==>  (return > orig(leftPos))
+(return == 10)  ==>  (return > orig(rightPos))
+return >= 0
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.ISSN_CHECK_DIGIT.getClass().getName() == orig(org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.ISSN_CHECK_DIGIT.getClass().getName())
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > return
+this.modulus > return
+this.modulus < orig(character)
+this.modulus > orig(leftPos)
+this.modulus > orig(rightPos)
+return < orig(character)
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.weightedValue(int, int, int):::ENTER
+charValue >= 0
+leftPos >= 1
+rightPos >= 1
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.serialVersionUID <= leftPos
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.serialVersionUID <= rightPos
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > charValue
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > leftPos
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > rightPos
+this.modulus > charValue
+this.modulus > leftPos
+this.modulus > rightPos
+leftPos != rightPos
+leftPos + rightPos - 9 == 0
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.weightedValue(int, int, int):::EXIT
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.ISSN_CHECK_DIGIT == orig(org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.ISSN_CHECK_DIGIT)
+this.modulus == orig(this.modulus)
+return >= 0
+org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.ISSN_CHECK_DIGIT.getClass().getName() == orig(org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.ISSN_CHECK_DIGIT.getClass().getName())
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > return
+this.modulus != return
+this.modulus > orig(charValue)
+this.modulus > orig(leftPos)
+this.modulus > orig(rightPos)
+return >= orig(charValue)
+return % orig(rightPos) == 0
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit:::CLASS
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit:::OBJECT
+this.modulus one of { 10, 11 }
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > this.modulus
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.ModulusCheckDigit(int):::ENTER
+modulus one of { 10, 11 }
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.ModulusCheckDigit(int):::EXIT
+this.modulus == orig(modulus)
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.calculate(java.lang.String):::ENTER
+this has only one value
+this.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+this.modulus == 10
+code != null
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.calculate(java.lang.String):::EXIT
+this.modulus == orig(this.modulus)
+this.modulus == 10
+return != null
+code.toString > return.toString
+code.toString == orig(code.toString)
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.calculateModulus(java.lang.String, boolean):::ENTER
+code != null
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.calculateModulus(java.lang.String, boolean):::EXIT
+this.modulus == orig(this.modulus)
+return >= 0
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > return
+this.modulus > return
+code.toString == orig(code.toString)
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::ENTER
+code != null
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT76
+return == true
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT76;condition="return == true"
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT77
+this.modulus == 11
+code.toString == "19111478"
+return == false
+orig(this) has only one value
+orig(this.getClass().getName()) == org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.class
+orig(code) has only one value
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT77;condition="not(return == true)"
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT
+this.modulus == orig(this.modulus)
+(return == false)  ==>  (code.toString == "19111478")
+(return == false)  ==>  (orig(code) has only one value)
+(return == false)  ==>  (orig(this) has only one value)
+(return == false)  ==>  (orig(this.getClass().getName()) == org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.class)
+(return == false)  ==>  (this.modulus == 11)
+(return == true)  ==>  (this.modulus one of { 10, 11 })
+code.toString == orig(code.toString)
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.isValid(java.lang.String):::EXIT;condition="not(return == true)"
+this.modulus == 11
+code.toString == "19111478"
+return == false
+orig(this) has only one value
+orig(this.getClass().getName()) == org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.class
+orig(code) has only one value
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.toCheckDigit(int):::ENTER
+this has only one value
+this.getClass().getName() == org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.class
+this.modulus == 10
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > charValue
+this.modulus > charValue
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.toCheckDigit(int):::EXIT
+this.modulus == orig(this.modulus)
+this.modulus == 10
+return != null
+this.modulus > orig(charValue)
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.toInt(char, int, int):::ENTER
+leftPos >= 1
+rightPos >= 1
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > character
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > leftPos
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > rightPos
+this.modulus < character
+character > leftPos
+character > rightPos
+5 * this.modulus + leftPos + rightPos - 64 == 0
+===========================================================================
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.toInt(char, int, int):::EXIT
+this.modulus == orig(this.modulus)
+return >= 0
+org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.serialVersionUID > return
+this.modulus > return
+this.modulus < orig(character)
+return - orig(character) + 48 == 0
+5 * this.modulus + orig(leftPos) + orig(rightPos) - 64 == 0
