@@ -1,0 +1,2578 @@
+===========================================================================
+junit.framework.Assert:::OBJECT
+===========================================================================
+junit.framework.Assert.Assert():::EXIT
+===========================================================================
+junit.framework.Assert.assertEquals(int, int):::ENTER
+expected == actual
+expected >= 0
+===========================================================================
+junit.framework.Assert.assertEquals(int, int):::EXIT
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, int, int):::ENTER
+expected == actual
+message == null
+expected >= 0
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, int, int):::EXIT
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::ENTER
+message == null
+expected != null
+expected.getClass().getName() == java.lang.Integer.class
+actual != null
+expected.getClass().getName() == actual.getClass().getName()
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::EXIT63
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.Object, java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String):::ENTER
+expected.toString == actual.toString
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String):::EXIT
+expected.toString == actual.toString
+expected.toString == orig(expected.toString)
+expected.toString == orig(actual.toString)
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::ENTER
+message == null
+expected.toString == actual.toString
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::EXIT78
+orig(message) == orig(expected)
+orig(message) == orig(actual)
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::EXIT80
+orig(expected) != null
+orig(actual) != null
+===========================================================================
+junit.framework.Assert.assertEquals(java.lang.String, java.lang.String, java.lang.String):::EXIT
+(orig(expected) != null)  <==>  (orig(actual) != null)
+(orig(expected) == null)  <==>  (orig(actual) == null)
+(orig(expected) == null)  ==>  (orig(message) == orig(actual))
+(orig(expected) == null)  ==>  (orig(message) == orig(expected))
+expected.toString == actual.toString
+expected.toString == orig(expected.toString)
+expected.toString == orig(actual.toString)
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.String, java.lang.Object):::ENTER
+message has only one value
+message != null
+message.toString == "TestCase.fName cannot be null"
+object != null
+object.getClass().getName() == java.lang.String.class
+===========================================================================
+junit.framework.Assert.assertNotNull(java.lang.String, java.lang.Object):::EXIT
+message.toString == "TestCase.fName cannot be null"
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.Object):::ENTER
+object == null
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.String, java.lang.Object):::ENTER
+message == object
+message == null
+object == null
+===========================================================================
+junit.framework.Assert.assertNull(java.lang.String, java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertSame(java.lang.Object, java.lang.Object):::ENTER
+expected == actual
+expected.getClass().getName() == java.lang.String.class
+expected.getClass().getName() == actual.getClass().getName()
+===========================================================================
+junit.framework.Assert.assertSame(java.lang.Object, java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertSame(java.lang.String, java.lang.Object, java.lang.Object):::ENTER
+expected == actual
+message == null
+expected.getClass().getName() == java.lang.String.class
+expected.getClass().getName() == actual.getClass().getName()
+===========================================================================
+junit.framework.Assert.assertSame(java.lang.String, java.lang.Object, java.lang.Object):::EXIT235
+===========================================================================
+junit.framework.Assert.assertSame(java.lang.String, java.lang.Object, java.lang.Object):::EXIT
+===========================================================================
+junit.framework.Assert.assertTrue(java.lang.String, boolean):::ENTER
+message.toString == "TestCase.fName cannot be null"
+condition == true
+===========================================================================
+junit.framework.Assert.assertTrue(java.lang.String, boolean):::EXIT
+message.toString == "TestCase.fName cannot be null"
+message.toString == orig(message.toString)
+===========================================================================
+junit.framework.TestCase:::OBJECT
+this.getClass().getName() == org.apache.commons.lang3.StringUtilsSubstringTest.class
+this.fName != null
+===========================================================================
+junit.framework.TestCase.TestCase(java.lang.String):::ENTER
+name != null
+===========================================================================
+junit.framework.TestCase.TestCase(java.lang.String):::EXIT
+this.fName == orig(name)
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+junit.framework.TestCase.countTestCases():::ENTER
+===========================================================================
+junit.framework.TestCase.countTestCases():::EXIT
+this.fName == orig(this.fName)
+return == 1
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.run(junit.framework.TestResult):::ENTER
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+result has only one value
+result != null
+result.fFailures has only one value
+result.fFailures != null
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fErrors != null
+result.fListeners has only one value
+result.fListeners != null
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[] elements != null
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+this.getClass().getName() != result.fFailures.getClass().getName()
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+result.fRunTests >= size(result.fFailures[])
+===========================================================================
+junit.framework.TestCase.run(junit.framework.TestResult):::EXIT
+this.fName == orig(this.fName)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+result.fFailures has only one value
+result.fFailures != null
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fErrors != null
+result.fListeners has only one value
+result.fListeners != null
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[] elements != null
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+this.fName.toString == orig(this.fName.toString)
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+result.fFailures.getClass().getName() != orig(this.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fFailures.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fErrors.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fListeners.getClass().getName())
+result.fRunTests - orig(result.fRunTests) - 1 == 0
+result.fRunTests >= size(result.fListeners[])
+orig(result.fRunTests) >= size(result.fFailures[])
+===========================================================================
+junit.framework.TestCase.runBare():::ENTER
+===========================================================================
+junit.framework.TestCase.runBare():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.runTest():::ENTER
+===========================================================================
+junit.framework.TestCase.runTest():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.setUp():::ENTER
+===========================================================================
+junit.framework.TestCase.setUp():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestCase.tearDown():::ENTER
+===========================================================================
+junit.framework.TestCase.tearDown():::EXIT
+this.fName == orig(this.fName)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestResult$1:::OBJECT
+junit.framework.TestResult.this.fFailures[] == junit.framework.TestResult.this.fErrors[]
+size(junit.framework.TestResult.this.fFailures[]) == size(junit.framework.TestResult.this.fListeners[])-1
+this.val$test.getClass().getName() == org.apache.commons.lang3.StringUtilsSubstringTest.class
+junit.framework.TestResult.this has only one value
+junit.framework.TestResult.this.fFailures has only one value
+junit.framework.TestResult.this.fFailures[] == []
+junit.framework.TestResult.this.fFailures[].getClass().getName() == []
+junit.framework.TestResult.this.fFailures.getClass().getName() == java.util.ArrayList.class
+junit.framework.TestResult.this.fErrors has only one value
+junit.framework.TestResult.this.fListeners has only one value
+junit.framework.TestResult.this.fListeners[] contains no nulls and has only one value, of length 1
+junit.framework.TestResult.this.fListeners[] elements has only one value
+junit.framework.TestResult.this.fListeners[] elements != null
+junit.framework.TestResult.this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+junit.framework.TestResult.this.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+junit.framework.TestResult.this.fRunTests >= 1
+junit.framework.TestResult.this.fStop == false
+size(junit.framework.TestResult.this.fListeners[]) == 1
+this.val$test.getClass().getName() != junit.framework.TestResult.this.fFailures.getClass().getName()
+junit.framework.TestResult.this.fFailures.getClass().getName() == junit.framework.TestResult.this.fErrors.getClass().getName()
+junit.framework.TestResult.this.fFailures.getClass().getName() == junit.framework.TestResult.this.fListeners.getClass().getName()
+size(junit.framework.TestResult.this.fFailures[]) % junit.framework.TestResult.this.fRunTests == 0
+junit.framework.TestResult.this.fRunTests >= size(junit.framework.TestResult.this.fListeners[])
+===========================================================================
+junit.framework.TestResult$1.(junit.framework.TestResult, junit.framework.TestCase):::ENTER
+junit.framework.TestResult.this.fFailures[] == junit.framework.TestResult.this.fErrors[]
+size(junit.framework.TestResult.this.fFailures[]) == size(junit.framework.TestResult.this.fListeners[])-1
+junit.framework.TestResult.this has only one value
+junit.framework.TestResult.this != null
+junit.framework.TestResult.this.fFailures has only one value
+junit.framework.TestResult.this.fFailures != null
+junit.framework.TestResult.this.fFailures[] == []
+junit.framework.TestResult.this.fFailures[].getClass().getName() == []
+junit.framework.TestResult.this.fFailures.getClass().getName() == java.util.ArrayList.class
+junit.framework.TestResult.this.fErrors has only one value
+junit.framework.TestResult.this.fErrors != null
+junit.framework.TestResult.this.fListeners has only one value
+junit.framework.TestResult.this.fListeners != null
+junit.framework.TestResult.this.fListeners[] contains no nulls and has only one value, of length 1
+junit.framework.TestResult.this.fListeners[] elements has only one value
+junit.framework.TestResult.this.fListeners[] elements != null
+junit.framework.TestResult.this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+junit.framework.TestResult.this.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+junit.framework.TestResult.this.fStop == false
+$hidden$2 != null
+$hidden$2.getClass().getName() == org.apache.commons.lang3.StringUtilsSubstringTest.class
+$hidden$2.fName != null
+size(junit.framework.TestResult.this.fListeners[]) == 1
+junit.framework.TestResult.this.fFailures.getClass().getName() == junit.framework.TestResult.this.fErrors.getClass().getName()
+junit.framework.TestResult.this.fFailures.getClass().getName() == junit.framework.TestResult.this.fListeners.getClass().getName()
+junit.framework.TestResult.this.fFailures.getClass().getName() != $hidden$2.getClass().getName()
+junit.framework.TestResult.this.fRunTests >= size(junit.framework.TestResult.this.fListeners[])
+===========================================================================
+junit.framework.TestResult$1.(junit.framework.TestResult, junit.framework.TestCase):::EXIT
+this.val$test == orig($hidden$2)
+this.val$test.fName == orig($hidden$2.fName)
+junit.framework.TestResult.this == orig(junit.framework.TestResult.this)
+junit.framework.TestResult.this.fFailures == orig(junit.framework.TestResult.this.fFailures)
+junit.framework.TestResult.this.fFailures[] == orig(junit.framework.TestResult.this.fFailures[])
+junit.framework.TestResult.this.fErrors == orig(junit.framework.TestResult.this.fErrors)
+junit.framework.TestResult.this.fListeners == orig(junit.framework.TestResult.this.fListeners)
+junit.framework.TestResult.this.fRunTests == orig(junit.framework.TestResult.this.fRunTests)
+junit.framework.TestResult.this.fStop == orig(junit.framework.TestResult.this.fStop)
+size(junit.framework.TestResult.this.fFailures[]) == orig(size(junit.framework.TestResult.this.fListeners[]))-1
+this.val$test != null
+this.val$test.fName != null
+this.val$test.getClass().getName() == orig($hidden$2.getClass().getName())
+this.val$test.fName.toString == orig($hidden$2.fName.toString)
+junit.framework.TestResult.this.fFailures[] is the reverse of orig(junit.framework.TestResult.this.fFailures[])
+junit.framework.TestResult.this.fFailures.getClass().getName() == orig(junit.framework.TestResult.this.fFailures.getClass().getName())
+junit.framework.TestResult.this.fFailures.getClass().getName() == orig(junit.framework.TestResult.this.fErrors.getClass().getName())
+junit.framework.TestResult.this.fFailures.getClass().getName() == orig(junit.framework.TestResult.this.fListeners.getClass().getName())
+junit.framework.TestResult.this.fListeners[] == orig(junit.framework.TestResult.this.fListeners[]) (elementwise)
+junit.framework.TestResult.this.fListeners[] is the reverse of orig(junit.framework.TestResult.this.fListeners[])
+orig(junit.framework.TestResult.this.fRunTests) >= size(junit.framework.TestResult.this.fListeners[])
+===========================================================================
+junit.framework.TestResult$1.protect():::ENTER
+===========================================================================
+junit.framework.TestResult$1.protect():::EXIT
+this.val$test == orig(this.val$test)
+this.val$test.fName == orig(this.val$test.fName)
+junit.framework.TestResult.this == orig(junit.framework.TestResult.this)
+junit.framework.TestResult.this.fFailures == orig(junit.framework.TestResult.this.fFailures)
+junit.framework.TestResult.this.fFailures[] == orig(junit.framework.TestResult.this.fFailures[])
+junit.framework.TestResult.this.fFailures[] == orig(junit.framework.TestResult.this.fErrors[])
+junit.framework.TestResult.this.fErrors == orig(junit.framework.TestResult.this.fErrors)
+junit.framework.TestResult.this.fListeners == orig(junit.framework.TestResult.this.fListeners)
+junit.framework.TestResult.this.fListeners[] == orig(junit.framework.TestResult.this.fListeners[])
+junit.framework.TestResult.this.fRunTests == orig(junit.framework.TestResult.this.fRunTests)
+junit.framework.TestResult.this.fStop == orig(junit.framework.TestResult.this.fStop)
+size(junit.framework.TestResult.this.fFailures[]) == orig(size(junit.framework.TestResult.this.fListeners[]))-1
+this.val$test.getClass().getName() == orig(this.val$test.getClass().getName())
+this.val$test.fName.toString == orig(this.val$test.fName.toString)
+junit.framework.TestResult.this.fFailures.getClass().getName() == orig(junit.framework.TestResult.this.fFailures.getClass().getName())
+junit.framework.TestResult.this.fFailures.getClass().getName() == orig(junit.framework.TestResult.this.fErrors.getClass().getName())
+junit.framework.TestResult.this.fFailures.getClass().getName() == orig(junit.framework.TestResult.this.fListeners.getClass().getName())
+===========================================================================
+junit.framework.TestResult:::OBJECT
+this.fFailures[] == this.fErrors[]
+this has only one value
+this.fFailures has only one value
+this.fFailures != null
+this.fFailures[] == []
+this.fFailures[].getClass().getName() == []
+this.fFailures.getClass().getName() == java.util.ArrayList.class
+this.fErrors has only one value
+this.fErrors != null
+this.fListeners has only one value
+this.fListeners != null
+this.fListeners[] elements has only one value
+this.fListeners[] elements != null
+this.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+this.fListeners[].getClass().getName() one of { [], [junit.textui.ResultPrinter] }
+this.fRunTests >= 0
+this.fStop == false
+size(this.fListeners[]) one of { 0, 1 }
+this.fFailures.getClass().getName() == this.fErrors.getClass().getName()
+this.fFailures.getClass().getName() == this.fListeners.getClass().getName()
+this.fRunTests >= size(this.fFailures[])
+this.fRunTests >= size(this.fListeners[])-1
+size(this.fFailures[]) <= size(this.fListeners[])
+size(this.fFailures[]) >= size(this.fListeners[])-1
+size(this.fFailures[])-1 <= size(this.fListeners[])-1
+===========================================================================
+junit.framework.TestResult.TestResult():::EXIT
+this.fFailures[] == this.fListeners[]
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.addListener(junit.framework.TestListener):::ENTER
+this.fFailures[] == this.fListeners[]
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])
+listener has only one value
+listener.getClass().getName() == junit.textui.ResultPrinter.class
+===========================================================================
+junit.framework.TestResult.addListener(junit.framework.TestListener):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fFailures[] == orig(this.fListeners[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fRunTests == orig(this.fRunTests)
+this.fRunTests == size(this.fFailures[])
+this.fRunTests == size(this.fErrors[])
+this.fRunTests == size(this.fListeners[])-1
+this.fRunTests == orig(size(this.fFailures[]))
+this.fRunTests == orig(size(this.fErrors[]))
+this.fRunTests == orig(size(this.fListeners[]))
+this.fStop == orig(this.fStop)
+orig(listener) == this.fListeners[this.fRunTests]
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fErrors.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fListeners.getClass().getName())
+orig(listener) in this.fListeners[]
+this.fListeners[] elements == orig(listener)
+this.fListeners[] elements == this.fListeners[this.fRunTests]
+orig(listener.getClass().getName()) in this.fListeners[].getClass().getName()
+===========================================================================
+junit.framework.TestResult.cloneListeners():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.cloneListeners():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == return[]
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return[] == orig(this.fListeners[])
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == size(return[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+return != null
+return[] contains no nulls and has only one value, of length 1
+return[] elements has only one value
+return[] elements != null
+return[].getClass().getName() == [junit.textui.ResultPrinter]
+return[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.getClass().getName() == java.util.ArrayList.class
+size(return[]) == 1
+this.fFailures.getClass().getName() == return.getClass().getName()
+this.fErrors.getClass().getName() == return.getClass().getName()
+this.fListeners.getClass().getName() == return.getClass().getName()
+this.fRunTests >= size(return[])
+return.getClass().getName() == orig(this.fFailures.getClass().getName())
+return.getClass().getName() == orig(this.fErrors.getClass().getName())
+return.getClass().getName() == orig(this.fListeners.getClass().getName())
+===========================================================================
+junit.framework.TestResult.endTest(junit.framework.Test):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test != null
+test.getClass().getName() == org.apache.commons.lang3.StringUtilsSubstringTest.class
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() != test.getClass().getName()
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.endTest(junit.framework.Test):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fErrors.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fListeners.getClass().getName())
+this.fFailures.getClass().getName() != orig(test.getClass().getName())
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.errorCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 13
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.errorCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return == size(this.fFailures[])
+return == size(this.fErrors[])
+return == size(this.fListeners[])-1
+return == orig(size(this.fFailures[]))
+return == orig(size(this.fErrors[]))
+return == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 13
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fErrors.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fListeners.getClass().getName())
+this.fListeners[] elements == this.fListeners[return]
+===========================================================================
+junit.framework.TestResult.errors():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 13
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.errors():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 13
+return has only one value
+return.getClass().getName() == java.util.Collections$3.class
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fErrors.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fListeners.getClass().getName())
+===========================================================================
+junit.framework.TestResult.failureCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 13
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failureCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+return == size(this.fFailures[])
+return == size(this.fErrors[])
+return == size(this.fListeners[])-1
+return == orig(size(this.fFailures[]))
+return == orig(size(this.fErrors[]))
+return == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 13
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fErrors.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fListeners.getClass().getName())
+this.fListeners[] elements == this.fListeners[return]
+===========================================================================
+junit.framework.TestResult.failures():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 13
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.failures():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 13
+return has only one value
+return.getClass().getName() == java.util.Collections$3.class
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fErrors.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fListeners.getClass().getName())
+===========================================================================
+junit.framework.TestResult.run(junit.framework.TestCase):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test != null
+test.getClass().getName() == org.apache.commons.lang3.StringUtilsSubstringTest.class
+test.fName != null
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() != test.getClass().getName()
+===========================================================================
+junit.framework.TestResult.run(junit.framework.TestCase):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fStop == orig(this.fStop)
+test.fName == orig(test.fName)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test.fName != null
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fErrors.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fListeners.getClass().getName())
+this.fFailures.getClass().getName() != orig(test.getClass().getName())
+this.fRunTests - orig(this.fRunTests) - 1 == 0
+this.fRunTests >= size(this.fListeners[])
+test.fName.toString == orig(test.fName.toString)
+orig(this.fRunTests) >= size(this.fFailures[])
+===========================================================================
+junit.framework.TestResult.runCount():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 13
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.runCount():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == return
+this.fStop == orig(this.fStop)
+return == orig(this.fRunTests)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == 13
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fErrors.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fListeners.getClass().getName())
+===========================================================================
+junit.framework.TestResult.runProtected(junit.framework.Test, junit.framework.Protectable):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test != null
+test.getClass().getName() == org.apache.commons.lang3.StringUtilsSubstringTest.class
+p != null
+p.getClass().getName() == junit.framework.TestResult$1.class
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() != test.getClass().getName()
+this.fFailures.getClass().getName() != p.getClass().getName()
+this.fRunTests >= size(this.fListeners[])
+test.getClass().getName() != p.getClass().getName()
+===========================================================================
+junit.framework.TestResult.runProtected(junit.framework.Test, junit.framework.Protectable):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fErrors.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fListeners.getClass().getName())
+this.fFailures.getClass().getName() != orig(test.getClass().getName())
+this.fFailures.getClass().getName() != orig(p.getClass().getName())
+this.fRunTests >= size(this.fListeners[])
+===========================================================================
+junit.framework.TestResult.shouldStop():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.shouldStop():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == return
+return == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return == false
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fErrors.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fListeners.getClass().getName())
+===========================================================================
+junit.framework.TestResult.shouldStop():::EXIT;condition="not(return == true)"
+===========================================================================
+junit.framework.TestResult.startTest(junit.framework.Test):::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+test != null
+test.getClass().getName() == org.apache.commons.lang3.StringUtilsSubstringTest.class
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() != test.getClass().getName()
+===========================================================================
+junit.framework.TestResult.startTest(junit.framework.Test):::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fErrors.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fListeners.getClass().getName())
+this.fFailures.getClass().getName() != orig(test.getClass().getName())
+this.fRunTests - orig(this.fRunTests) - 1 == 0
+this.fRunTests >= size(this.fListeners[])
+orig(this.fRunTests) >= size(this.fFailures[])
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::ENTER
+size(this.fFailures[]) == size(this.fListeners[])-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 13
+size(this.fListeners[]) == 1
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT
+this.fFailures == orig(this.fFailures)
+this.fFailures[] == orig(this.fFailures[])
+this.fFailures[] == orig(this.fErrors[])
+this.fErrors == orig(this.fErrors)
+this.fListeners == orig(this.fListeners)
+this.fListeners[] == orig(this.fListeners[])
+this.fRunTests == orig(this.fRunTests)
+this.fStop == orig(this.fStop)
+size(this.fFailures[]) == size(this.fListeners[])-1
+size(this.fFailures[]) == orig(size(this.fListeners[]))-1
+this.fListeners[] contains no nulls and has only one value, of length 1
+this.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+this.fRunTests == 13
+return == true
+size(this.fListeners[]) == 1
+this.fFailures.getClass().getName() == orig(this.fFailures.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fErrors.getClass().getName())
+this.fFailures.getClass().getName() == orig(this.fListeners.getClass().getName())
+===========================================================================
+junit.framework.TestResult.wasSuccessful():::EXIT;condition="return == true"
+===========================================================================
+junit.framework.TestSuite:::OBJECT
+this.fName.toString == "org.apache.commons.lang3.StringUtilsSubstringTest"
+this.fTests != null
+this.fTests[] elements != null
+===========================================================================
+junit.framework.TestSuite.TestSuite():::EXIT
+this.fName == null
+this.fTests has only one value
+this.fTests[] == []
+this.fTests[].getClass().getName() == []
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::ENTER
+theClass has only one value
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::EXIT151
+===========================================================================
+junit.framework.TestSuite.TestSuite(java.lang.Class):::EXIT
+this.fName has only one value
+this.fTests has only one value
+this.fTests[] contains no nulls and has only one value, of length 13
+this.fTests[].getClass().getName() == [org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest]
+this.fTests[].getClass().getName() elements == org.apache.commons.lang3.StringUtilsSubstringTest.class
+size(this.fTests[]) == 13
+===========================================================================
+junit.framework.TestSuite.addTest(junit.framework.Test):::ENTER
+this.fTests[].getClass().getName() elements == org.apache.commons.lang3.StringUtilsSubstringTest.class
+test != null
+===========================================================================
+junit.framework.TestSuite.addTest(junit.framework.Test):::EXIT
+this.fName == orig(this.fName)
+this.fTests == orig(this.fTests)
+size(this.fTests[])-1 == orig(size(this.fTests[]))
+this.fName.toString == orig(this.fName.toString)
+orig(test) in this.fTests[]
+orig(test.getClass().getName()) in this.fTests[].getClass().getName()
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.List, java.lang.Class):::ENTER
+size(this.fTests[]) == size(names[])
+this has only one value
+this.fName has only one value
+this.fName != null
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.lang3.StringUtilsSubstringTest.class
+m != null
+names has only one value
+names != null
+names[] elements != null
+names[].getClass().getName() elements == java.lang.String.class
+names.getClass().getName() == java.util.ArrayList.class
+theClass has only one value
+theClass != null
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.List, java.lang.Class):::EXIT280
+this.fTests[] == orig(this.fTests[])
+names[] == orig(names[])
+size(this.fTests[]) == orig(size(names[]))
+this.fTests[] contains no nulls and has only one value, of length 13
+this.fTests[].getClass().getName() == [org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest]
+names[] contains no nulls and has only one value, of length 13
+names[].getClass().getName() == [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String]
+size(this.fTests[]) == 13
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.List, java.lang.Class):::EXIT284
+size(names[])-1 == orig(size(this.fTests[]))
+size(names[])-1 == orig(size(names[]))
+===========================================================================
+junit.framework.TestSuite.addTestMethod(java.lang.reflect.Method, java.util.List, java.lang.Class):::EXIT
+this.fName == orig(this.fName)
+this.fTests == orig(this.fTests)
+this.fName has only one value
+this.fName != null
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.lang3.StringUtilsSubstringTest.class
+names[] elements != null
+names[].getClass().getName() elements == java.lang.String.class
+this.fName.toString == orig(this.fName.toString)
+size(this.fTests[]) >= orig(size(names[]))
+size(names[])-1 <= orig(size(names[]))
+size(names[])-1 >= orig(size(names[]))-1
+===========================================================================
+junit.framework.TestSuite.addTestSuite(java.lang.Class):::ENTER
+this has only one value
+this.fName == null
+this.fTests has only one value
+this.fTests[] == []
+this.fTests[].getClass().getName() == []
+testClass has only one value
+===========================================================================
+junit.framework.TestSuite.addTestSuite(java.lang.Class):::EXIT
+this.fName == orig(this.fName)
+this.fTests == orig(this.fTests)
+size(this.fTests[])-1 == orig(size(this.fTests[]))
+this.fName == null
+this.fTests has only one value
+this.fTests[] contains no nulls and has only one value, of length 1
+this.fTests[] elements has only one value
+this.fTests[].getClass().getName() == [junit.framework.TestSuite]
+this.fTests[].getClass().getName() elements == junit.framework.TestSuite.class
+size(this.fTests[]) == 1
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::ENTER
+theClass has only one value
+theClass != null
+name != null
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::EXIT74
+===========================================================================
+junit.framework.TestSuite.createTest(java.lang.Class, java.lang.String):::EXIT
+return != null
+return.getClass().getName() == org.apache.commons.lang3.StringUtilsSubstringTest.class
+name.toString == orig(name.toString)
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::ENTER
+theClass has only one value
+theClass != null
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::EXIT83
+===========================================================================
+junit.framework.TestSuite.getTestConstructor(java.lang.Class):::EXIT
+return != null
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::ENTER
+this has only one value
+this.fName has only one value
+this.fName != null
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.lang3.StringUtilsSubstringTest.class
+m != null
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT
+this.fName == orig(this.fName)
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+(return == false)  <==>  (size(this.fTests[]) == 13)
+(return == false)  ==>  (this.fTests[] contains no nulls and has only one value, of length 13)
+(return == false)  ==>  (this.fTests[].getClass().getName() == [org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest])
+this.fName has only one value
+this.fName != null
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.lang3.StringUtilsSubstringTest.class
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT;condition="return == true"
+return == true
+===========================================================================
+junit.framework.TestSuite.isPublicTestMethod(java.lang.reflect.Method):::EXIT;condition="not(return == true)"
+this.fTests[] contains no nulls and has only one value, of length 13
+this.fTests[].getClass().getName() == [org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest]
+return == false
+size(this.fTests[]) == 13
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::ENTER
+this has only one value
+this.fName has only one value
+this.fName != null
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.lang3.StringUtilsSubstringTest.class
+m != null
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT
+this.fName == orig(this.fName)
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+(return == false)  <==>  (size(this.fTests[]) == 13)
+(return == false)  ==>  (this.fTests[] contains no nulls and has only one value, of length 13)
+(return == false)  ==>  (this.fTests[].getClass().getName() == [org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest])
+this.fName has only one value
+this.fName != null
+this.fTests has only one value
+this.fTests[].getClass().getName() elements == org.apache.commons.lang3.StringUtilsSubstringTest.class
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT;condition="return == true"
+return == true
+===========================================================================
+junit.framework.TestSuite.isTestMethod(java.lang.reflect.Method):::EXIT;condition="not(return == true)"
+this.fTests[] contains no nulls and has only one value, of length 13
+this.fTests[].getClass().getName() == [org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest]
+return == false
+size(this.fTests[]) == 13
+===========================================================================
+junit.framework.TestSuite.run(junit.framework.TestResult):::ENTER
+result.fFailures[] == result.fErrors[]
+result.fRunTests == size(result.fFailures[])
+result.fRunTests == size(result.fErrors[])
+result.fRunTests == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest] }
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 13 }
+size(result.fListeners[]) == 1
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+result.fListeners[] elements == result.fListeners[result.fRunTests]
+===========================================================================
+junit.framework.TestSuite.run(junit.framework.TestResult):::EXIT
+this.fName == orig(this.fName)
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+orig(result.fRunTests) == size(result.fFailures[])
+orig(result.fRunTests) == size(result.fErrors[])
+orig(result.fRunTests) == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest] }
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fRunTests == 13
+result.fStop == false
+size(this.fTests[]) one of { 1, 13 }
+size(result.fListeners[]) == 1
+this.fName.toString == orig(this.fName.toString)
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+result.fFailures.getClass().getName() == orig(result.fFailures.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fErrors.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fListeners.getClass().getName())
+result.fListeners[] elements == result.fListeners[orig(result.fRunTests)]
+===========================================================================
+junit.framework.TestSuite.runTest(junit.framework.Test, junit.framework.TestResult):::ENTER
+test == this.fTests[result.fRunTests]
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest] }
+test != null
+result has only one value
+result != null
+result.fFailures has only one value
+result.fFailures != null
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fErrors != null
+result.fListeners has only one value
+result.fListeners != null
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[] elements != null
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 13 }
+size(result.fListeners[]) == 1
+test in this.fTests[]
+test.getClass().getName() in this.fTests[].getClass().getName()
+test.getClass().getName() != result.fFailures.getClass().getName()
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+result.fRunTests <= size(this.fTests[])-1
+result.fRunTests >= size(result.fFailures[])
+size(this.fTests[]) >= size(result.fListeners[])
+size(this.fTests[])-1 >= size(result.fFailures[])
+size(this.fTests[])-1 != size(result.fListeners[])
+===========================================================================
+junit.framework.TestSuite.runTest(junit.framework.Test, junit.framework.TestResult):::EXIT
+this.fName == orig(this.fName)
+this.fTests == orig(this.fTests)
+this.fTests[] == orig(this.fTests[])
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+orig(test) == this.fTests[orig(result.fRunTests)]
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fTests[].getClass().getName() one of { [junit.framework.TestSuite], [org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest, org.apache.commons.lang3.StringUtilsSubstringTest] }
+result.fFailures has only one value
+result.fFailures != null
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fErrors != null
+result.fListeners has only one value
+result.fListeners != null
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[] elements != null
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(this.fTests[]) one of { 1, 13 }
+size(result.fListeners[]) == 1
+this.fName.toString == orig(this.fName.toString)
+orig(test) in this.fTests[]
+orig(test.getClass().getName()) in this.fTests[].getClass().getName()
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+result.fFailures.getClass().getName() != orig(test.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fFailures.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fErrors.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fListeners.getClass().getName())
+result.fRunTests > orig(result.fRunTests)
+result.fRunTests >= size(result.fListeners[])
+orig(result.fRunTests) <= size(this.fTests[])-1
+orig(result.fRunTests) >= size(result.fFailures[])
+size(this.fTests[]) >= size(result.fListeners[])
+size(this.fTests[])-1 >= size(result.fFailures[])
+size(this.fTests[])-1 != size(result.fListeners[])
+result.fRunTests - orig(result.fRunTests) + size(this.fTests[]) - 14 == 0
+result.fRunTests - orig(result.fRunTests) + size(this.fTests[])-1 - 13 == 0
+===========================================================================
+junit.runner.BaseTestRunner:::CLASS
+junit.runner.BaseTestRunner.SUITE_METHODNAME has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == "suite"
+junit.runner.BaseTestRunner.fPreferences has only one value
+junit.runner.BaseTestRunner.fgMaxMessageLength == 500
+junit.runner.BaseTestRunner.fgFilterStack == true
+===========================================================================
+junit.runner.BaseTestRunner:::OBJECT
+junit.runner.BaseTestRunner.fgFilterStack == this.fLoading
+this has only one value
+this.getClass().getName() == junit.textui.TestRunner.class
+===========================================================================
+junit.runner.BaseTestRunner.BaseTestRunner():::EXIT
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String):::ENTER
+key has only one value
+key.toString == "maxmessage"
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String):::EXIT
+key.toString == "maxmessage"
+return == null
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::ENTER
+key has only one value
+key.toString == "maxmessage"
+dflt == 500
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::EXIT248
+===========================================================================
+junit.runner.BaseTestRunner.getPreference(java.lang.String, int):::EXIT
+key.toString == "maxmessage"
+return == 500
+===========================================================================
+junit.runner.BaseTestRunner.getPreferences():::EXIT
+return has only one value
+===========================================================================
+junit.runner.BaseTestRunner.getPreferencesFile():::EXIT
+return has only one value
+===========================================================================
+junit.textui.ResultPrinter:::OBJECT
+this has only one value
+this.fWriter has only one value
+this.fWriter != null
+this.fColumn >= 0
+===========================================================================
+junit.textui.ResultPrinter.ResultPrinter(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+junit.textui.ResultPrinter.ResultPrinter(java.io.PrintStream):::EXIT
+this.fWriter == orig(writer)
+this.fColumn == 0
+===========================================================================
+junit.textui.ResultPrinter.elapsedTimeAsString(long):::ENTER
+this.fColumn == 13
+runTime == 2218
+===========================================================================
+junit.textui.ResultPrinter.elapsedTimeAsString(long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 13
+return has only one value
+return.toString == "2.218"
+===========================================================================
+junit.textui.ResultPrinter.endTest(junit.framework.Test):::ENTER
+test != null
+test.getClass().getName() == org.apache.commons.lang3.StringUtilsSubstringTest.class
+===========================================================================
+junit.textui.ResultPrinter.endTest(junit.framework.Test):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+===========================================================================
+junit.textui.ResultPrinter.getWriter():::ENTER
+===========================================================================
+junit.textui.ResultPrinter.getWriter():::EXIT
+this.fWriter == return
+this.fColumn == orig(this.fColumn)
+return == orig(this.fWriter)
+return has only one value
+return != null
+===========================================================================
+junit.textui.ResultPrinter.print(junit.framework.TestResult, long):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 13
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+runTime == 2218
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+===========================================================================
+junit.textui.ResultPrinter.print(junit.framework.TestResult, long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 13
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+result.fFailures.getClass().getName() == orig(result.fFailures.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fErrors.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fListeners.getClass().getName())
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::ENTER
+this.fColumn == 13
+booBoos.getClass().getName() == java.util.Collections$3.class
+count == 0
+type.toString one of { "error", "failure" }
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT55
+===========================================================================
+junit.textui.ResultPrinter.printDefects(java.util.Enumeration, int, java.lang.String):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 13
+type.toString one of { "error", "failure" }
+type.toString == orig(type.toString)
+===========================================================================
+junit.textui.ResultPrinter.printErrors(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 13
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+===========================================================================
+junit.textui.ResultPrinter.printErrors(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 13
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+result.fFailures.getClass().getName() == orig(result.fFailures.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fErrors.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fListeners.getClass().getName())
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printFailures(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 13
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+===========================================================================
+junit.textui.ResultPrinter.printFailures(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 13
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+result.fFailures.getClass().getName() == orig(result.fFailures.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fErrors.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fListeners.getClass().getName())
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printFooter(junit.framework.TestResult):::ENTER
+this.fColumn == result.fRunTests
+result.fFailures[] == result.fErrors[]
+size(result.fFailures[]) == size(result.fListeners[])-1
+this.fColumn == 13
+result has only one value
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fListeners[] elements == this
+this in result.fListeners[]
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+===========================================================================
+junit.textui.ResultPrinter.printFooter(junit.framework.TestResult):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == result.fRunTests
+this.fColumn == orig(this.fColumn)
+this.fColumn == orig(result.fRunTests)
+result.fFailures == orig(result.fFailures)
+result.fFailures[] == result.fErrors[]
+result.fFailures[] == orig(result.fFailures[])
+result.fFailures[] == orig(result.fErrors[])
+result.fErrors == orig(result.fErrors)
+result.fListeners == orig(result.fListeners)
+result.fListeners[] == orig(result.fListeners[])
+result.fStop == orig(result.fStop)
+size(result.fFailures[]) == size(result.fListeners[])-1
+size(result.fFailures[]) == orig(size(result.fListeners[]))-1
+this.fColumn == 13
+result.fFailures has only one value
+result.fFailures[] == []
+result.fFailures[].getClass().getName() == []
+result.fFailures.getClass().getName() == java.util.ArrayList.class
+result.fErrors has only one value
+result.fListeners has only one value
+result.fListeners[] contains no nulls and has only one value, of length 1
+result.fListeners[] elements has only one value
+result.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+result.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+result.fStop == false
+size(result.fListeners[]) == 1
+result.fFailures.getClass().getName() == result.fErrors.getClass().getName()
+result.fFailures.getClass().getName() == result.fListeners.getClass().getName()
+result.fFailures.getClass().getName() == orig(result.fFailures.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fErrors.getClass().getName())
+result.fFailures.getClass().getName() == orig(result.fListeners.getClass().getName())
+orig(this) in result.fListeners[]
+result.fListeners[] elements == orig(this)
+===========================================================================
+junit.textui.ResultPrinter.printHeader(long):::ENTER
+this.fColumn == 13
+runTime == 2218
+===========================================================================
+junit.textui.ResultPrinter.printHeader(long):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn == orig(this.fColumn)
+this.fColumn == 13
+===========================================================================
+junit.textui.ResultPrinter.startTest(junit.framework.Test):::ENTER
+test != null
+test.getClass().getName() == org.apache.commons.lang3.StringUtilsSubstringTest.class
+===========================================================================
+junit.textui.ResultPrinter.startTest(junit.framework.Test):::EXIT
+this.fWriter == orig(this.fWriter)
+this.fColumn - orig(this.fColumn) - 1 == 0
+===========================================================================
+junit.textui.TestRunner:::CLASS
+junit.runner.BaseTestRunner.SUITE_METHODNAME has only one value
+junit.runner.BaseTestRunner.SUITE_METHODNAME != null
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == "suite"
+junit.runner.BaseTestRunner.fPreferences has only one value
+junit.runner.BaseTestRunner.fPreferences != null
+junit.runner.BaseTestRunner.fgMaxMessageLength == 500
+junit.runner.BaseTestRunner.fgFilterStack == true
+===========================================================================
+junit.textui.TestRunner:::OBJECT
+junit.runner.BaseTestRunner.fgFilterStack == this.fLoading
+this has only one value
+this.fPrinter has only one value
+this.fPrinter.fWriter has only one value
+this.fPrinter.fColumn one of { 0, 13 }
+this.fPrinter.fColumn >= junit.textui.TestRunner.SUCCESS_EXIT
+this.fPrinter.fColumn != junit.textui.TestRunner.FAILURE_EXIT
+this.fPrinter.fColumn != junit.textui.TestRunner.EXCEPTION_EXIT
+this.fPrinter.fColumn < junit.runner.BaseTestRunner.fgMaxMessageLength
+===========================================================================
+junit.textui.TestRunner.TestRunner():::EXIT
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.TestRunner(java.io.PrintStream):::ENTER
+writer has only one value
+===========================================================================
+junit.textui.TestRunner.TestRunner(java.io.PrintStream):::EXIT
+this.fPrinter.fWriter == orig(writer)
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.TestRunner(junit.textui.ResultPrinter):::ENTER
+printer has only one value
+printer.fWriter has only one value
+printer.fColumn == 0
+===========================================================================
+junit.textui.TestRunner.TestRunner(junit.textui.ResultPrinter):::EXIT
+this.fPrinter == orig(printer)
+this.fPrinter.fWriter == printer.fWriter
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == printer.fColumn
+junit.textui.TestRunner.SUCCESS_EXIT == orig(printer.fColumn)
+printer.fWriter == orig(printer.fWriter)
+printer.fWriter has only one value
+===========================================================================
+junit.textui.TestRunner.createTestResult():::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+===========================================================================
+junit.textui.TestRunner.createTestResult():::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return.fFailures[] == return.fListeners[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fFailures.getClass().getName() == java.util.ArrayList.class
+return.fErrors has only one value
+return.fListeners has only one value
+return.fStop == false
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fFailures.getClass().getName() == return.fErrors.getClass().getName()
+return.fFailures.getClass().getName() == return.fListeners.getClass().getName()
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test):::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+test has only one value
+test.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fFailures.getClass().getName() == java.util.ArrayList.class
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 13
+return.fStop == false
+return.fListeners[] elements == this.fPrinter
+this.fPrinter in return.fListeners[]
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fFailures.getClass().getName() == return.fErrors.getClass().getName()
+return.fFailures.getClass().getName() == return.fListeners.getClass().getName()
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test, boolean):::ENTER
+this.fPrinter.fColumn == junit.textui.TestRunner.SUCCESS_EXIT
+suite has only one value
+suite.getClass().getName() == junit.framework.TestSuite.class
+wait == false
+===========================================================================
+junit.textui.TestRunner.doRun(junit.framework.Test, boolean):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == return.fRunTests
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+return.fFailures[] == return.fErrors[]
+return.fStop == orig(wait)
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fFailures.getClass().getName() == java.util.ArrayList.class
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 13
+return.fStop == false
+return.fListeners[] elements == this.fPrinter
+this.fPrinter in return.fListeners[]
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fFailures.getClass().getName() == return.fErrors.getClass().getName()
+return.fFailures.getClass().getName() == return.fListeners.getClass().getName()
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::ENTER
+this.fPrinter.fColumn == 13
+wait == false
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::EXIT126
+===========================================================================
+junit.textui.TestRunner.pause(boolean):::EXIT
+this.fPrinter == orig(this.fPrinter)
+this.fPrinter.fWriter == orig(this.fPrinter.fWriter)
+this.fPrinter.fColumn == orig(this.fPrinter.fColumn)
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+junit.runner.BaseTestRunner.fgFilterStack == orig(this.fLoading)
+this.fPrinter.fColumn == 13
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+===========================================================================
+junit.textui.TestRunner.run(junit.framework.Test):::ENTER
+test has only one value
+test.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+junit.textui.TestRunner.run(junit.framework.Test):::EXIT
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fFailures[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fErrors[])
+junit.textui.TestRunner.SUCCESS_EXIT == size(return.fListeners[])-1
+junit.textui.TestRunner.FAILURE_EXIT == size(return.fListeners[])
+junit.runner.BaseTestRunner.SUITE_METHODNAME == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME)
+junit.runner.BaseTestRunner.fPreferences == orig(junit.runner.BaseTestRunner.fPreferences)
+junit.runner.BaseTestRunner.fgMaxMessageLength == orig(junit.runner.BaseTestRunner.fgMaxMessageLength)
+junit.runner.BaseTestRunner.fgFilterStack == orig(junit.runner.BaseTestRunner.fgFilterStack)
+return.fFailures[] == return.fErrors[]
+return has only one value
+return.fFailures has only one value
+return.fFailures[] == []
+return.fFailures[].getClass().getName() == []
+return.fFailures.getClass().getName() == java.util.ArrayList.class
+return.fErrors has only one value
+return.fListeners has only one value
+return.fListeners[] contains no nulls and has only one value, of length 1
+return.fListeners[] elements has only one value
+return.fListeners[].getClass().getName() == [junit.textui.ResultPrinter]
+return.fListeners[].getClass().getName() elements == junit.textui.ResultPrinter.class
+return.fRunTests == 13
+return.fStop == false
+junit.runner.BaseTestRunner.SUITE_METHODNAME.toString == orig(junit.runner.BaseTestRunner.SUITE_METHODNAME.toString)
+return.fFailures.getClass().getName() == return.fErrors.getClass().getName()
+return.fFailures.getClass().getName() == return.fListeners.getClass().getName()
+return.fListeners[] elements == return.fListeners[junit.textui.TestRunner.SUCCESS_EXIT]
+===========================================================================
+org.apache.commons.lang3.CharSequenceUtils.indexOf(java.lang.CharSequence, java.lang.CharSequence, int):::ENTER
+cs.getClass().getName() == java.lang.String.class
+start >= 0
+cs.getClass().getName() == searchChar.getClass().getName()
+===========================================================================
+org.apache.commons.lang3.CharSequenceUtils.indexOf(java.lang.CharSequence, java.lang.CharSequence, int):::EXIT
+return >= -1
+===========================================================================
+org.apache.commons.lang3.StringUtils:::CLASS
+org.apache.commons.lang3.StringUtils.sunPattern == org.apache.commons.lang3.StringUtils.java6Pattern
+org.apache.commons.lang3.StringUtils.EMPTY has only one value
+org.apache.commons.lang3.StringUtils.EMPTY.toString == ""
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK has only one value
+org.apache.commons.lang3.StringUtils.sunAvailable == false
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == null
+org.apache.commons.lang3.StringUtils.sunPattern has only one value
+org.apache.commons.lang3.StringUtils.java6Available == true
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod has only one value
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD has only one value
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == java.text.Normalizer$Form.class
+===========================================================================
+org.apache.commons.lang3.StringUtils.countMatches(java.lang.CharSequence, java.lang.CharSequence):::ENTER
+str.getClass().getName() == java.lang.String.class
+sub.getClass().getName() == java.lang.String.class
+str.getClass().getName() == sub.getClass().getName()
+===========================================================================
+org.apache.commons.lang3.StringUtils.countMatches(java.lang.CharSequence, java.lang.CharSequence):::EXIT5140
+return == 0
+===========================================================================
+org.apache.commons.lang3.StringUtils.countMatches(java.lang.CharSequence, java.lang.CharSequence):::EXIT5148
+===========================================================================
+org.apache.commons.lang3.StringUtils.countMatches(java.lang.CharSequence, java.lang.CharSequence):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+return one of { 0, 3, 4 }
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.INDEX_NOT_FOUND < return
+org.apache.commons.lang3.StringUtils.PAD_LIMIT > return
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+===========================================================================
+org.apache.commons.lang3.StringUtils.isEmpty(java.lang.CharSequence):::ENTER
+cs.getClass().getName() == java.lang.String.class
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() != cs.getClass().getName()
+===========================================================================
+org.apache.commons.lang3.StringUtils.isEmpty(java.lang.CharSequence):::EXIT183
+org.apache.commons.lang3.StringUtils.sunAvailable == return
+===========================================================================
+org.apache.commons.lang3.StringUtils.isEmpty(java.lang.CharSequence):::EXIT183;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.StringUtils.isEmpty(java.lang.CharSequence):::EXIT184
+org.apache.commons.lang3.StringUtils.java6Available == return
+===========================================================================
+org.apache.commons.lang3.StringUtils.isEmpty(java.lang.CharSequence):::EXIT184;condition="return == true"
+===========================================================================
+org.apache.commons.lang3.StringUtils.isEmpty(java.lang.CharSequence):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+(return == false)  ==>  (org.apache.commons.lang3.StringUtils.sunAvailable == return)
+(return == true)  ==>  (org.apache.commons.lang3.StringUtils.java6Available == return)
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() != orig(cs.getClass().getName())
+===========================================================================
+org.apache.commons.lang3.StringUtils.isEmpty(java.lang.CharSequence):::EXIT;condition="return == true"
+org.apache.commons.lang3.StringUtils.java6Available == return
+===========================================================================
+org.apache.commons.lang3.StringUtils.isEmpty(java.lang.CharSequence):::EXIT;condition="not(return == true)"
+org.apache.commons.lang3.StringUtils.sunAvailable == return
+===========================================================================
+org.apache.commons.lang3.StringUtils.left(java.lang.String, int):::ENTER
+str.toString one of { "", "foobar" }
+len >= -1
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.INDEX_NOT_FOUND <= len
+org.apache.commons.lang3.StringUtils.PAD_LIMIT > len
+===========================================================================
+org.apache.commons.lang3.StringUtils.left(java.lang.String, int):::EXIT2127
+return == orig(str)
+return == null
+orig(len) one of { -1, 0, 2 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.left(java.lang.String, int):::EXIT2130
+org.apache.commons.lang3.StringUtils.EMPTY == return
+org.apache.commons.lang3.StringUtils.INDEX_NOT_FOUND == orig(len)
+org.apache.commons.lang3.StringUtils.EMPTY.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.left(java.lang.String, int):::EXIT2133
+return == orig(str)
+orig(len) one of { 0, 2, 80 }
+str.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.left(java.lang.String, int):::EXIT2135
+str.toString == "foobar"
+return.toString one of { "", "foo" }
+orig(str) has only one value
+orig(len) one of { 0, 3 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.left(java.lang.String, int):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+str.toString one of { "", "foobar" }
+return.toString one of { "", "foo", "foobar" }
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= return.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+str.toString >= return.toString
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.mid(java.lang.String, int, int):::ENTER
+str.toString one of { "", "foobar" }
+len >= -1
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.INDEX_NOT_FOUND <= pos
+org.apache.commons.lang3.StringUtils.INDEX_NOT_FOUND <= len
+org.apache.commons.lang3.StringUtils.PAD_LIMIT > pos
+org.apache.commons.lang3.StringUtils.PAD_LIMIT > len
+===========================================================================
+org.apache.commons.lang3.StringUtils.mid(java.lang.String, int, int):::EXIT2198
+return == orig(str)
+return == null
+orig(pos) one of { -1, 0, 3 }
+orig(len) one of { -1, 0, 2 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.mid(java.lang.String, int, int):::EXIT2201
+org.apache.commons.lang3.StringUtils.EMPTY == return
+orig(pos) one of { 0, 3, 9 }
+orig(len) one of { -1, 3 }
+org.apache.commons.lang3.StringUtils.EMPTY.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.mid(java.lang.String, int, int):::EXIT2207
+return.toString one of { "", "bar", "foobar" }
+orig(pos) one of { 0, 3 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.mid(java.lang.String, int, int):::EXIT2209
+str.toString == "foobar"
+return.toString one of { "", "b", "foo" }
+orig(str) has only one value
+orig(pos) one of { -1, 0, 3 }
+orig(len) one of { 0, 1, 3 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.mid(java.lang.String, int, int):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+str.toString one of { "", "foobar" }
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= return.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+str.toString >= return.toString
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.right(java.lang.String, int):::ENTER
+str.toString one of { "", "foobar" }
+len >= -1
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.INDEX_NOT_FOUND <= len
+org.apache.commons.lang3.StringUtils.PAD_LIMIT > len
+===========================================================================
+org.apache.commons.lang3.StringUtils.right(java.lang.String, int):::EXIT2160
+return == orig(str)
+return == null
+orig(len) one of { -1, 0, 2 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.right(java.lang.String, int):::EXIT2163
+org.apache.commons.lang3.StringUtils.EMPTY == return
+org.apache.commons.lang3.StringUtils.INDEX_NOT_FOUND == orig(len)
+org.apache.commons.lang3.StringUtils.EMPTY.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.right(java.lang.String, int):::EXIT2166
+return == orig(str)
+orig(len) one of { 0, 2, 80 }
+str.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.right(java.lang.String, int):::EXIT2168
+str.toString == "foobar"
+return.toString one of { "", "bar" }
+orig(str) has only one value
+orig(len) one of { 0, 3 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.right(java.lang.String, int):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+str.toString one of { "", "foobar" }
+return.toString one of { "", "bar", "foobar" }
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= return.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+str.toString >= return.toString
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.substring(java.lang.String, int):::ENTER
+str.toString one of { "", "abc", "foo bar baz" }
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.PAD_LIMIT > start
+===========================================================================
+org.apache.commons.lang3.StringUtils.substring(java.lang.String, int):::EXIT2017
+return == orig(str)
+return == null
+orig(start) == 0
+===========================================================================
+org.apache.commons.lang3.StringUtils.substring(java.lang.String, int):::EXIT2029
+org.apache.commons.lang3.StringUtils.EMPTY == return
+orig(start) one of { 2, 4, 80 }
+org.apache.commons.lang3.StringUtils.EMPTY.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substring(java.lang.String, int):::EXIT2032
+===========================================================================
+org.apache.commons.lang3.StringUtils.substring(java.lang.String, int):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+str.toString one of { "", "abc", "foo bar baz" }
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= return.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.substring(java.lang.String, int, int):::ENTER
+str.toString one of { "", "abc", "foo bar baz" }
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.INDEX_NOT_FOUND != start
+org.apache.commons.lang3.StringUtils.PAD_LIMIT > start
+org.apache.commons.lang3.StringUtils.PAD_LIMIT > end
+===========================================================================
+org.apache.commons.lang3.StringUtils.substring(java.lang.String, int, int):::EXIT2072
+return == orig(str)
+return == null
+orig(start) one of { 0, 1 }
+orig(end) one of { 0, 2 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.substring(java.lang.String, int, int):::EXIT2090
+org.apache.commons.lang3.StringUtils.EMPTY == return
+str.toString one of { "", "foo bar baz" }
+orig(start) one of { 1, 8 }
+orig(end) one of { 2, 6 }
+org.apache.commons.lang3.StringUtils.EMPTY.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substring(java.lang.String, int, int):::EXIT2100
+===========================================================================
+org.apache.commons.lang3.StringUtils.substring(java.lang.String, int, int):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+str.toString one of { "", "abc", "foo bar baz" }
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= return.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringAfter(java.lang.String, java.lang.String):::ENTER
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= separator.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringAfter(java.lang.String, java.lang.String):::EXIT2285
+return == orig(str)
+str.toString == ""
+separator.toString one of { "", "XX" }
+org.apache.commons.lang3.StringUtils.EMPTY.toString == str.toString
+str.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringAfter(java.lang.String, java.lang.String):::EXIT2288
+org.apache.commons.lang3.StringUtils.EMPTY == return
+str.toString == "foo"
+orig(str) has only one value
+orig(separator) == null
+org.apache.commons.lang3.StringUtils.EMPTY.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringAfter(java.lang.String, java.lang.String):::EXIT2292
+org.apache.commons.lang3.StringUtils.EMPTY == return
+str.toString == "abc"
+separator.toString == "d"
+orig(str) has only one value
+orig(separator) has only one value
+org.apache.commons.lang3.StringUtils.EMPTY.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringAfter(java.lang.String, java.lang.String):::EXIT2294
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringAfter(java.lang.String, java.lang.String):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= separator.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= return.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+str.toString == orig(str.toString)
+separator.toString == orig(separator.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringAfterLast(java.lang.String, java.lang.String):::ENTER
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= separator.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringAfterLast(java.lang.String, java.lang.String):::EXIT2366
+return == orig(str)
+str.toString == ""
+org.apache.commons.lang3.StringUtils.EMPTY.toString == str.toString
+str.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringAfterLast(java.lang.String, java.lang.String):::EXIT2369
+org.apache.commons.lang3.StringUtils.EMPTY == return
+str.toString one of { "abc", "foo" }
+separator.toString == ""
+org.apache.commons.lang3.StringUtils.EMPTY.toString == separator.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringAfterLast(java.lang.String, java.lang.String):::EXIT2373
+org.apache.commons.lang3.StringUtils.EMPTY == return
+str.toString one of { "abc", "foo" }
+separator.toString one of { "b", "c" }
+org.apache.commons.lang3.StringUtils.EMPTY.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringAfterLast(java.lang.String, java.lang.String):::EXIT2375
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringAfterLast(java.lang.String, java.lang.String):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= separator.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= return.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+str.toString == orig(str.toString)
+separator.toString == orig(separator.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBefore(java.lang.String, java.lang.String):::ENTER
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= separator.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBefore(java.lang.String, java.lang.String):::EXIT2243
+return == orig(str)
+str.toString one of { "", "foo" }
+separator.toString one of { "", "XX" }
+str.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBefore(java.lang.String, java.lang.String):::EXIT2246
+org.apache.commons.lang3.StringUtils.EMPTY == return
+org.apache.commons.lang3.StringUtils.EMPTY == orig(separator)
+str.toString == "abc"
+orig(str) has only one value
+org.apache.commons.lang3.StringUtils.EMPTY.toString == separator.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == return.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(separator.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBefore(java.lang.String, java.lang.String):::EXIT2250
+return == orig(str)
+str.toString == "foo"
+separator.toString == "b"
+return has only one value
+orig(separator) has only one value
+str.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBefore(java.lang.String, java.lang.String):::EXIT2252
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBefore(java.lang.String, java.lang.String):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= separator.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= return.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+str.toString >= return.toString
+str.toString == orig(str.toString)
+separator.toString == orig(separator.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBeforeLast(java.lang.String, java.lang.String):::ENTER
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= separator.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBeforeLast(java.lang.String, java.lang.String):::EXIT2326
+return == orig(str)
+str.toString one of { "", "a", "foo" }
+separator.toString one of { "", "XX" }
+str.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBeforeLast(java.lang.String, java.lang.String):::EXIT2330
+return == orig(str)
+str.toString one of { "abc\r\n", "foo" }
+separator.toString one of { "b", "d" }
+str.toString == return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBeforeLast(java.lang.String, java.lang.String):::EXIT2332
+org.apache.commons.lang3.StringUtils.EMPTY.toString < str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString < separator.toString
+str.toString > return.toString
+separator.toString != return.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBeforeLast(java.lang.String, java.lang.String):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= separator.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= return.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+str.toString >= return.toString
+str.toString == orig(str.toString)
+separator.toString == orig(separator.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBetween(java.lang.String, java.lang.String):::ENTER
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= tag.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBetween(java.lang.String, java.lang.String):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+return.toString one of { "", "bar", "bc" }
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= tag.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+str.toString == orig(str.toString)
+tag.toString == orig(tag.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBetween(java.lang.String, java.lang.String, java.lang.String):::ENTER
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= open.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= close.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBetween(java.lang.String, java.lang.String, java.lang.String):::EXIT2434
+str.toString one of { "", "abc" }
+open.toString one of { "", "tag" }
+close.toString one of { "", "tag" }
+return == null
+str.toString == open.toString
+str.toString == close.toString
+open.toString == close.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBetween(java.lang.String, java.lang.String, java.lang.String):::EXIT2440
+str.toString >= open.toString
+str.toString >= close.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBetween(java.lang.String, java.lang.String, java.lang.String):::EXIT2443
+str.toString one of { "", "abc", "foo" }
+close.toString one of { "]", "a", "abc" }
+return == null
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringBetween(java.lang.String, java.lang.String, java.lang.String):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+return.toString one of { "", "bar", "bc" }
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= open.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= close.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= return.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+str.toString == orig(str.toString)
+open.toString == orig(open.toString)
+close.toString == orig(close.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringsBetween(java.lang.String, java.lang.String, java.lang.String):::ENTER
+open.toString one of { "", "[", "ab" }
+close.toString one of { "", "]", "ba" }
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= open.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= close.toString
+str.toString != open.toString
+str.toString != close.toString
+open.toString <= close.toString
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringsBetween(java.lang.String, java.lang.String, java.lang.String):::EXIT2470
+str.toString == "[one], [two], [three]"
+open.toString one of { "", "[" }
+close.toString one of { "", "]" }
+return == null
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringsBetween(java.lang.String, java.lang.String, java.lang.String):::EXIT2474
+org.apache.commons.lang3.StringUtils.EMPTY == orig(str)
+org.apache.commons.lang3.StringUtils.INDEX_NOT_FOUND == size(return[])-1
+open.toString == "["
+close.toString == "]"
+return has only one value
+return[] == []
+return[].toString == []
+orig(open) has only one value
+orig(close) has only one value
+org.apache.commons.lang3.StringUtils.EMPTY.toString == str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringsBetween(java.lang.String, java.lang.String, java.lang.String):::EXIT2494
+str.toString one of { "[one, two, three", "one, two, three", "one, two, three]" }
+open.toString == "["
+close.toString == "]"
+return == null
+orig(open) has only one value
+orig(close) has only one value
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringsBetween(java.lang.String, java.lang.String, java.lang.String):::EXIT2496
+open.toString one of { "[", "ab" }
+close.toString one of { "]", "ba" }
+size(return[]) one of { 1, 2, 3 }
+===========================================================================
+org.apache.commons.lang3.StringUtils.substringsBetween(java.lang.String, java.lang.String, java.lang.String):::EXIT
+org.apache.commons.lang3.StringUtils.EMPTY == orig(org.apache.commons.lang3.StringUtils.EMPTY)
+org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK == orig(org.apache.commons.lang3.StringUtils.WHITESPACE_BLOCK)
+org.apache.commons.lang3.StringUtils.sunAvailable == orig(org.apache.commons.lang3.StringUtils.sunAvailable)
+org.apache.commons.lang3.StringUtils.sunDecomposeMethod == orig(org.apache.commons.lang3.StringUtils.sunDecomposeMethod)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.sunPattern)
+org.apache.commons.lang3.StringUtils.sunPattern == orig(org.apache.commons.lang3.StringUtils.java6Pattern)
+org.apache.commons.lang3.StringUtils.java6Available == orig(org.apache.commons.lang3.StringUtils.java6Available)
+org.apache.commons.lang3.StringUtils.java6NormalizeMethod == orig(org.apache.commons.lang3.StringUtils.java6NormalizeMethod)
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD)
+open.toString one of { "", "[", "ab" }
+close.toString one of { "", "]", "ba" }
+return.getClass().getName() == java.lang.String[].class
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= str.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= open.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString <= close.toString
+org.apache.commons.lang3.StringUtils.EMPTY.toString == orig(org.apache.commons.lang3.StringUtils.EMPTY.toString)
+org.apache.commons.lang3.StringUtils.INDEX_NOT_FOUND <= size(return[])-1
+org.apache.commons.lang3.StringUtils.PAD_LIMIT > size(return[])
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() != return.getClass().getName()
+org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName() == orig(org.apache.commons.lang3.StringUtils.java6NormalizerFormNFD.getClass().getName())
+str.toString != open.toString
+str.toString != close.toString
+str.toString == orig(str.toString)
+open.toString <= close.toString
+open.toString == orig(open.toString)
+close.toString == orig(close.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest:::CLASS
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO has only one value
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO != null
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == "foo"
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR has only one value
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR != null
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == "bar"
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ has only one value
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ != null
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == "baz"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR has only one value
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR != null
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == "foobar"
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE has only one value
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE != null
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == "foo bar baz"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString > org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString > org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString < org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString < org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString < org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString < org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString < org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString < org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString < org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString > org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest:::OBJECT
+this.fName != null
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString < this.fName.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString < this.fName.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString < this.fName.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString < this.fName.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString < this.fName.toString
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.StringUtilsSubstringTest(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.StringUtilsSubstringTest(java.lang.String):::EXIT
+this.fName == orig(name)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString < name.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString < name.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString < name.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString < name.toString
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString < name.toString
+this.fName.toString == name.toString
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testCountMatches_String():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testCountMatches_String"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testCountMatches_String():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testCountMatches_String"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testLeft_String():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testLeft_String"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testLeft_String():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testLeft_String"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testMid_String():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testMid_String"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testMid_String():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testMid_String"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testRight_String():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testRight_String"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testRight_String():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testRight_String"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringAfterLast_StringString():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testSubstringAfterLast_StringString"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringAfterLast_StringString():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testSubstringAfterLast_StringString"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringAfter_StringString():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testSubstringAfter_StringString"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringAfter_StringString():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testSubstringAfter_StringString"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringBeforeLast_StringString():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testSubstringBeforeLast_StringString"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringBeforeLast_StringString():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testSubstringBeforeLast_StringString"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringBefore_StringString():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testSubstringBefore_StringString"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringBefore_StringString():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testSubstringBefore_StringString"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringBetween_StringString():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testSubstringBetween_StringString"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringBetween_StringString():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testSubstringBetween_StringString"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringBetween_StringStringString():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testSubstringBetween_StringStringString"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringBetween_StringStringString():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testSubstringBetween_StringStringString"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstring_StringInt():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testSubstring_StringInt"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstring_StringInt():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testSubstring_StringInt"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstring_StringIntInt():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testSubstring_StringIntInt"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstring_StringIntInt():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testSubstring_StringIntInt"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringsBetween_StringStringString():::ENTER
+this has only one value
+this.fName has only one value
+this.fName.toString == "testSubstringsBetween_StringStringString"
+===========================================================================
+org.apache.commons.lang3.StringUtilsSubstringTest.testSubstringsBetween_StringStringString():::EXIT
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE)
+this.fName == orig(this.fName)
+this.fName has only one value
+this.fName.toString == "testSubstringsBetween_StringStringString"
+org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOO.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.BAZ.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.FOOBAR.toString)
+org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString == orig(org.apache.commons.lang3.StringUtilsSubstringTest.SENTENCE.toString)
+this.fName.toString == orig(this.fName.toString)
+===========================================================================
+org.apache.commons.lang3.daikon.StringUtilsSubstringTest.main(java.lang.String[]):::ENTER
+arg has only one value
+arg.getClass().getName() == java.lang.String[].class
+arg[] == []
+arg[].toString == []
+===========================================================================
+org.apache.commons.lang3.daikon.StringUtilsSubstringTest.main(java.lang.String[]):::EXIT
+arg[] == orig(arg[])
+arg[] == []
+arg[].toString == []

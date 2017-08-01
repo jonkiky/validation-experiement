@@ -1,0 +1,8 @@
+package org.apache.commons.lang3.daikon;
+import junit.framework.TestSuite;
+public class ArrayUtilsRemoveMultipleTest {
+public static void main(String arg[]){
+junit.textui.TestRunner(org.apache.commons.lang3.ArrayUtilsRemoveMultipleTest.class);
+junit.textui.TestRunner.run(suite);
+}
+}

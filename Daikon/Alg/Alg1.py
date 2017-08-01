@@ -24,6 +24,10 @@ def filter(line1, line2, startCol):
                 result[i]=1
 
 
+def diff(first, second):
+    second = set(second)
+    return [item for item in first if item  in second]
+
 if __name__ == '__main__':
 
     # parser = argparse.ArgumentParser(description="compare two matrix (csv) output difference")
@@ -31,8 +35,8 @@ if __name__ == '__main__':
     # parser.add_argument('second', help='base matrix B', type=argparse.FileType('r'))
     # parser.add_argument('-n', '--no-names', action='store_true', help="instead of printing program point and invariant names, print line numbers, this option can significantly reduce output file size")
     # args = parser.parse_args()
-    f1=open("1.csv","r")
-    f2 = open("1_6.csv", "r")
+    f1=open("3.0.csv","r")
+    f2 = open("3.2.csv", "r")
     reader1 = csv.reader(f1)
     reader2 = csv.reader(f2)
     writer = csv.writer(sys.stdout)
@@ -142,7 +146,7 @@ if __name__ == '__main__':
 "ValidatorUtils.getValueAsString",
 "ValidatorUtils.copyFastHashMap",
 "ValidatorUtils.copyMap"]
-    change_function=["CreditCardValidator.isValid",
+    change_function1=["CreditCardValidator.isValid",
 "EmailValidator.isValid",
 "EmailValidator.isValidDomain",
 "EmailValidator.isValidUser",
@@ -232,6 +236,120 @@ if __name__ == '__main__':
 "LongValidator.processParsedValue",
 "PercentValidator.Parse",
 "ShortValidator.processParsedValue"]
+
+
+    '3.1'
+    change_function=["BooleanUtils.toBooleanObject",
+"CharSequenceUtils.regionMatches",
+"CharUtils.toCharacterObject",
+"SerializationUtils.Clone",
+"StringUtils.stripAccents",
+"StringUtils.removeAccentsJava6",
+"StringUtils.removeAccentsSUN",
+"Validate.isInstanceOf",
+"Validate.isAssignableFrom",
+"NumberUtils.createNumber",
+"NumberUtils.isNumber",
+"MutableInt.getValue",
+"MutableLong.getValue",
+"MethodUtils.getMatchingAccessibleMethod",
+"CharSequenceTranslator.Translate",
+"NumericEntityUnescaper.Translate",
+"UnicodeUnescaper.Translate",
+"ExtendedMessageFormat.containsElements",
+"StrBuilder.appendWithSeparators",
+"StrSubstitutor.Substitute",
+"StrTokenizer.readWithQuotes",
+"WordUtils.capitalizeFully",
+"WordUtils.uncapitalize"]
+
+    change_function=["Validate.isInstanceOf",
+"Validate.isAssignableFrom",
+"StringUtil",
+"ObjectUtils.hashCodeMulti",
+"ObjectUtils.identityToString",
+"ObjectUtils.compare",
+"NumberUtils.toLocale",
+"NumberUtils.countriesByLanguage",
+"ObjectUtils.identityToString",
+"RandomStringUtils.Random",
+"StringEscapeUtils.CharSequenceTranslator",
+"ClassUtils.getShortClassName",
+"CharUtils.isAsciiAlphanumeric",
+"CharUtils.toCharacterObject",
+"CharSequenceUtils.regionMatches",
+"BooleanUtils.Xor",
+"ArrayUtils.Reverse",
+"DurationFormatUtils.Lexx",
+"FastDateFormat",
+"FormatCache.getDateTimeInstance",
+"StrSubstitutor.Replace",
+"StrMatcher.charSetMatcher",
+"StrBuilder",
+"ExtendedMessageFormat.containsElements",
+"StopWatch",
+"CharSequenceTranslator.Translate",
+"CodePointTranslator.Translate",
+"LookupTranslator",
+"OctalUnescaper.Translate",
+"UnicodeEscaper.Translate",
+"UnicodeUnescaper.Translate",
+"ConstructorUtils",
+"FieldUtils",
+"MethodUtils",
+"MutableDouble",
+"MutableObject.Equal",
+"EventListenerSupport.readObject",
+"EqualsBuilder.reflectionEquals",
+"HashCodeBuilder"]
+
+    change_function=["Validate.notEmpty",
+"Validate.noNullElements",
+"StringUtils",
+"StringEscapeUtils.CharSequenceTranslator",
+"SerializationUtils.Clone",
+"SerializationUtils.Deserialize",
+"RandomStringUtils.Random",
+"ObjectUtils.identityToString",
+"LocaleUtils.countriesByLanguage",
+"LocaleUtils.toLocale",
+"ClassUtils.getShortClassName",
+"CharUtils.toCharacterObject",
+"CharSetUtils.Count",
+"CharSetUtils.Keep",
+"CharSequenceUtils.regionMatches",
+"BooleanUtils.Xor",
+"ArrayUtils.Reverse",
+"DurationFormatUtils.Lexx",
+"FastDateFormat",
+"FormatCache.Equals",
+"StopWatch",
+"ExtendedMessageFormat.insertFormats",
+"StrBuilder.appendWithSeparators",
+"StrSubstitutor.Replace",
+"StrSubstitutor.Replace",
+"StrSubstitutor.Substitute",
+"StrTokenizer.readWithQuotes",
+"CharSequenceTranslator.translate",
+"LookupTranslator.LookupTranslator",
+"NumericEntityUnescaper.Translate",
+"OctalUnescaper.Translate",
+"UnicodeEscaper.Translate",
+"UnicodeUnescaper.Translate",
+"ConstructorUtils.invokeConstructor",
+"ConstructorUtils.invokeExactConstructor",
+"FieldUtils",
+"MethodUtils",
+"NumberUtils.createNumber",
+"NumberUtils.min",
+"NumberUtils.max",
+"NumberUtils.isNumber",
+"EventListenerSupport.writeObject",
+"EventListenerSupport.readObject",
+"EventListenerSupport.invoke",
+"SerializationUtils.Clone",
+"SerializationUtils.deserialize"]
+
     change_db_table=[]
     change_lib=[]
 

@@ -1,0 +1,7 @@
+package org.apache.commons.lang3.daikon;
+import junit.framework.TestSuite;
+public class NotImplementedExceptionTest {
+public static void main(String arg[]){
+org.junit.runner.JUnitCore.runClasses(org.apache.commons.lang3.NotImplementedExceptionTest.class);
+}
+}
